@@ -1,0 +1,2659 @@
+ruvB-like 2, putative, expressed
+rar1, putative, expressed
+X0001, putative, expressed
+AIG2-like family domain containing protein, expressed
+OsWAK13 - OsWAK receptor-like protein kinase, expressed
+leucyl-tRNA synthetase, cytoplasmic, putative, expressed
+phosphoribosyl transferase, putative, expressed
+HSF-type DNA-binding domain containing protein, expressed
+cullin family domain containing protein, putative, expressed
+VHS and GAT domain containing protein, expressed
+spo0B-associated GTP-binding protein, putative, expressed
+DUF567 domain containing protein, putative, expressed
+LOL3, putative, expressed
+mis12 protein, expressed
+ZOS6-09 - C2H2 zinc finger protein, expressed
+ethylene-insensitive protein, putative, expressed
+40S ribosomal protein S19, putative
+CAMK_KIN1/SNF1/Nim1_like.12 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+ergosterol biosynthetic protein 28, putative, expressed
+membrane-associated 30 kDa protein, chloroplast precursor, putative, expressed
+G10 protein, putative, expressed
+DNA directed RNA polymerase, 7 kDa subunit domain containing protein, expressed
+OsSigP4 - Putative Type I Signal Peptidase homologue; employs a putative Ser/His catalytic dyad, expressed
+transcriptional regulator Sir2 family protein, putative, expressed
+NOC3 - Putative nucleolar complex subunit 3, expressed
+CAF1 family ribonuclease containing protein, putative, expressed
+protein binding protein, putative, expressed
+cysteinyl-tRNA synthetase, putative, expressed
+bifunctional aminoacyl-tRNA synthetase, putative, expressed
+mitochondrion protein, putative, expressed
+RNA polymerase IV largest subunit, putative
+exo70 exocyst complex subunit, putative, expressed
+bZIP transcription factor domain containing protein, expressed
+multiple myeloma tumor-associated protein 2, putative, expressed
+60S ribosomal protein L36-2, putative, expressed
+clathrin heavy chain, putative, expressed
+rhoGAP domain containing protein, expressed
+60S ribosomal protein L39, putative, expressed
+eukaryotic translation initiation factor 6, putative, expressed
+uncharacterized kinase mug58, putative, expressed
+endonuclease III-like protein 1, putative, expressed
+nicotinate-nucleotide pyrophosphorylase, putative, expressed
+phosphatidylinositol 3- and 4-kinase family protein, expressed
+ATPase 3, putative, expressed
+CAMK_CAMK_like.10 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+acetyltransferase, GNAT family, putative, expressed
+GTPase-activating protein, putative, expressed
+ARF GTPase-activating domain-containing protein, putative, expressed
+Sec1 family transport protein, putative, expressed
+ribosomal protein L27, putative, expressed
+transcription elongation factor SPT5 homolog 1, putative, expressed
+ZOS5-08 - C2H2 zinc finger protein, expressed
+uncharacterized protein family UPF0016 domain containing protein, expressed
+LTV1, putative, expressed
+eukaryotic translation initiation factor 3 subunit E-interacting protein, putative, expressed
+peptide methionine sulfoxide reductase, putative, expressed
+hydroxymethylbutenyl 4-diphosphate synthase, putative, expressed
+GPI mannosyltransferase 1, putative, expressed
+low molecular weight protein-tyrosine-phosphatase slr0328, putative, expressed
+cytochrome b-c1 complex subunit 7, putative
+SFC, putative, expressed
+myosin heavy chain-related, putative, expressed
+AT hook-containing DNA-binding protein, putative, expressed
+transport protein particle component, Bet3, domain containing protein, expressed
+OsGrx_S14 - glutaredoxin subgroup II, expressed
+arginine N-methyltransferase 7, putative, expressed
+nuclear pore protein 84/107 containing protein, expressed
+transcription factor TF2, putative, expressed
+macrophage migration inhibitory factor, putative, expressed
+50S ribosomal protein L17, putative, expressed
+DNA-directed RNA polymerases I, II, and III subunit RPABC3, putative, expressed
+ethylene-responsive transcription factor, putative, expressed
+coatomer subunit gamma-2, putative, expressed
+translation machinery-associated protein 20, putative, expressed
+GDP-mannose transporter, putative
+2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase, putative, expressed
+ZOS10-06 - C2H2 zinc finger protein, expressed
+CPuORF7 - conserved peptide uORF-containing transcript, expressed
+non-lysosomal glucosylceramidase, putative, expressed
+lipid-A-disaccharide synthase family protein, expressed
+RFC5 - Putative clamp loader of PCNA, replication factor C subunit 5, expressed
+F-box-like/WD repeat-containing protein TBL1XR1-A, putative, expressed
+fluG, putative, expressed
+arginine biosynthesis bifunctional protein argJ 1, putative, expressed
+phosphatidylinositol 3- and 4-kinase family protein, putative, expressed
+SRPK4, putative, expressed
+xaa-Pro dipeptidase, putative, expressed
+transcription factor S-II, central domain containing protein, expressed
+ribulose-phosphate 3-epimerase, putative, expressed
+oxidoreductase, short chain dehydrogenase/reductase family domain containing protein, expressed
+deoxyribonuclease tatD, putative, expressed
+ankyrin repeat domain-containing protein, chloroplast precursor, putative, expressed
+PGR5, putative, expressed
+peptide-Nasparagine amidase, putative, expressed
+50S ribosomal protein L33, putative, expressed
+U-box domain-containing protein, putative, expressed
+tryptophan synthase beta chain 1, putative, expressed
+pre-mRNA-splicing factor ATP-dependent RNA helicase PRP16, putative, expressed
+zinc finger domain, LSD1 subclass family protein, expressed
+CESA7 - cellulose synthase, expressed
+bifunctional aspartokinase/homoserine dehydrogenase, putative, expressed
+helicase conserved C-terminal domain containing protein, expressed
+prefoldin subunit family protein, expressed
+phospholipid-transporting ATPase 4, putative, expressed
+transcription factor BTF3, putative, expressed
+phytochrome C, putative, expressed
+60S ribosomal protein L34, putative, expressed
+GPI transamidase component Gpi16 subunit family protein, putative, expressed
+coronatine-insensitive protein 1, putative, expressed
+ubiquitin-conjugating enzyme domain containing protein, expressed
+dehydrogenase-phosphopantetheinyltransferase, putative, expressed
+OsMADS26 - MADS-box family gene with MIKCc type-box, expressed
+serine/threonine-protein kinase Haspin, putative, expressed
+adenylosuccinate lyase, putative, expressed
+DNA2 - Putative DNA replication helicase 2 protein, expressed
+RNA polymerase subunit, putative, expressed
+actin-related protein 2/3 complex subunit 3, putative, expressed
+chaperone protein dnaJ, putative, expressed
+spermidine synthase, putative, expressed
+OsMADS78 - MADS-box family gene with M-alpha type-box
+40S ribosomal protein S29, putative, expressed
+signal peptidase complex subunit 3, putative, expressed
+auxin response factor 7, putative, expressed
+CAMK_CAMK_like.11 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+CAMK_CAMK_like.6 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+adenylate kinase isoenzyme 6, putative, expressed
+OsRR5  type-A response regulator, expressed
+receptor-like protein kinase 2 precursor, putative, expressed
+GTP-binding protein typA/bipA, putative, expressed
+mitochondrial glycoprotein, putative, expressed
+GPI transamidase component family protein, putative, expressed
+NEDD8-activating enzyme E1 catalytic subunit, putative, expressed
+cycloartenol synthase, putative, expressed
+pectinesterase, putative, expressed
+GATA zinc finger domain containing protein, expressed
+WD domain, G-beta repeat domain containing protein, expressed
+anthocyanin 3-O-beta-glucosyltransferase, putative, expressed
+OsMADS29 - MADS-box family gene with MIKCc type-box, expressed
+Papain family cysteine protease domain containing protein, expressed
+phosphoserine phosphatase, chloroplast precursor, putative, expressed
+type II intron maturase protein, putative, expressed
+pumilio-family RNA binding repeat containing protein, expressed
+transmembrane and coiled-coil domain-containing protein 4, putative, expressed
+endonuclease/exonuclease/phosphatase family domain containing protein, expressed
+squalene synthetase, putative, expressed
+alkaline phytoceramidase, putative, expressed
+OsFBK5 - F-box domain and kelch repeat containing protein, expressed
+SWP, putative, expressed
+SOR/SNZ family protein, putative, expressed
+pseudouridylate synthase, putative, expressed
+serine acetyltransferase protein, putative, expressed
+SH2 motif, putative, expressed
+OsPLIM2a - LIM domain protein, putative actin-binding protein and transcription factor, expressed
+histone deacetylase, putative, expressed
+signal recognition particle 54 kDa protein, putative, expressed
+CAMK_KIN1/SNF1/Nim1_like.37 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+lipoxygenase, putative, expressed
+elongation factor P, putative, expressed
+LIG1 - Putative DNA ligase I, expressed
+beta-hexosaminidase precursor, putative, expressed
+protein Kinase-associated protein phosphatase, putative, expressed
+MOSC domain-containing protein, mitochondrial precursor, putative, expressed
+OsFBX192 - F-box domain containing protein, expressed
+tetraspanin family protein, putative, expressed
+heat shock protein 101, putative, expressed
+RNA methyltransferase, TrmH family protein, putative, expressed
+potassium channel protein, putative, expressed
+GTP-binding protein lepA, putative, expressed
+rad1, putative, expressed
+methylcrotonoyl-CoA carboxylase beta chain, mitochondrial precursor, putative, expressed
+CAMK_CAMK_like.30 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+aminomethyltransferase, putative, expressed
+beclin-1, putative, expressed
+PTEN, putative, expressed
+2-oxo acid dehydrogenases acyltransferase domain containing protein, expressed
+succinate dehydrogenase iron-sulfur subunit 2,mitochondrial precursor, putative, expressed
+SART-1 family protein, putative, expressed
+OsFBL45 - F-box domain and LRR containing protein, expressed
+S10/S20 domain containing ribosomal protein, putative, expressed
+reticulon domain containing protein, putative, expressed
+BTBA5 - Bric-a-Brac,Tramtrack, Broad Complex BTB domain with Ankyrin repeat region, expressed
+OsCam1-1 - Calmodulin, expressed
+inositol or phosphatidylinositol phosphatase/ phosphoric monoester hydrolase, putative, expressed
+dolichyl-phosphate beta-glycosyltransferase, putative, expressed
+proline synthetase co-transcribed bacterial homolog protein, putative, expressed
+ATP-dependent Clp protease ATP-binding subunit clpX, putative, expressed
+Sad1 / UNC-like C-terminal domain containing protein, putative, expressed
+alpha-1,4-fucosyltransferase, putative, expressed
+coatomer subunit beta, putative, expressed
+vacuolar-sorting receptor precursor, putative, expressed
+CGMC_GSK.7 - CGMC includes CDA, MAPK, GSK3, and CLKC kinases, expressed
+Zinc finger C-x8-C-x5-C-x3-H type domain containing protein, expressed
+decarboxylase, putative, expressed
+endoglucanase, putative
+homocysteine S-methyltransferase protein, putative, expressed
+two pore calcium channel protein 1, putative, expressed
+flavonol synthase/flavanone 3-hydroxylase, putative, expressed
+ZOS5-06 - C2H2 zinc finger protein, expressed
+phosphatidylserine decarboxylase, putative, expressed
+translation initiation factor eIF3 subunit, putative, expressed
+uncharacterized protein, YigZ family, putative, expressed
+enolase, putative, expressed
+ZOS1-05 - C2H2 zinc finger protein, expressed
+SCD1, putative, expressed
+60S ribosomal protein L35a-3, putative, expressed
+magnesium-chelatase, putative, expressed
+yippee zinc-binding protein, putative, expressed
+phosphoglycerate kinase protein, putative, expressed
+wall-associated kinase 1, putative, expressed
+ZOS3-23 - C2H2 zinc finger protein, expressed
+phosphoglucomutase, putative, expressed
+PCNA - Putative DNA replicative polymerase clamp, expressed
+tubulin/FtsZ domain containing protein, putative, expressed
+BHLH transcription factor, putative, expressed
+fiber protein Fb34, putative, expressed
+OsGrx_C4 - glutaredoxin subgroup I, expressed
+cleavage and polyadenylation specificity factor subunit 5, putative, expressed
+thiamine pyrophosphate enzyme, C-terminal TPP binding domain containing protein, expressed
+OsFtsH8  FtsH protease, homologue of AtFtsH3/10, expressed
+TKL_IRAK_DUF26-lf.4 - DUF26 kinases have homology to DUF26 containing loci, expressed
+hypersensitive-induced response protein, putative, expressed
+OsFtsH5  FtsH protease, homologue of AtFtsH4, expressed
+S-domain receptor-like protein kinase, putative
+catalase domain containing protein, expressed
+COP9 signalosome complex subunit 5b, putative, expressed
+60S ribosomal protein L27-3, putative, expressed
+methylenetetrahydrofolate reductase, putative, expressed
+dehydrodolichyl diphosphate synthase, putative, expressed
+ABC1 family domain containing protein, putative, expressed
+Sel1 repeat domain containing protein, putative, expressed
+RNA polymerase III RPC4 domain containing protein, expressed
+neighbor of COX4, putative, expressed
+hs1, putative, expressed
+trafficking protein particle complex subunit 1, putative, expressed
+threonyl-tRNA synthetase, putative, expressed
+white-brown complex homolog protein 7, putative, expressed
+citrate synthase, putative, expressed
+myb/SANT domain protein, putative, expressed
+OsFBL22 - F-box domain and LRR containing protein, expressed
+UPF0183 protein, putative, expressed
+amidophosphoribosyltransferase, chloroplast precursor, putative, expressed
+male sterility protein, putative
+alpha-taxilin, putative, expressed
+proteasome subunit, putative, expressed
+folic acid synthesis protein, putative, expressed
+M phase phosphoprotein 10, putative, expressed
+ATXR, putative, expressed
+6-phosphofructokinase, putative, expressed
+tRNA-dihydrouridine synthase 3-like, putative, expressed
+transcription initiation factor TFIID subunit 10, putative, expressed
+OsSub49 - Putative Subtilisin homologue, expressed
+ribonucleoside-diphosphate reductase small chain, putative, expressed
+OsTOP6A3 - Topoisomerase 6 subunit A homolog 3, expressed
+tubulin, putative, expressed
+nucleoside diphosphate kinase, putative, expressed
+vacuolar ATPase G subunit, putative, expressed
+DNA gyrase subunit B, chloroplast/mitochondrial precursor, putative, expressed
+ribosomal RNA assembly protein mis3, putative, expressed
+cold-induced protein, putative, expressed
+DNA ligase I, ATP-dependent family protein, expressed
+triacylglycerol lipase precursor, putative, expressed
+AAA family ATPase, putative, expressed
+26S proteasome non-ATPase regulatory subunit 10, putative, expressed
+ubiquitin thioesterase otubain-like, putative, expressed
+ubiquitin-conjugating enzyme E2-22 kDa, putative, expressed
+CGMC_MAPKCMGC_2_SLT2y_ERK.2 - CGMC includes CDA, MAPK, GSK3, and CLKC kinases, expressed
+photosystem I reaction center subunit II, chloroplast precursor, putative, expressed
+thioesterase family protein, putative, expressed
+oligopeptidase, putative, expressed
+receptor protein kinase CLAVATA1 precursor, putative, expressed
+CAMK_CAMK_like.38 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+malate synthase, glyoxysomal, putative, expressed
+threonine dehydratase biosynthetic, chloroplast precursor, putative, expressed
+amino acid permease, putative, expressed
+ribosomal protein L37, putative, expressed
+membrane associated DUF588 domain containing protein, putative, expressed
+26S protease regulatory subunit 7, putative, expressed
+inosine triphosphate pyrophosphatase, putative, expressed
+katanin p60 ATPase-containing subunit, putative, expressed
+pentatricopeptide, putative, expressed
+arabinogalactan protein, putative, expressed
+25.3 kDa vesicle transport protein, putative, expressed
+3-ketoacyl-CoA thiolase, peroxisomal precursor, putative, expressed
+CAMK_CAMK_like.20 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+COP9 signalosome complex subunit 8, putative, expressed
+DUF593 domain containing protein, expressed
+ubiquinone biosynthesis protein COQ9, mitochondrial precursor, putative, expressed
+programmed cell death protein 2, putative, expressed
+4-coumarate--CoA ligase-like 7, putative, expressed
+ferredoxin--NADP reductase, chloroplast precursor, putative, expressed
+modifier of rudimentary protein, expressed
+plant protein of unknown function DUF869 domain containing protein, expressed
+TBC domain containing protein, expressed
+OsWLIM2 - LIM domain protein, putative actin-binding protein and transcription factor, expressed
+GA20663-PA, putative, expressed
+BRCA2 repeat family protein, expressed
+cell division control protein 48 homolog E, putative, expressed
+amine oxidase, flavin-containing, domain containing protein, expressed
+casein kinase II subunit beta-4, putative, expressed
+transaldolase, putative, expressed
+proline-rich protein HaeIII subfamily 1 precursor, putative, expressed
+cytokinin-O-glucosyltransferase 2, putative, expressed
+glycine dehydrogenase, putative, expressed
+citrate transporter, putative, expressed
+RNA recognition motif family protein, expressed
+FZL, putative, expressed
+RNA binding protein, putative, expressed
+nascent polypeptide-associated complex subunit alpha, putative, expressed
+SCF apoptosis response protein, putative, expressed
+dnaJ domain containing protein, expressed
+ribosomal L9, putative, expressed
+bifunctional 3-dehydroquinate dehydratase/shikimate dehydrogenase,chloroplast precursor, putative, expressed
+lipase class 3 family protein, putative, expressed
+roothairless 1, putative, expressed
+Spc97 / Spc98 family protein, putative, expressed
+kinase, putative, expressed
+systemin receptor SR160 precursor, putative, expressed
+PFT1, putative, expressed
+zinc finger, C3HC4 type domain containing protein, expressed
+YGL010w, putative, expressed
+dolichyl-diphosphooligosaccharide--protein glycosyltransferase 67 kDasubunit precursor, putative, expressed
+C2 domain containing protein
+OsTOP6B - Topoisomerase 6 subunit B, expressed
+SAC3/GANP family protein, expressed
+cysteine protease ATG4, putative, expressed
+ferredoxin--nitrite reductase, putative, expressed
+phosphatidylinositol kinase, putative, expressed
+kelch motif family protein, putative, expressed
+CutA, chloroplast precursor, putative, expressed
+cyclin-dependent kinase G-2, putative, expressed
+DNA topoisomerase I family protein, expressed
+dimethyladenosine transferase, putative, expressed
+elongation factor Tu, putative
+AGC_AGC_other_RS6K_like.1 - ACG kinases include homologs to PKA, PKG and PKC, expressed
+phosphoribosylformylglycinamidine synthase, putative, expressed
+PSP domain containing protein, expressed
+protein kinase, putative
+serine/threonine-protein kinase 16, putative, expressed
+calcineurin B, putative, expressed
+Leucine Rich Repeat family protein, expressed
+deoxycytidylate deaminase, putative, expressed
+mediator of RNA polymerase II transcription subunit 31, putative, expressed
+SGT1 protein, putative, expressed
+seryl-tRNA synthetase, putative, expressed
+transmembrane protein 50A, putative, expressed
+niemann-Pick C1 protein precursor, putative, expressed
+leucine-rich repeat resistance protein, putative, expressed
+OsSub26 - Putative Subtilisin homologue, expressed
+2-isopropylmalate synthase B, putative, expressed
+phosphatidate cytidylyltransferase, putative, expressed
+synthase, putative, expressed
+serine/threonine-protein kinase AFC3, putative, expressed
+40S ribosomal protein S4, putative, expressed
+gamma-secretase subunit APH-1B, putative, expressed
+2-aminoethanethiol dioxygenase, putative, expressed
+molybdopterin biosynthesis protein CNX3, putative, expressed
+pre-rRNA-processing protein TSR2, putative, expressed
+Ubiquitin family domain containing protein, expressed
+cation efflux family protein, putative, expressed
+ThiF family domain containing protein, putative, expressed
+RAN GTPase-activating protein 1, putative, expressed
+tRNA synthetase class I, putative, expressed
+translocon-associated protein beta domain containing protein, expressed
+glutamine-dependent NAD, putative, expressed
+U-box protein CMPG1, putative, expressed
+formin-like protein 6 precursor, putative, expressed
+Brix domain containing protein, putative, expressed
+G-patch domain containing protein, putative, expressed
+RNA pseudouridine synthase, putative, expressed
+galactosyltransferase family protein, putative, expressed
+DNA-3-methyladenine glycosylase, putative, expressed
+ubiquitin-conjugating enzyme, putative, expressed
+ubiquitin carboxyl-terminal hydrolase 14, putative, expressed
+RNA polymerase II subunit A C-terminal domain phosphatase ssu72, putative, expressed
+T-complex protein 11, putative, expressed
+cyclase/dehydrase family protein, putative, expressed
+ATP-dependent RNA helicase, putative, expressed
+leucine aminopeptidase, chloroplast precursor, putative, expressed
+GHMP kinases ATP-binding protein, putative
+rickettsia 17 kDa surface antigen family protein, expressed
+hemerythrin family protein, expressed
+dehydrogenase E1 component domain containing protein, expressed
+STE_PAK_Ste20_STLK.1 - STE kinases include homologs to sterile 7, sterile 11 and sterile 20 from yeast, expressed
+UDP-N-acetylglucosamine transferase subunit ALG14, putative, expressed
+glycosyl hydrolase family 47 domain contain protein, expressed
+40S ribosomal protein S24, putative, expressed
+ethylene receptor, putative, expressed
+nucleolar protein 5A, putative, expressed
+mitochondrial prohibitin complex protein 1, putative, expressed
+CAMK_KIN1/SNF1/Nim1_like.3 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+ATP11 protein, expressed
+glutamate receptor, putative, expressed
+glycylpeptide N-tetradecanoyltransferase 1, putative, expressed
+cytochrome b561, putative, expressed
+ankyrin, putative, expressed
+DNA cross-link repair 1A protein, putative, expressed
+helicase domain-containing protein, putative, expressed
+homeodomain protein, putative, expressed
+catalase isozyme A, putative, expressed
+sulfotransferase domain containing protein, expressed
+homeobox protein knotted-1, putative, expressed
+ribosomal protein L10, putative, expressed
+50S ribosomal protein L15, putative, expressed
+OsPP2Ac-3 - Phosphatase 2A isoform 3 belonging to family 1, expressed
+40S ribosomal protein S7, putative, expressed
+retrotransposon protein, putative, unclassified, expressed
+ZF-HD homeobox protein, putative, expressed
+nucleolar complex protein, putative, expressed
+osFTL4  FT-Like4 homologous to Flowering Locus T  gene; contains Pfam profile PF01161: Phosphatidylethanolamine-binding protein, expressed
+BTBZ1 - Bric-a-Brac, Tramtrack, and Broad Complex BTB domain with TAZ zinc finger and Calmodulin-binding domains, expressed
+Yip1 domain containing protein, expressed
+thiamine biosynthesis protein thiC, putative, expressed
+ATP synthase, putative, expressed
+40S ribosomal protein S30, putative, expressed
+DNA repair helicase XPB2, putative, expressed
+Complex I intermediate-associated protein 30 domain containing protein, putative, expressed
+1,4-alpha-glucan-branching enzyme, chloroplast precursor, putative, expressed
+OsMADS8 - MADS-box family gene with MIKCc type-box, expressed
+aminopeptidase, putative, expressed
+cyclin-L1-1, putative, expressed
+la domain containing protein, putative, expressed
+3-methyl-2-oxobutanoate hydroxymethyltransferase, putative, expressed
+OsIAA10 - Auxin-responsive Aux/IAA gene family member, expressed
+flap endonuclease, putative, expressed
+3-dehydroquinate synthase, putative, expressed
+UDP-glucoronosyl and UDP-glucosyl transferase, putative, expressed
+osFTL6  FT-Like6 homologous to Flowering Locus T  gene; contains Pfam profile PF01161: Phosphatidylethanolamine-binding protein, expressed
+lysosomal alpha-mannosidase precursor, putative, expressed
+phospholipase D. Active site motif family protein, expressed
+ZIM domain containing protein, putative, expressed
+40S ribosomal protein S17, putative, expressed
+OsFBX339 - F-box domain containing protein, expressed
+RNA polymerases N 8 kDa subunit, putative
+glutathione synthetase, chloroplast precursor, putative, expressed
+bystin, putative, expressed
+cyclin-dependent kinases regulatory subunit 1, putative, expressed
+RNase P subunit p30, putative, expressed
+transcriptional regulator family protein, putative, expressed
+AGC_AGC_other_GWLd.2 - ACG kinases include homologs to PKA, PKG and PKC, expressed
+nucleoside-triphosphatase, putative, expressed
+ribosomal protein L7Ae, putative, expressed
+mitochondrial import receptor subunit TOM20, putative, expressed
+translin, putative, expressed
+ZOS4-02 - C2H2 zinc finger protein, expressed
+tubby, putative, expressed
+ATBARD1/BARD1, putative, expressed
+LTPL14 - Protease inhibitor/seed storage/LTP family protein precursor, expressed
+calreticulin precursor, putative, expressed
+histidine-containing phosphotransfer protein, putative, expressed
+elongation factor Tu, putative, expressed
+coiled-coil domain-containing protein 55, putative, expressed
+anthocyanidin 5,3-O-glucosyltransferase, putative, expressed
+AAA-type ATPase family protein, putative
+pyridine nucleotide-disulphide oxidoreductase domain containing protein, expressed
+ribulose-phosphate 3-epimerase, chloroplast precursor, putative, expressed
+cupin 2, conserved barrel domain protein, putative, expressed
+mitotic checkpoint protein, putative, expressed
+EDM2, putative, expressed
+hydrolase, alpha/beta fold family domain containing protein, expressed
+guanine nucleotide exchange family protein, putative, expressed
+huntingtin-interacting protein HYPK, putative, expressed
+stomatin-like protein 2, putative, expressed
+septum site-determining protein minD, putative, expressed
+ribosomal protein S13p/S18e, putative, expressed
+ubiquitin family protein, putative, expressed
+Os7bglu26 - beta-mannosidase/glucosidase/exoglucanase, expressed
+ZOS6-05 - C2H2 zinc finger protein, expressed
+calcium-transporting ATPase, endoplasmic reticulum-type, putative, expressed
+kinesin motor domain containing protein, putative, expressed
+TFIIH basal transcription factor complex p52 subunit, putative, expressed
+4-hydroxy-3-methylbut-2-enyl diphosphate reductase, putative, expressed
+villin protein, putative, expressed
+plant-specific domain TIGR01615 family protein
+tetratricopeptide repeat, putative, expressed
+histidine kinase, putative, expressed
+UDP-N-acetylglucosamine--N-acetylmuramyl-pyrophosphor yl-undecaprenol N-acetylglucosamine transferase, putative, expressed
+OsFBX391 - F-box domain containing protein, expressed
+60S ribosomal protein L23A, putative, expressed
+insulin-degrading enzyme, putative, expressed
+tetrapyrrole methylase family protein, putative, expressed
+tRNA-specific adenosine deaminase 1, putative, expressed
+peptidase, M24 family protein, putative, expressed
+AP-3 complex subunit delta, putative, expressed
+transcription factor jumonji, putative, expressed
+RWD domain containing protein, expressed
+EH domain-containing protein 1, putative, expressed
+haloacid dehalogenase-like hydrolase domain-containing protein 1A, putative, expressed
+ATP synthase epsilon chain, mitochondrial, putative, expressed
+CAMK_KIN1/SNF1/Nim1_like.34 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+peptidase, T1 family, putative, expressed
+h/ACA ribonucleoprotein complex subunit 1-like protein 1, putative, expressed
+SCO1 protein homolog, mitochondrial precursor, putative, expressed
+respiratory burst oxidase, putative, expressed
+OsGrx_S17 - glutaredoxin subgroup II, expressed
+chorismate mutase, chloroplast precursor, putative, expressed
+homeobox domain containing protein
+WD domain and HEAT domain containing protein, putative, expressed
+CS domain containing protein, putative, expressed
+ENTH domain containing protein, expressed
+boron transporter protein, putative, expressed
+signal recognition particle receptor, putative, expressed
+OsRhmbd11 - Putative Rhomboid homologue, expressed
+glutamate synthase, chloroplast precursor, putative, expressed
+selenium-binding protein, putative, expressed
+retinoblastoma-related protein-like, putative, expressed
+glucosamine--fructose-6-phosphate aminotransferase 1, putative, expressed
+guanylate kinase, putative, expressed
+OsFBK10 - F-box domain and kelch repeat containing protein, expressed
+pentatricopeptide containing protein, putative, expressed
+MFP1 attachment factor 1, putative, expressed
+tungus CG8253-PA, putative, expressed
+calcium-dependent protein kinase isoform AK1, putative, expressed
+cyclin-dependent kinase E-1, putative, expressed
+shikimate kinase, putative, expressed
+3-oxoacyl-synthase, putative, expressed
+RNA recognition motif containing protein, putative, expressed
+SSRP1-like FACT complex subunit, putative, expressed
+aberrant root formation protein 4, putative, expressed
+tyrosyl-DNA phosphodiesterase 1, putative, expressed
+CESA4 - cellulose synthase, expressed
+60S ribosomal protein-related, putative, expressed
+acyl-coenzyme A oxidase 1.2, peroxisomal, putative, expressed
+2Fe-2S iron-sulfur cluster binding domain containing protein, expressed
+RCD1, putative, expressed
+RPA1A - Putative single-stranded DNA binding complex subunit 1, expressed
+ZOS9-17 - C2H2 zinc finger protein, expressed
+per1-like family protein, putative, expressed
+PsbP, putative, expressed
+peptide chain release factor protein, putative, expressed
+oxidoreductase, short chain dehydrogenase/reductase family protein, putative, expressed
+VIP4, putative, expressed
+DNA-directed RNA polymerase I subunit RPA2, putative, expressed
+tetratricopeptide repeat domain containing protein, expressed
+BTB/POZ domain containing protein
+RFC2 - Putative clamp loader of PCNA, replication factor C subunit 2, expressed
+ZOS2-12 - C2H2 zinc finger protein, expressed
+serine/threonine-protein kinase GCN2, putative, expressed
+copper-transporting ATPase 3, putative, expressed
+ANTH/ENTH domain containing protein, putative, expressed
+dynein light chain type 1 domain containing protein, expressed
+mitochondrial import inner membrane translocase subunit Tim, putative, expressed
+spastin, putative, expressed
+tRNA pseudouridine synthase family protein, putative, expressed
+NOL1/NOP2/sun family protein, putative, expressed
+transcriptional repressor, putative, expressed
+haemolysin-III, putative, expressed
+Transcription initiation factor TFIID subunit A containing protein, expressed
+transcription factor TFIIF, putative, expressed
+notchless protein, putative, expressed
+clathrin assembly protein, putative, expressed
+CAMK_KIN1/SNF1/Nim1_like.38 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+adapitin protein, putative, expressed
+3'-5' exonuclease, putative, expressed
+selenoprotein O, putative, expressed
+40S ribosomal protein S23, putative, expressed
+cytochrome b6-f complex iron-sulfur subunit, chloroplast precursor, putative, expressed
+formamidopyrimidine-DNA glycosylase, putative, expressed
+elongation factor protein, putative, expressed
+SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A, putative, expressed
+POLD4A - Putative DNA polymerase delta complex subunit, expressed
+RING finger protein 13, putative, expressed
+zinc finger C-x8-C-x5-C-x3-H type family protein, expressed
+kelch repeat-containing protein, putative, expressed
+aminoacyl-tRNA synthetase, putative, expressed
+methyltransferase, putative, expressed
+ubiquitin carboxyl-terminal hydrolase, family 1, putative, expressed
+mitosis protein dim1, putative, expressed
+argininosuccinate lyase, putative, expressed
+methionyl-tRNA synthetase, putative, expressed
+OsPOP10 - Putative Prolyl Oligopeptidase homologue, expressed
+serine/threonine-protein kinase BRI1-like 2 precursor, putative, expressed
+NADH dehydrogenase flavoprotein 2, mitochondrial precursor, putative, expressed
+phosducin-like protein 3, putative, expressed
+ANT1, putative, expressed
+chromo domain-containing protein LHP1, putative, expressed
+succinyl-CoA ligase beta-chain, mitochondrial precursor, putative, expressed
+40S ribosomal protein S7, putative
+nitrate-induced NOI protein, expressed
+ATP-dependent protease La, putative, expressed
+glutamyl-tRNA synthetase, cytoplasmic, putative, expressed
+6PF-2-K/Fru-2,6-P2ASE liver isozyme, putative, expressed
+POLD2 - Putative DNA polymerase delta complex subunit, expressed
+autophagy protein 5, putative, expressed
+glycosyl transferase, group 1 domain containing protein, expressed
+receptor protein kinase TMK1 precursor, putative, expressed
+OsFBX120 - F-box domain containing protein, expressed
+POLGAMMA2, putative, expressed
+S4 domain containing protein, putative, expressed
+rRNA-processing protein FCF, putative, expressed
+DHHC zinc finger domain containing protein, expressed
+heat shock protein, putative, expressed
+protein transport protein Sec24-like, putative, expressed
+growth regulating factor protein, putative, expressed
+phosphatidylinositol-4-phosphate 5-kinase, putative, expressed
+RNA polymerase III subunit RPC82 family protein, putative, expressed
+ABC transporter family protein, putative, expressed
+splicing factor 3A subunit 2, putative, expressed
+lanC-like protein 2, putative, expressed
+60S ribosomal protein L31, putative, expressed
+OsRCI2-8 - Putative low temperature and salt responsive protein, expressed
+peptide methionine sulfoxide reductase msrB, putative, expressed
+anaphase-promoting complex subunit 11, putative
+PPR repeat containing protein, expressed
+myosin, putative, expressed
+N-acetyltransferase ESCO1, putative, expressed
+coiled-coil domain-containing protein 12, putative, expressed
+CHD3-type chromatin-remodeling factor PICKLE, putative, expressed
+actin-depolymerizing factor, putative, expressed
+enoyl-CoA hydratase/isomerase family protein, putative, expressed
+zinc knuckle family protein, expressed
+tubulin folding cofactor B, putative, expressed
+transcription initiation factor IIF, alpha subunit domain containing protein, expressed
+protein disulfide isomerase, putative, expressed
+thioredoxin domain-containing protein 17, putative, expressed
+tRNA-specific adenosine deaminase 2, putative, expressed
+thioesterase family protein, putative
+hydrolase, NUDIX family protein, expressed
+phospholipase, patatin family, putative, expressed
+GTP binding protein, putative, expressed
+U-box domain containing protein, expressed
+eukaryotic translation initiation factor 2 subunit beta, putative, expressed
+transcription factor BIM2, putative, expressed
+actin polymerization factor, putative, expressed
+formin-like protein 1 precursor, putative, expressed
+methylthioribose kinase, putative, expressed
+3-hydroxyacyl-CoA dehydrogenase, putative, expressed
+alpha-mannosidase 2, putative, expressed
+dolichyl-diphosphooligosaccharide--protein glycosyltransferase 63 kDasubunit precursor, putative, expressed
+THYLAKOID FORMATION1, chloroplast precursor, putative, expressed
+IQ calmodulin-binding motif family protein, expressed
+SAP domain containing protein, expressed
+thiamin pyrophosphokinase 1, putative, expressed
+OsFBX119 - F-box domain containing protein, expressed
+pyridoxal-dependent decarboxylase protein, putative, expressed
+methyltransferase domain containing protein, expressed
+GIGANTEA, putative, expressed
+formin-binding protein-related, putative, expressed
+ribosomal protein S2, putative, expressed
+electron transfer flavoprotein subunit alpha, mitochondrial precursor, putative, expressed
+vacuolar ATP synthase subunit E, putative, expressed
+bile acid sodium symporter, putative, expressed
+maf, putative, expressed
+outer mitochondrial membrane porin, putative, expressed
+phosphoenolpyruvate carboxykinase, putative, expressed
+protein transport protein Sec61 subunit beta, putative, expressed
+transcription initiation factor IIF beta subunit, putative, expressed
+THO complex subunit 1, putative, expressed
+monoglyceride lipase, putative, expressed
+CPuORF1 - conserved peptide uORF-containing transcript, expressed
+RNA polymerase II transcription factor B subunit 4, putative, expressed
+protein kinase, putative, expressed
+response regulator receiver domain containing protein
+dephospho-CoA kinase, putative, expressed
+CD2-binding protein-related, putative, expressed
+transmembrane BAX inhibitor motif-containing protein, putative, expressed
+transcription elongation factor protein, putative, expressed
+transcription initiation factor, putative, expressed
+glycerol-3-phosphate dehydrogenase, putative, expressed
+RNA recognition motif containing protein, putative
+OsFBX448 - F-box domain containing protein, expressed
+ubiquitin-related modifier 1, putative, expressed
+GA20734-PA, putative, expressed
+class I glutamine amidotransferase, putative, expressed
+potassium channel AKT1, putative
+ATTIC110/TIC110, putative, expressed
+cation-transporting ATPase, putative, expressed
+M-phase phosphoprotein 10, putative, expressed
+aspartyl-tRNA synthetase, putative, expressed
+syntaxin 6, putative, expressed
+pentatricopeptide repeat protein, putative, expressed
+phosphoglycerate mutase, putative, expressed
+exportin 1, putative, expressed
+MIF4G domain containing protein, putative, expressed
+regulatory protein RecX family protein, putative, expressed
+interferon-related developmental regulator, putative, expressed
+Phosphatidylinositol kinase and FAT containing domain protein, putative, expressed
+alanyl-tRNA synthetase, putative, expressed
+SEY1, putative, expressed
+ribosomal protein L4, putative, expressed
+vacuolar protein-sorting-associated protein 25, putative, expressed
+anaphase-promoting complex subunit 10, putative, expressed
+coatomer subunit delta, putative, expressed
+eukaryotic translation initiation factor 4B, putative, expressed
+FAD-linked oxidoreductase protein, putative, expressed
+60S acidic ribosomal protein, putative, expressed
+NADH-ubiquinone oxidoreductase 51 kDa subunit, mitochondrial precursor, putative, expressed
+NADH dehydrogenase iron-sulfur protein 4, mitochondrial precursor, putative, expressed
+white-brown complex homolog protein 12, putative, expressed
+glutaryl-CoA dehydrogenase, mitochondrial precursor, putative, expressed
+OsFBT11 - F-box and tubby domain containing protein, expressed
+transducin family protein, putative, expressed
+tRNA wybutosine-synthesizing protein 1, putative, expressed
+patellin protein, putative, expressed
+spotted leaf 11, putative, expressed
+OsTOP6A1 - Topoisomerase 6 subunit A homolog 1, expressed
+ribosomal protein L5, putative, expressed
+transcription initiation factor IID, putative
+mTERF domain containing protein, expressed
+gar2, putative, expressed
+eukaryotic translation initiation factor 1A, putative, expressed
+B3 DNA binding domain containing protein, expressed
+STE_MEKK_ste11_MAP3K.17 - STE kinases include homologs to sterile 7, sterile 11 and sterile 20 from yeast, expressed
+chaperone protein clpB 1, putative, expressed
+tRNA nucleotidyltransferase/polyA polymerase family protein, putative, expressed
+mannosyl-oligosaccharide glucosidase, putative, expressed
+deoxyhypusine hydroxylase, putative, expressed
+phytochrome B, putative, expressed
+REV1, putative, expressed
+UBX domain containing protein, expressed
+GRAS family transcription factor domain containing protein, expressed
+laccase precursor protein, putative, expressed
+OsMADS89 - MADS-box family gene with M-gamma type-box
+KAP-2, putative, expressed
+1,2-dihydroxy-3-keto-5-methylthiopentene dioxygenase protein, putative, expressed
+cell cycle checkpoint protein RAD17, putative, expressed
+uncharacterized protein yqjG, putative, expressed
+mps one binder kinase activator-like 1A, putative, expressed
+src homology-3 domain protein 3, putative, expressed
+26S proteasome non-ATPase regulatory subunit 4, putative, expressed
+peroxiredoxin, putative
+ZOS12-05 - C2H2 zinc finger protein, expressed
+Mad3/BUB1 homology region 1 domain containing protein, expressed
+OsFBT7 - F-box and tubby domain containing protein, expressed
+vacuolar fusion protein MON1 homolog A, putative, expressed
+U5 small nuclear ribonucleoprotein 200 kDa helicase, putative, expressed
+DUF623 domain containing protein
+OsSigP5 - Putative Type I Signal Peptidase homologue; employs a putative Ser/His catalytic dyad, expressed
+ankyrin repeat-rich protein, putative, expressed
+cell cycle control protein, putative, expressed
+OsSub4 - Putative Subtilisin homologue, expressed
+eukaryotic translation initiation factor, putative, expressed
+monodehydroascorbate reductase, putative, expressed
+haloacid dehalogenase-like hydrolase domain-containing protein 3, putative, expressed
+phosphate/phosphate translocator, putative, expressed
+protein phosphatase 1 regulatory subunit 11, putative, expressed
+OsWRKY54 - Superfamily of TFs having WRKY and zinc finger domains
+prohibitin-2, putative, expressed
+ferric-chelate reductase, putative, expressed
+formate--tetrahydrofolate ligase, putative, expressed
+peroxisomal N-acetyl-spermine/spermidine oxidase precursor, putative, expressed
+glutamyl-tRNA synthetase, putative, expressed
+XRCC4, putative, expressed
+peroxidase precursor, putative, expressed
+elongation of fatty acids protein 2, putative, expressed
+glycine cleavage system H protein, putative, expressed
+KHG/KDPG aldolase, putative, expressed
+histone-lysine N-methyltransferase, H3 lysine-4 specific ATX1, putative, expressed
+RAN guanine nucleotide release factor, putative, expressed
+histone deacetylase 19, putative, expressed
+zinc knuckle domain containing protein, expressed
+alpha-galactosidase precursor, putative, expressed
+AGAP000554-PA, putative, expressed
+calvin cycle protein CP12, putative, expressed
+meiotic coiled-coil protein 7, putative, expressed
+hsp20/alpha crystallin family protein, putative, expressed
+endonuclease, putative, expressed
+indole-3-glycerol phosphate synthase, chloroplast precursor, putative, expressed
+xylose isomerase, putative, expressed
+tubulin--tyrosine ligase-like protein 12, putative, expressed
+acyltransferase, putative, expressed
+oral cancer overexpressed protein 1, putative, expressed
+enhancer of rudimentary protein, putative, expressed
+macrophage erythroblast attacher, putative, expressed
+RNA polymerase II transcriptional coactivator KELP, putative, expressed
+EMB2423, putative
+SAC3/GANP family protein, putative, expressed
+inorganic phosphate transporter, putative, expressed
+zinc finger, C3HC4 type domain containing protein
+metallo-beta-lactamase, putative, expressed
+ruvB-like, putative, expressed
+zinc finger, C3HC4 type family protein, expressed
+AGC_PVPK_like_kin82y.20 - ACG kinases include homologs to PKA, PKG and PKC, expressed
+OsWAK5 - OsWAK receptor-like protein kinase, expressed
+aspartyl/glutamyl-tRNA amidotransferase subunit B, putative, expressed
+tafazzin, putative, expressed
+ZOS3-04 - C2H2 zinc finger protein, expressed
+glutaredoxin family protein, expressed
+SCP-like extracellular protein, expressed
+inactive receptor kinase At1g27190 precursor, putative, expressed
+syntaxin, putative, expressed
+DNA-binding protein, putative, expressed
+down-regulated in metastasis family protein, expressed
+dnaJ homolog subfamily C member, putative, expressed
+SNARE domain containing protein, putative, expressed
+Fe-S metabolism associated domain containing protein, expressed
+regulator of chromosome condensation/beta-lactamase-inhibitor protein II, putative, expressed
+octicosapeptide/Phox/Bem1p, putative, expressed
+DNA-repair protein complementing XP-C cells, putative, expressed
+bromodomain domain containing protein, expressed
+starch synthase, putative, expressed
+auxin efflux carrier component, putative, expressed
+electron transfer flavoprotein subunit beta, putative, expressed
+fatty acid hydroxylase, putative, expressed
+ribosomal protein L14, putative, expressed
+phosphatidylethanolamine-binding protein, putative, expressed
+BTBA1 - Bric-a-Brac,Tramtrack, Broad Complex BTB domain with Ankyrin repeat region, expressed
+zinc finger family protein, putative, expressed
+ubiquitin-like domain-containing CTD phosphatase 1, putative, expressed
+ ELMO/CED-12 family protein, putative, expressed
+pre-mRNA-processing factor 31, putative, expressed
+tRNA methyltransferase, putative, expressed
+importin subunit alpha, putative, expressed
+RNA polymerase Rpb7, N-terminal domain containing protein, expressed
+RecF/RecN/SMC N terminal domain containing protein, expressed
+nuclear transport factor, putative, expressed
+glycosyl hydrolase, putative, expressed
+receptor-like protein kinase 2 precursor, putative
+FGFR1 oncogene partner, putative, expressed
+pyridoxal biosynthesis protein PDX2, putative, expressed
+formin, putative, expressed
+homogentisate 1,2-dioxygenase, putative, expressed
+HVA22, putative, expressed
+RNA-binding protein Luc7-like, putative, expressed
+4,5-DOPA dioxygenase extradiol, putative, expressed
+O-sialoglycoprotein endopeptidase, putative, expressed
+pyridoxamine 5'-phosphate oxidase family protein, putative, expressed
+enolase-phosphatase E1, putative, expressed
+gibberellin receptor GID1L2, putative, expressed
+protein kinase family protein, putative, expressed
+OsTIL-2  Temperature-induced lipocalin-2, expressed
+histone-arginine methyltransferase CARM1, putative, expressed
+glutathione reductase, putative, expressed
+eukaryotic translation initiation factor 3 subunit E, putative, expressed
+argininosuccinate synthase, chloroplast precursor, putative, expressed
+NAF1 domain containing protein, expressed
+ubiquitin carboxyl-terminal hydrolase 6, putative, expressed
+pattern formation protein EMB30, putative, expressed
+presenilin, putative, expressed
+OsFBX48 - F-box domain containing protein, expressed
+glycine-rich protein 2, putative
+amidase, putative, expressed
+calcium-binding mitochondrial protein anon-60Da, putative, expressed
+cytochrome b5-like Heme/Steroid binding domain containing protein, expressed
+phosphopantothenoylcysteine decarboxylase, putative, expressed
+acyl-coenzyme A thioesterase 10, mitochondrial precursor, putative, expressed
+STE_PAK_Ste20_Slob_Wnk.4 - STE kinases include homologs to sterile 7, sterile 11 and sterile 20 from yeast, expressed
+26S proteasome non-ATPase regulatory subunit 6, putative, expressed
+vacuolar protein-sorting protein bro1, putative, expressed
+inosine-uridine preferring nucleoside hydrolase family protein, putative, expressed
+AMP-binding domain containing protein, expressed
+phosphate/phosphoenolpyruvate translocator-related protein, putative, expressed
+WD repeat-containing protein 8, putative, expressed
+CUE domain containing protein, expressed
+pantothenate kinase 4, putative, expressed
+hsp20/alpha crystallin family protein, putative
+uncharacterized protein ycf39, putative, expressed
+OB-fold nucleic acid binding domain containing protein, putative, expressed
+marker Xucw84, putative, expressed
+uncharacterized Cys-rich domain containing protein, putative, expressed
+riboflavin biosynthesis protein ribAB, chloroplast precursor, putative, expressed
+acyl-CoA synthetase protein, putative, expressed
+RNA methyltransferase domain-containing protein 2, putative, expressed
+peptide transporter PTR2, putative, expressed
+cleavage and polyadenylation specificity factor, putative, expressed
+MYST-like histone acetyltransferase 1, putative, expressed
+BES1/BZR1 homolog protein, putative, expressed
+ZOS2-11 - C2H2 zinc finger protein, expressed
+OsPOP15 - Putative Prolyl Oligopeptidase homologue, expressed
+tic22-like family domain containing protein, expressed
+ribonucleases P/MRP protein subunit POP1 containing protein, expressed
+ERD4 protein, putative, expressed
+erythronate-4-phosphate dehydrogenase domain containing protein, expressed
+splicing factor 3B subunit 5, putative, expressed
+serpin domain containing protein, putative, expressed
+endoribonuclease, putative, expressed
+sodium/calcium exchanger protein, putative, expressed
+OST3/OST6 family protein, putative, expressed
+phosphate transporter 1, putative, expressed
+4-alpha-glucanotransferase, putative, expressed
+exosome complex exonuclease rrp4, putative, expressed
+5-oxoprolinase, putative, expressed
+ELF7, putative, expressed
+CAMK_KIN1/SNF1/Nim1_like.31 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+arginase, putative, expressed
+MCM3 - Putative minichromosome maintenance MCM complex subunit 3, expressed
+digestive organ expansion factor, putative, expressed
+Lung seven transmembrane receptor domain containing protein, putative, expressed
+uncharacterized ACR, YagE family COG1723 containing protein, expressed
+CPuORF29 - conserved peptide uORF-containing transcript, expressed
+dolichyl-P-Man Man-PP-dolichyl mannosyltransferase, putative, expressed
+diaminopimelate epimerase, chloroplast precursor, putative, expressed
+phenylalanyl-tRNA synthetase, putative, expressed
+vesicle-fusing ATPase, putative, expressed
+steroid binding protein, putative, expressed
+apurinic endonuclease-redox protein, putative, expressed
+POLA3 - Putative DNA polymerase alpha complex subunit, expressed
+5-nucleotidase surE, putative, expressed
+tryptophan biosynthesis protein trpCF, putative, expressed
+DNA polymerase lambda, putative, expressed
+regulator of ribonuclease, putative, expressed
+KIN, antigenic determinant of recA protein, putative, expressed
+phospholipase D p1, putative, expressed
+squalene monooxygenase, putative, expressed
+OsRhmbd14 - Putative Rhomboid homologue, expressed
+RFC1 - Putative clamp loader of PCNA, replication factor C subunit 1, expressed
+ICE-like protease p20 domain containing protein, putative, expressed
+high affinity nitrate transporter, putative, expressed
+Alg9-like mannosyltransferase protein, putative, expressed
+glycine-rich RNA-binding protein 7, putative, expressed
+apoptosis inhibitor 5, putative, expressed
+vacuolar protein sorting 55 family protein, putative, expressed
+photosystem I reaction center subunit III, chloroplast precursor, putative, expressed
+PQ loop repeat domain containing protein, expressed
+OTU-like cysteine protease family protein, putative, expressed
+SKIP/SNW domain containing protein, expressed
+cadmium/zinc-transporting ATPase, putative
+SAC domain containing protein, putative, expressed
+cytochrome c oxidase assembly protein COX11, mitochondrial precursor, putative, expressed
+bifunctional dihydrofolate reductase-thymidylate synthase, putative, expressed
+transmembrane protein 56, putative, expressed
+5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase, putative, expressed
+acidic leucine-rich nuclear phosphoprotein 32-related protein 2, putative, expressed
+autophagy-related protein, putative, expressed
+coiled-coil domain containing 49, putative, expressed
+DNA topoisomerase 1, putative, expressed
+metalloprotease ATP23, putative, expressed
+importin-beta N-terminal domain containing protein
+OsRhmbd2 - Putative Rhomboid homologue, expressed
+BAP2, putative, expressed
+cellulase, putative, expressed
+DnaK family protein, putative, expressed
+glutamate dehydrogenase protein, putative, expressed
+ubiquitin-conjugating enzyme E2 W, putative, expressed
+UDP-3-O- N-acetylglucosamine deacetylase, putative, expressed
+STE_MEKK_ste11_MAP3K.2 - STE kinases include homologs to sterile 7, sterile 11 and sterile 20 from yeast
+nodulin, putative
+POLE1 - Putative DNA polymerase epsilon catalytic subunit, expressed
+PIR, putative, expressed
+methyltransferase domain containing protein, putative, expressed
+ZOS1-19 - C2H2 zinc finger protein
+glioma tumor suppressor candidate region gene 2 protein, putative, expressed
+CAMK_KIN1/SNF1/Nim1_like.35 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+fructose-1,6-bisphosphatase, putative, expressed
+core histone H2A/H2B/H3/H4, putative, expressed
+VTC2, putative, expressed
+40S ribosomal protein S3a, putative, expressed
+OsPP2Ac-1 - Phosphatase 2A isoform 1 belonging to family 1, expressed
+sterol-4-alpha-carboxylate 3-dehydrogenase, decarboxylating, putative, expressed
+BRCA1-associated protein, putative, expressed
+craniofacial development protein 1, putative, expressed
+CASP, putative, expressed
+phosphatidylinositol N-acetylglucosaminyltransferase subunit C, putative, expressed
+SCP-like extracellular protein
+MAG2, putative, expressed
+bromodomain protein 103, putative, expressed
+transcriptional corepressor SEUSS, putative, expressed
+transcription factor Dp, putative, expressed
+OsFBO10 - F-box and other domain containing protein, expressed
+AGAP007115-PA, putative, expressed
+tubulin binding cofactor C, putative, expressed
+cytochrome c, putative, expressed
+SNF1-related protein kinase regulatory subunit beta-1, putative, expressed
+OsFBL7 - F-box domain and LRR containing protein, expressed
+non-symbiotic hemoglobin 2, putative, expressed
+OsPP2Ac-4 - Phosphatase 2A isoform 4 belonging to family 2, expressed
+methyladenine glycosylase, putative, expressed
+PHD finger family protein, putative, expressed
+coiled-coil domain-containing protein 47 precursor, putative, expressed
+CAMK_KIN1/SNF1/Nim1_like.10 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+60S ribosomal protein L29-2, putative
+ATPase, AFG1 family domain containing protein, expressed
+cyclin-dependent kinase D-1, putative, expressed
+genetic modifier, putative, expressed
+conserved oligomeric Golgi complex component 8, putative, expressed
+DNA mismatch repair protein MSH3, putative, expressed
+LTPL8 - Protease inhibitor/seed storage/LTP family protein precursor, expressed
+nitric oxide synthase 1, putative, expressed
+heat shock protein STI, putative, expressed
+transcription factor MYC7E, putative, expressed
+mitochondrial import inner membrane translocase subunit Tim16, putative, expressed
+arginyl-tRNA--protein transferase 1, putative, expressed
+TATA-binding protein, putative, expressed
+arginine N-methyltransferase 5, putative, expressed
+osMFT2  MFT-Like2 homologous to Mother of FT and TFL1  gene; contains Pfam profile PF01161: Phosphatidylethanolamine-binding protein, expressed
+OsGrx_S2 - glutaredoxin subgroup III, expressed
+GRAM domain containing protein, expressed
+diacylglycerol kinase, putative, expressed
+nucleotide-sensitive chloride conductance regulator containing protein, expressed
+CPuORF21 - conserved peptide uORF-containing transcript, expressed
+crooked neck, putative, expressed
+serine/threonine-protein phosphatase 2A activator 2, putative, expressed
+RNASEH2A - Putative ribonuclease H2 large subunit, expressed
+disease resistance protein RPS2, putative, expressed
+pleiotropic drug resistance protein, putative
+OsPDIL1-4  protein disulfide isomerase PDIL1-4, expressed
+nodal modulator 1 precursor, putative, expressed
+OsRCI2-5 - Putative low temperature and salt responsive protein, expressed
+RNA recognition motif containing protein, expressed
+UTP--glucose-1-phosphate uridylyltransferase, putative, expressed
+adenylyl cyclase-associated protein, putative, expressed
+SGR2, putative, expressed
+OsSigP7 - Putative Type I Signal Peptidase homologue; employs a putative Ser/Lys catalytic dyad, expressed
+cyclin-dependent kinase B1-1, putative, expressed
+indole-3-acetate beta-glucosyltransferase, putative
+coatomer subunit beta-1, putative, expressed
+GYF domain containing protein, putative, expressed
+6-phosphogluconate dehydrogenase, decarboxylating, putative, expressed
+26S protease regulatory subunit 6B, putative, expressed
+protein transport protein SEC61 subunit gamma, putative, expressed
+OsMADS18 - MADS-box family gene with MIKCc type-box, expressed
+RNA polymerase sigma factor, putative, expressed
+OsTOP6A2 - Topoisomerase 6 subunit A homolog 2, expressed
+delta-aminolevulinic acid dehydratase, chloroplast precursor, putative, expressed
+translocase of chloroplast 34, putative, expressed
+ZF-HD protein dimerisation region containing protein, expressed
+ribose-5-phosphate isomerase A, putative, expressed
+MSH-like DNA mismatch repair protein, putative, expressed
+monoglyceride lipase, putative
+MazG nucleotide pyrophosphohydrolase domain containing protein, expressed
+cytochrome P450 72A1, putative, expressed
+ankyrin-1, putative, expressed
+arsenical pump-driving ATPase, putative, expressed
+N2, N2-dimethylguanosine tRNA methyltransferase, putative, expressed
+VAMP-like protein YKT62, putative, expressed
+MT-A70 domain containing protein, expressed
+AGC_PKA/PKG_like.1 - ACG kinases include homologs to PKA, PKG and PKC, expressed
+OsPOP16 - Putative Prolyl Oligopeptidase homologue, expressed
+50S ribosomal protein L19, chloroplast precursor, putative, expressed
+MCM6 - Putative minichromosome maintenance MCM complex subunit 6, expressed
+HIRAN domain containing protein, putative, expressed
+OsDegp15 - Putative Deg protease homologue, expressed
+adaptin, putative, expressed
+tobamovirus multiplication protein, putative, expressed
+60S ribosomal protein L15, putative, expressed
+OsFBX438 - F-box domain containing protein, expressed
+lectin protein kinase family protein, putative, expressed
+inducer of CBF expression 1, putative, expressed
+acyl CoA binding protein, putative, expressed
+tumor susceptibility gene 101, putative, expressed
+pleiotropic drug resistance protein 15, putative, expressed
+3,4-dihydroxy-2-butanone kinase, putative, expressed
+urea active transporter, putative, expressed
+transmembrane amino acid transporter protein, putative, expressed
+conserved oligomeric Golgi complex component 3, putative, expressed
+D-3-phosphoglycerate dehydrogenase, chloroplast precursor, putative, expressed
+transmembrane 9 superfamily member, putative, expressed
+POLD1 - Putative DNA polymerase delta catalytic subunit, expressed
+thymidine kinase, putative, expressed
+RAD23 DNA repair protein, putative, expressed
+vacuolar protein sorting-associated protein 28 homolog 2, putative, expressed
+nucleolar GTP-binding protein 1, putative, expressed
+histidine kinase, putative
+ubiquitin-associated protein, putative, expressed
+UPF0041 domain containing protein, putative, expressed
+SRP40, C-terminal domain containing protein, expressed
+geranylgeranyl transferase type-2 subunit beta, putative, expressed
+cyclic nucleotide-gated ion channel, putative, expressed
+zinc finger protein 593, putative, expressed
+BRCA1 C Terminus domain containing protein, expressed
+aminotransferase, classes I and II, domain containing protein, expressed
+F-box domain containing protein, expressed
+ELMO/CED-12 family protein, putative, expressed
+RING finger protein, putative, expressed
+cyclin-dependent kinase inhibitor, putative, expressed
+BTBP1 - Bric-a-Brac, Tramtrack, Broad Complex BTB domain with pentapeptide repeats, expressed
+F-box/LRR-repeat protein 3, putative, expressed
+pre-mRNA-splicing factor ISY1, putative, expressed
+STE_MEK_ste7_MAP2K.8 - STE kinases include homologs to sterile 7, sterile 11 and sterile 20 from yeast, expressed
+microtubule-binding protein TANGLED1, putative, expressed
+senescence-associated protein, putative, expressed
+cysteine synthase, mitochondrial precursor, putative, expressed
+suppressor of G2 allele of SKP1, putative, expressed
+CESA9 - cellulose synthase, expressed
+acyl-coenzyme A dehydrogenase, mitochondrial precursor, putative, expressed
+NADH dehydrogenase 1 alpha subcomplex subunit 12, putative, expressed
+OsFBL21 - F-box domain and LRR containing protein, expressed
+OsWAK95 - OsWAK receptor-like protein kinase
+REX1 DNA Repair family protein, expressed
+snurportin-1, putative, expressed
+protein transport protein, putative, expressed
+AML1, putative, expressed
+sensitivity to red light reduced protein 1, putative, expressed
+receptor-like protein kinase precursor, putative
+AATF, putative, expressed
+Ser/Thr protein phosphatase family protein, putative, expressed
+calcium-binding EF hand family protein, putative, expressed
+AP2 domain containing protein, expressed
+nucleolar complex protein 2, putative, expressed
+nuf2 family protein, expressed
+THO complex subunit 7, putative, expressed
+eukaryotic translation initiation factor 2 subunit gamma, putative, expressed
+L1P family of ribosomal proteins domain containing protein, expressed
+double-strand break repair protein MRE11, putative, expressed
+EAP30/Vps36 family domain containing protein, expressed
+translocon Tic40, putative, expressed
+GHMP kinases ATP-binding protein, putative, expressed
+TRM112, putative, expressed
+UDP-N-acetylglucosamine--dolichyl-phosphate N-acetylglucosaminephosphotransferase, putative, expressed
+3-oxoacyl-reductase, chloroplast precursor, putative, expressed
+protein kinase domain containing protein, expressed
+nifU, putative, expressed
+armadillo/beta-catenin repeat family protein, putative, expressed
+RCC2, putative, expressed
+N-acetyltransferase 10, putative, expressed
+metalloendoproteinase 1 precursor, putative, expressed
+WW domain containing protein, expressed
+peptidyl-tRNA hydrolase, putative, expressed
+FEN1A - Putative flap endonuclease protein, expressed
+nop14-like family protein, expressed
+UDP-glucoronosyl/UDP-glucosyl transferase, putative, expressed
+S-adenosyl-L-methionine-dependent methyltransferase mraW, putative, expressed
+mannose-1-phosphate guanyltransferase, putative, expressed
+AGC_AGC_other_RS6K_like.2 - ACG kinases include homologs to PKA, PKG and PKC, expressed
+naringenin,2-oxoglutarate 3-dioxygenase, putative, expressed
+PSF3 - Putative GINS complex subunit, expressed
+adenylate kinase, putative, expressed
+SacI homology domain containing protein, expressed
+MATH domain containing protein, expressed
+bifunctional monodehydroascorbate reductase and carbonic anhydrasenectarin-3 precursor, putative, expressed
+MCM7 - Putative minichromosome maintenance MCM complex subunit 7, expressed
+vacuolar ATP synthase subunit d, putative, expressed
+ribosomal RNA large subunit methyltransferase J, putative, expressed
+DNA repair protein Rad51, putative
+nucleolar protein NOP5, putative, expressed
+prefoldin, putative, expressed
+arogenate dehydrogenase 1, chloroplast precursor, putative, expressed
+transcription initiation factor TFIID subunit 1, putative, expressed
+OsLonP4 - Putative Lon protease homologue, expressed
+OsRhmbd5 - Putative Rhomboid homologue, expressed
+pseudouridine synthase family protein, putative, expressed
+condensin complex subunit 1, putative, expressed
+NUC153 domain containing protein, expressed
+GTP-binding protein GUF1, putative, expressed
+TKL_IRAK_DUF26-lc22 - DUF26 kinases have homology to DUF26 containing loci, expressed
+carbonic anhydrase, chloroplast precursor, putative, expressed
+TOPBP1C - Similar to DNA replication protein TOPBP1 from, expressed
+60S ribosomal protein L6, putative, expressed
+PUR ALPHA-1, putative, expressed
+OsProCP3 - Putative Lysosomal Pro-x Carboxypeptidase homologue, expressed
+hypothetical protein
+40S ribosomal protein S28, putative, expressed
+ribosomal protein L51, putative, expressed
+conserved oligomeric Golgi complex component 4, related, putative, expressed
+GPI transamidase component PIG-S-related, putative, expressed
+OsCam1-3 - Calmodulin, expressed
+GRAS family transcription factor containing protein, expressed
+AGG2, putative, expressed
+CGMC_GSK.1 - CGMC includes CDA, MAPK, GSK3, and CLKC kinases, expressed
+survival motor neuron containing protein, expressed
+60S ribosomal protein L7, putative, expressed
+mitochondrial ATP synthase precursor, putative, expressed
+acetyl-CoA acetyltransferase, cytosolic, putative, expressed
+OsFBL23 - F-box domain and LRR containing protein, expressed
+transcription initiation factor IIB, putative, expressed
+ATP-binding domain-containing protein, putative, expressed
+tRNA-specific adenosine deaminase, putative, expressed
+OsWRKY53 - Superfamily of TFs having WRKY and zinc finger domains, expressed
+nuclear protein ZAP-related, putative, expressed
+glyceraldehyde-3-phosphate dehydrogenase, putative, expressed
+mitotic checkpoint family protein, putative, expressed
+pre-mRNA-splicing factor SLU7, putative, expressed
+para-hydroxybenzoate--polyprenyltransferase, mitochondrial precursor, putative, expressed
+esterase/lipase/thioesterase, putative, expressed
+peptidase M50 family protein, putative, expressed
+nucleolar protein,Nop52 containing protein, expressed
+parafibromin, putative, expressed
+enoyl-acyl-carrier-protein reductase NADH, chloroplast precursor, expressed
+TLD family protein, putative, expressed
+dnaJ homolog subfamily B member 11 precursor, putative, expressed
+domain of unknown function domain containing protein, expressed
+alpha-amylase precursor, putative, expressed
+peptidyl-prolyl cis-trans isomerase, FKBP-type, putative, expressed
+ZOS8-14 - C2H2 zinc finger protein, expressed
+transcription elongation factor SPT4 homolog 1, putative, expressed
+histone acetyltransferase HAC1, putative, expressed
+sphingolipid C4-hydroxylase SUR2, putative, expressed
+ribosome biogenesis protein NEP1, putative, expressed
+ATEB1A-like microtubule associated protein, putative, expressed
+oxidoreductase, putative, expressed
+STE_MEK_ste7_MAP2K.2 - STE kinases include homologs to sterile 7, sterile 11 and sterile 20 from yeast, expressed
+male sterility protein 2, putative, expressed
+asparagine synthetase, putative, expressed
+emp24/gp25L/p24 family protein, putative, expressed
+CDT1A - Putative DNA replication initiation protein, expressed
+eukaryotic translation initiation factor 5B, putative, expressed
+AAA-type ATPase family protein, putative, expressed
+ribosomal protein L22, putative, expressed
+THAP domain-containing protein 4, putative, expressed
+OsGrx_C2.2 - glutaredoxin subgroup I, expressed
+CDP-alcohol phosphatidyltransferase, putative, expressed
+CSLA9 - cellulose synthase-like family A, expressed
+cytochrome c oxidase copper chaperone, putative, expressed
+Sua5/YciO/YrdC/YwlC family protein, putative, expressed
+fumarylacetoacetase, putative, expressed
+XRN 5'-3' exonuclease N-terminus domain containing protein, expressed
+autophagy protein 9, putative, expressed
+GPI mannosyltransferase 2, putative, expressed
+solute carrier family 35 member B1, putative, expressed
+MBTB21 - Bric-a-Brac, Tramtrack, Broad Complex BTB domain with Meprin and TRAF Homology MATH domain
+dihydrolipoyl dehydrogenase 1, mitochondrial precursor, putative, expressed
+intron-binding protein aquarius, putative, expressed
+AGAP010768-PA, putative, expressed
+tonneau 1b, putative, expressed
+1-5-phosphoribosyl-5-5-phosphoribosylaminomethylideneaminoimidazole-4-carboxamide isomerase, chloroplast precursor, putative, expressed
+CGMC_MAPKCMGC_2_ERK.12 - CGMC includes CDA, MAPK, GSK3, and CLKC kinases, expressed
+phox domain-containing protein, putative, expressed
+differentiation protein, putative, expressed
+ATP12 ATPase, putative, expressed
+ZOS3-01 - C2H2 zinc finger protein, expressed
+ubiquitin carboxyl-terminal hydrolase domain containing protein, expressed
+adaptor complexes medium subunit family domain containing protein, expressed
+phosphopantothenate--cysteine ligase, putative, expressed
+40S ribosomal protein S27, putative, expressed
+nucleoporin interacting component, putative, expressed
+2-oxoglutarate dehydrogenase E1 component, mitochondrial precursor, putative, expressed
+cytidine/deoxycytidylate deaminase, putative
+folylpolyglutamate synthase, mitochondrial precursor, putative, expressed
+pyrroline-5-carboxylate reductase, putative, expressed
+ATP synthase F1, delta subunit family protein, putative, expressed
+14-3-3 protein, putative, expressed
+GPI-anchor transamidase precursor, putative, expressed
+cystathionine gamma-synthase, putative, expressed
+LSD1 zinc finger domain containing protein, expressed
+G protein coupled receptor, putative, expressed
+4-nitrophenylphosphatase, putative, expressed
+AMP deaminase, putative, expressed
+beta-galactosidase, putative, expressed
+transketolase, putative, expressed
+carbamoyl-phosphate synthase large chain, putative, expressed
+ribulose bisphosphate carboxylase small chain, chloroplast precursor, putative, expressed
+tRNA pseudouridine synthase family protein, putative
+major facilitator superfamily antiporter, putative, expressed
+histidine triad family protein, putative, expressed
+magnesium-dependent phosphatase 1, putative, expressed
+smr domain containing protein, expressed
+OsFBL52 - F-box domain and LRR containing protein, expressed
+mRNA-decapping enzyme, putative, expressed
+expressed protein
+transposon protein, putative, CACTA, En/Spm sub-class, expressed
+3-oxo-5-alpha-steroid 4-dehydrogenase, putative, expressed
+OsMADS57 - MADS-box family gene with MIKCc type-box, expressed
+phosphorylase domain containing protein, putative
+tRNA synthetase, putative
+zinc finger protein, putative, expressed
+SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily C member, putative, expressed
+3-oxoacyl-synthase III, chloroplast precursor, putative, expressed
+5-nucleotidase domain-containing protein, putative, expressed
+ABTB1 - Armadillo repeats with a Bric-a-Brac, Tramtrack, Broad Complex BTB domain, expressed
+26S proteasome non-ATPase regulatory subunit 9, putative, expressed
+gibberellin 20 oxidase 2, putative, expressed
+pantothenate kinase, putative, expressed
+inositol-1-monophosphatase, putative, expressed
+OsRhmbd8 - Putative Rhomboid homologue, expressed
+DNA excision repair protein ERCC-1, putative, expressed
+polyadenylate-binding protein, putative, expressed
+DEAD-box ATP-dependent RNA helicase, putative, expressed
+ubiquitin interaction motif family protein, expressed
+cation transport regulator-like protein 1, putative, expressed
+retrotransposon protein, putative, unclassified
+glutathione peroxidase, putative, expressed
+NAD dependent epimerase/dehydratase family domain containing protein, expressed
+B-box zinc finger family protein, putative, expressed
+transmembrane protein 85, putative, expressed
+3-deoxy-manno-octulosonate cytidylyltransferase, putative, expressed
+uncharacterized protein yeiN, putative, expressed
+CGMC_GSK.5 - CGMC includes CDA, MAPK, GSK3, and CLKC kinases, expressed
+peptidyl-prolyl isomerase, putative, expressed
+aquaporin protein, putative, expressed
+autophagy-related protein 3, putative, expressed
+S1 RNA binding domain containing protein, expressed
+beta-catenin-like protein 1, putative, expressed
+NADP-dependent oxidoreductase, putative, expressed
+DNA mismatch repair protein Mlh1, putative, expressed
+TATA-binding protein-associated factor TAFII55 family protein, putative, expressed
+ammonium transporter protein, putative, expressed
+SPRY-domain containing protein, putative, expressed
+ribonuclease H2 subunit B, putative, expressed
+SNF2 family N-terminal domain containing protein, expressed
+NADPH reductase, putative, expressed
+isochorismatase family protein, putative, expressed
+ataxin-2 related protein, putative, expressed
+mRNA cap guanine-N7 methyltransferase 1, putative, expressed
+chromosome segregation protein, putative, expressed
+pentatricopeptide repeat domain containing protein, putative, expressed
+copper methylamine oxidase precursor, putative, expressed
+potassium channel AKT2/3, putative, expressed
+NAP1, putative, expressed
+SOUL heme-binding protein, putative, expressed
+signal recognition particle 9 kDa protein, putative, expressed
+vesicle-associated membrane protein, putative, expressed
+GPR89A, putative, expressed
+sodium/hydrogen exchanger 7, putative, expressed
+60S ribosome subunit biogenesis protein NIP7, putative, expressed
+diacylglycerol kinase 1, putative, expressed
+amino acid permease family protein, putative, expressed
+ZIM motif family protein, expressed
+diphthamide biosynthesis protein, putative, expressed
+cytochrome b-c1 complex subunit 7, putative, expressed
+ubiquitin carboxyl-terminal hydrolase 5, putative, expressed
+C2-BTB1 - Bric-a-Brac, Tramtrack, Broad Complex BTB domain with C2 subfamily conserved sequence, expressed
+PAP/25A associated domain containing protein, putative, expressed
+clathrin adaptor complex small chain domain containing protein, expressed
+SDA1, putative, expressed
+nitrilase, putative, expressed
+atypical receptor-like kinase MARK, putative, expressed
+3-beta hydroxysteroid dehydrogenase/isomerase family protein, putative, expressed
+transposon protein, putative, unclassified
+peroxin-3 family protein, putative, expressed
+serine/threonine-protein kinase RIO-like, putative, expressed
+geranylgeranyl transferase type-1 subunit beta, putative
+co-chaperone GrpE protein, putative, expressed
+ZOS2-15 - C2H2 zinc finger protein, expressed
+conserved uncharacterized protein, putative, expressed
+phosphatase, putative, expressed
+OsHKT1;3 - Na+ transporter, expressed
+methyltransferase, putative
+40S ribosomal protein S29, putative
+nucleoporin, putative, expressed
+60S ribosomal protein L18-3, putative, expressed
+30S ribosomal protein S16, putative, expressed
+holliday junction resolvase, putative, expressed
+STE_MEKK_ste11_MAP3K.16 - STE kinases include homologs to sterile 7, sterile 11 and sterile 20 from yeast, expressed
+inner membrane protein, putative, expressed
+transcription factor FL, putative, expressed
+CAMK_CAMK_like_Aur_like.1 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+eukaryotic translation initiation factor 3 subunit F, putative, expressed
+TraB family protein, putative, expressed
+ribosomal protein L3, putative, expressed
+calcium-transporting ATPase 3, endoplasmic reticulum-type, putative
+inactive receptor kinase At2g26730 precursor, putative, expressed
+auxin response factor, putative, expressed
+ZOS3-17 - C2H2 zinc finger protein, expressed
+placental protein 11 precursor, putative, expressed
+CAMK_KIN1/SNF1/Nim1_like.25 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+vacuolar protein sorting-associating protein 4B, putative, expressed
+hydroxyacid oxidase 1, putative, expressed
+IWS1 C-terminus family protein, putative, expressed
+NLI interacting factor-like phosphatase, putative, expressed
+sas10/Utp3 family protein, expressed
+phosphoribulokinase/Uridine kinase family protein, expressed
+THUMP domain-containing protein, putative, expressed
+pumilio-family RNA binding repeat domain containing protein, expressed
+BAS1, putative, expressed
+gamma-glutamyltranspeptidase 1 precursor, putative, expressed
+F-actin-capping protein subunit beta, putative, expressed
+coiled-coil domain-containing protein 97, putative, expressed
+importin-alpha re-exporter, putative, expressed
+40S ribosomal protein S9-2, putative, expressed
+syntaxin-18, putative, expressed
+osFTL5  FT-Like5 homologous to Flowering Locus T  gene; contains Pfam profile PF01161: Phosphatidylethanolamine-binding protein
+fip1 motif family protein, expressed
+MEE18, putative, expressed
+DNA-directed RNA polymerases I, II, and III subunit RPABC1, putative, expressed
+zinc finger, C3HC4 type, putative, expressed
+HEAT repeat family protein, putative, expressed
+MYB family transcription factor, putative, expressed
+oxidoreductase, short chain dehydrogenase/reductase family, putative, expressed
+signal peptide peptidase-like 2B, putative, expressed
+threonyl-tRNA synthetase, mitochondrial precursor, putative, expressed
+ATP-binding cassette sub-family E member 1, putative, expressed
+nuclear prelamin A recognition factor, putative, expressed
+RFC3 - Putative clamp loader of PCNA, replication factor C subunit 3, expressed
+h/ACA ribonucleoprotein complex subunit 3, putative, expressed
+OsCam2 - Calmodulin, expressed
+male sterility protein, putative, expressed
+DUF623 domain containing protein, expressed
+OsGrx_S15.1 - glutaredoxin subgroup II, expressed
+bromodomain associated family protein, expressed
+actin-related protein 2/3 complex subunit 2, putative, expressed
+trehalose-6-phosphate synthase, putative, expressed
+oxidoreductase, short chain dehydrogenase/reductase family domain containing family, expressed
+AT hook motif family protein, expressed
+ZOS3-03 - C2H2 zinc finger protein, expressed
+phenylalanyl-tRNA synthetase beta chain, putative, expressed
+CENP-C1, putative, expressed
+histone deacetylase complex subunit SAP18, putative, expressed
+3-hydroxy-3-methylglutaryl-coenzyme A reductase, putative, expressed
+C-5 cytosine-specific DNA methylase, putative, expressed
+OsGrx_S15.2 - glutaredoxin subgroup II, expressed
+dehydrogenase/reductase, putative, expressed
+C2 domain containing protein, expressed
+tRNA synthetase class II core domain containing protein, expressed
+ethylene-insensitive 3, putative
+50S ribosomal protein L20, putative, expressed
+zinc finger CCHC domain-containing protein 10, putative, expressed
+transporter, major facilitator family, putative, expressed
+CAAX amino terminal protease family protein, putative, expressed
+splicing factor, putative, expressed
+inositol hexaphosphate kinase, putative, expressed
+60S ribosomal protein L32, putative, expressed
+splicing factor U2AF, putative, expressed
+calcium-binding protein, putative, expressed
+OsMADS47 - MADS-box family gene with MIKCc type-box, expressed
+lipin, N-terminal conserved region family protein, expressed
+kelch motif family protein, expressed
+phytochrome A, putative, expressed
+annexin, putative, expressed
+DNA repair metallo-beta-lactamase, putative, expressed
+STE_PAK_Ste20_STLK.2 - STE kinases include homologs to sterile 7, sterile 11 and sterile 20 from yeast, expressed
+glucose-6-phosphate isomerase, putative, expressed
+AGC_PVPK_like_kin82y.9 - ACG kinases include homologs to PKA, PKG and PKC, expressed
+LTPL7 - Protease inhibitor/seed storage/LTP family protein precursor, expressed
+ORC6 - Putative origin recognition complex subunit 6, expressed
+3-5 exonuclease family protein, putative, expressed
+WD40-like, putative, expressed
+aldose 1-epimerase, putative, expressed
+pre-mRNA-splicing factor syf2, putative, expressed
+POLE2A - Putative DNA polymerase epsilon complex subunit, expressed
+nitrogen regulatory protein P-II, putative, expressed
+fiber protein Fb14, putative
+OsSub6 - Putative Subtilisin homologue, expressed
+40S ribosomal protein S3-1, putative, expressed
+dihydropyrimidinase, putative, expressed
+uncharacterized glycosyl hydrolase Rv2006/MT2062, putative, expressed
+ORC3 - Putative origin recognition complex subunit 3, expressed
+histidine triad family protein, putative
+triosephosphate isomerase, cytosolic, putative, expressed
+nucleotidyltransferase, putative, expressed
+Ser/Thr-rich protein T10 in DGCR region, putative, expressed
+amino acid kinase, putative
+delta14-sterol reductase, putative, expressed
+serine esterase family protein, putative, expressed
+GPI transamidase subunit PIG-U domain containing protein, expressed
+red chlorophyll catabolite reductase, putative, expressed
+glycosyl hydrolase, family 31, putative, expressed
+serine/threonine-protein kinase AFC1, putative, expressed
+GRF-interacting factor 2, putative, expressed
+ulp1 protease family protein, putative, expressed
+homologous-pairing protein meu13, putative, expressed
+lissencephaly type-1-like homology motif, putative, expressed
+endoribonuclease Dicer, putative, expressed
+cytidine/deoxycytidylate deaminase, putative, expressed
+riboflavin synthase alpha chain, putative, expressed
+zinc finger DHHC domain-containing protein, putative, expressed
+CSLA7 - cellulose synthase-like family A; mannan synthase, expressed
+poly synthetase 1, putative, expressed
+AGC_AGC_other_PDK1_Pk61C.1 - ACG kinases include homologs to PKA, PKG and PKC, expressed
+methyltransferase-like protein 5, putative, expressed
+DUF647 domain containing protein, putative, expressed
+CAMK_KIN1/SNF1/Nim1_like.18 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+single-stranded DNA-binding protein, putative, expressed
+dynamin family protein, putative, expressed
+OsFtsH1  FtsH protease, homologue of AtFtsH1/5, expressed
+CAMK_CAMK_like.43 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+40S ribosomal protein S15a, putative, expressed
+threonine synthase, chloroplast precursor, putative, expressed
+ectonucleotide pyrophosphatase/phosphodiesterase family member 1, putative, expressed
+myosin-2 heavy chain, non muscle, putative, expressed
+VP15, putative, expressed
+DGCR14, putative, expressed
+MCM10 - Putative minichromosome maintenance MCM protein 10, expressed
+plasma membrane ATPase, putative, expressed
+la domain containing protein, expressed
+saccharopine dehydrogenase, putative, expressed
+ASH-like SPRY domain containing protein, putative, expressed
+acetyltransferase type B catalytic subunit, putative, expressed
+sulfate transporter, putative, expressed
+nucleolar protein NOP5-1, putative
+heat shock protein DnaJ, putative, expressed
+transcriptional adaptor, putative, expressed
+pantoate--beta-alanine ligase, putative, expressed
+tRNA methyltransferase complex GCD14 subunit, putative, expressed
+zinc ion binding protein, putative, expressed
+aminotransferase domain containing protein, putative, expressed
+nicotinate phosphoribosyltransferase family domain containing protein, expressed
+Core histone H2A/H2B/H3/H4 domain containing protein, putative, expressed
+chorismate synthase 2, chloroplast precursor, putative, expressed
+60S ribosomal protein L21-2, putative, expressed
+flavin-containing monooxygenase family protein, putative
+sec8 exocyst complex component specific domain containing protein, expressed
+glycosyl transferase 8 domain containing protein, putative, expressed
+Mpv17 / PMP22 family domain containing protein, expressed
+COP1, putative, expressed
+splicing factor, arginine/serine-rich 7, putative, expressed
+STE_PAK_Ste20_MST_like.1 - STE kinases include homologs to sterile 7, sterile 11 and sterile 20 from yeast, expressed
+phosphate carrier protein, mitochondrial precursor, putative, expressed
+glucose-6-phosphate 1-dehydrogenase, chloroplast precursor, putative, expressed
+ad-003, putative, expressed
+CBS domain containing membrane protein, putative, expressed
+OsAPx4 - Peroxisomal Ascorbate Peroxidase encoding gene 5,8,9, expressed
+acyl-protein thioesterase, putative, expressed
+ZOS2-09 - C2H2 zinc finger protein, expressed
+NADH dehydrogenase 1 alpha subcomplex subunit 9,mitochondrial precursor, putative, expressed
+Homeobox domain containing protein, expressed
+Der1-like family domain containing protein, expressed
+vacuolar protein sorting-associated protein 11, putative, expressed
+LYR motif containing protein, putative, expressed
+elongation factor Tu family protein, putative, expressed
+mediator of RNA polymerase II transcription subunit 10, putative, expressed
+atATG18b, putative, expressed
+OsRhmbd4 - Putative Rhomboid homologue, expressed
+dynamin, putative, expressed
+CDC6 - Putative DNA replication initiation protein, expressed
+phosphomannomutase, putative, expressed
+periplasmic beta-glucosidase precursor, putative, expressed
+dihydroneopterin aldolase, putative, expressed
+uncharacterized protein MJ0304, putative, expressed
+pre-mRNA-splicing factor ATP-dependent RNA helicase, putative, expressed
+nucleotide binding protein, putative, expressed
+amidohydrolase, putative, expressed
+peptidyl-prolyl cis-trans isomerase CYP40, putative, expressed
+valyl-tRNA synthetase, putative, expressed
+ubiquitin-conjugating enzyme, putative
+RING finger and CHY zinc finger domain-containing protein 1, putative, expressed
+AARP2CN domain containing protein, expressed
+CAMK_KIN1/SNF1/Nim1_like.27 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+ABC-2 type transporter domain containing protein, expressed
+acylphosphatase, putative, expressed
+OsFBK19 - F-box domain and kelch repeat containing protein, expressed
+cytochrome c oxidase assembly protein COX15, putative, expressed
+GIY-YIG catalytic domain containing protein, putative, expressed
+importin subunit beta, putative, expressed
+histone H3, putative, expressed
+thymidylate kinase, putative, expressed
+DNA-directed RNA polymerase 3A, chloroplast precursor, putative, expressed
+phosphotransferase, putative, expressed
+basic helix-loop-helix DND-binding domain containing protein, expressed
+ara54-like RING finger protein, putative, expressed
+EXS family protein, putative, expressed
+ariadne-1, putative, expressed
+STE_MEKK_ste11_MAP3K.15 - STE kinases include homologs to sterile 7, sterile 11 and sterile 20 from yeast, expressed
+ubiquitin-like protein 5, putative, expressed
+peroxisomal biogenesis factor 19, putative, expressed
+endoplasmic reticulum-Golgi intermediate compartment protein 3, putative, expressed
+myb-like DNA-binding domain containing protein, expressed
+integral membrane protein, putative, expressed
+pre-mRNA-splicing factor, putative, expressed
+brefeldin A-sensitive Golgi protein-like, putative, expressed
+endo-1,3;1,4-beta-D-glucanase precursor, putative, expressed
+DNA-directed RNA polymerase III subunit RPC9, putative, expressed
+translationally-controlled tumor protein, putative, expressed
+CGMC_MAPKCGMC_2_ERK.2 - CGMC includes CDA, MAPK, GSK3, and CLKC kinases, expressed
+WD repeat-containing protein 5, putative, expressed
+RPA2B - Putative single-stranded DNA binding complex subunit 2, expressed
+MDR-like ABC transporter, putative, expressed
+rhodanese, putative, expressed
+succinate dehydrogenase flavoprotein subunit,mitochondrial precursor, putative, expressed
+OsMADS68 - MADS-box family gene with MIKC* type-box, expressed
+aconitate hydratase protein, putative, expressed
+ubiquitin carboxyl-terminal hydrolase, putative, expressed
+ribosomal L18p/L5e family protein, putative, expressed
+OsFBX206 - F-box domain containing protein, expressed
+MMP37-like protein, mitochondrial precursor, putative
+serine/threonine-protein kinase 19, putative, expressed
+cytidylyltransferase domain containing protein, expressed
+amino acid kinase, putative, expressed
+ligatin, putative, expressed
+copper/zinc superoxide dismutase, putative, expressed
+profilin domain containing protein, expressed
+DNA-directed RNA polymerase II subunit RPB9, putative, expressed
+39S ribosomal protein L46, mitochondrial precursor, putative, expressed
+signal recognition particle 43 kDa protein, chloroplast precursor, putative, expressed
+OsSCP39 - Putative Serine Carboxypeptidase homologue, expressed
+phosphatidylinositol 3-kinase, root isoform, putative, expressed
+XPA-binding protein 2, putative, expressed
+COX VIIa, putative, expressed
+peptidase, T1 family, putative
+60S ribosomal protein L22-2, putative, expressed
+aldehyde oxidase, putative, expressed
+IQ calmodulin-binding and BAG domain containing protein, putative, expressed
+enhancer of polycomb, putative, expressed
+thioredoxin reductase 2, putative, expressed
+CTP synthase, putative, expressed
+DNA-directed RNA polymerase III subunit RPC1, putative, expressed
+ankyrin repeat family protein, putative, expressed
+HMG1/2, putative, expressed
+choline/ethanolamine kinase, putative
+lecithine cholesterol acyltransferase, putative, expressed
+outer membrane protein, OMP85 family, putative, expressed
+RNase P subunit p30, putative
+sulfate transporter 4.1, chloroplast precursor, putative, expressed
+LIM domain-containing protein, putative, expressed
+shwachman-Bodian-Diamond syndrome protein, putative, expressed
+O-acyltransferase, putative, expressed
+hydrolase, alpha/beta fold family protein, putative, expressed
+OsFBX61 - F-box domain containing protein, expressed
+heavy metal-associated domain containing protein
+jmjC domain-containing protein 5, putative
+ribosomal protein L29, putative, expressed
+methyl-binding domain protein MBD, putative, expressed
+beta-glucan-binding protein 4, putative, expressed
+superoxide dismutase, mitochondrial precursor, putative, expressed
+UBA/TS-N domain containing protein, expressed
+glycyl-tRNA synthetase 2, chloroplast/mitochondrial precursor, putative, expressed
+tRNA-dihydrouridine synthase, putative, expressed
+D-tyrosyl-tRNA, putative, expressed
+40S ribosomal protein S13, putative, expressed
+AP-1 complex subunit gamma-1, putative, expressed
+adhesion regulating molecule family, putative, expressed
+imidazole glycerol phosphate synthase hisHF, chloroplast precursor, putative, expressed
+polygalacturonase, putative, expressed
+thiamine-repressible mitochondrial transport protein THI74, putative, expressed
+respiratory burst oxidase protein B, putative, expressed
+dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex, mitochondrial precursor, putative, expressed
+OsFBO3 - F-box and other domain containing protein, expressed
+regulator of nonsense transcripts 1, putative, expressed
+ATKINESIN-13A/KINESIN-13A, putative, expressed
+serine/threonine-protein kinase SRPK1, putative, expressed
+MBTB48 - Bric-a-Brac, Tramtrack, Broad Complex BTB domain with Meprin and TRAF Homology MATH domain, expressed
+DVR, putative, expressed
+OsHKT1;4 - Na+ transporter, expressed
+dehydrogenase/reductase SDR family member 2, putative, expressed
+PHF5-like protein domain containing protein, expressed
+peroxisome assembly protein, putative, expressed
+soluble inorganic pyrophosphatase, putative, expressed
+PDV2, putative, expressed
+YIF1B, putative, expressed
+4-amino-4-deoxychorismate synthase, putative, expressed
+repressor of RNA polymerase III transcription MAF1, putative, expressed
+leucine rich repeat domain containing protein, putative, expressed
+initiation factor 2 subunit family domain containing protein, expressed
+EF hand family protein, putative, expressed
+GA17271-PA, putative, expressed
+OsFBL27 - F-box domain and LRR containing protein, expressed
+phosphoenolpyruvate carboxylase, putative, expressed
+ufm1-conjugating enzyme 1, putative, expressed
+kelch repeat protein, putative, expressed
+OsGH3.5 - Probable indole-3-acetic acid-amido synthetase, expressed
+methyl-CpG binding domain containing protein
+acyl carrier protein, putative, expressed
+FRA10AC1, putative, expressed
+pre-mRNA-processing-splicing factor 8, putative, expressed
+MSH-like DNA mismatch repair protein, putative
+pre-mRNA cleavage complex II protein Clp1, putative, expressed
+oligosaccharyl transferase, putative, expressed
+DAG protein, chloroplast precursor, putative, expressed
+DRD1, putative, expressed
+cell division inhibitor, putative, expressed
+DUF260 domain containing protein, putative
+alpha-glucan phosphorylast isozyme, putative, expressed
+cell division cycle protein 23, putative, expressed
+ABC transporter, ATP-binding protein, putative, expressed
+sulfiredoxin-1, putative, expressed
+CDK-activating kinase assembly factor MAT1 family protein, expressed
+cyclin, putative, expressed
+NAC domain containing protein, putative
+CBS domain containing protein, expressed
+membrane protein, putative, expressed
+early-responsive to dehydration protein-related, putative, expressed
+ATP binding protein, putative, expressed
+protein transport protein Sec61 subunit alpha, putative, expressed
+tetratricopeptide repeat containing protein, putative, expressed
+signal recognition particle 72 kDa protein, putative, expressed
+invertase/pectin methylesterase inhibitor family protein, putative, expressed
+vesicle transport protein GOT1B, putative, expressed
+phospholipase D, putative, expressed
+IKI3 family protein, expressed
+OsLonP2 - Putative Lon protease homologue, expressed
+RNA polymerase II transcriptional coactivator KIWI, putative, expressed
+transcription factor IIA large subunit, putative, expressed
+phytoene dehydrogenase-like, putative, expressed
+FAD binding domain containing protein, expressed
+CESA1 - cellulose synthase, expressed
+cytochrome P450, putative
+OsPOP21 - Putative Prolyl Oligopeptidase homologue, expressed
+transmembrane anterior posterior transformation 1, putative, expressed
+TOC159, putative, expressed
+acyl-CoA thioesterase 2, putative, expressed
+deoxyhypusine synthase, putative, expressed
+2-nitropropane dioxygenase family, putative, expressed
+WRKY transcription factor, putative, expressed
+SCAR-like protein 1, putative, expressed
+ATPase BadF/BadG/BcrA/BcrD type, putative, expressed
+uridine/cytidine kinase-like 1, putative, expressed
+protein of unknown function DUF1675 domain containing protein, expressed
+HSPC171 protein, putative, expressed
+glyoxalase family protein, putative, expressed
+signal recognition particle 68 kDa protein, putative, expressed
+tim44-like domain containing protein, expressed
+inositol-3-phosphate synthase, putative, expressed
+GDSL-like lipase/acylhydrolase, putative, expressed
+ATP-dependent helicase HRQ1, putative, expressed
+suppressor of Mek, putative, expressed
+AGC_AGC_other_NDRh_TRCd.2 - ACG kinases include homologs to PKA, PKG and PKC, expressed
+potassium channel KAT1, putative, expressed
+calcium-transporting ATPase, plasma membrane-type, putative, expressed
+zinc knuckle family protein, putative, expressed
+MSP domain containing protein, expressed
+helicase, putative, expressed
+dihydrolipoyl dehydrogenase, mitochondrial precursor, putative, expressed
+SET domain containing protein, expressed
+outer envelope protein, putative, expressed
+SIT4 phosphatase-associated protein domain containing protein, expressed
+beclin-1, putative
+SCAR-like protein 2, putative, expressed
+ribosomal protein, putative, expressed
+2,3-bisphosphoglycerate-independent phosphoglycerate mutase, putative, expressed
+endothelial differentiation-related factor 1, putative, expressed
+RIN3, putative, expressed
+26S protease regulatory subunit 6A, putative, expressed
+glycine-rich protein, putative, expressed
+nuclear transcription factor Y subunit, putative, expressed
+pyruvate, phosphate dikinase, chloroplast precursor, putative, expressed
+fiber protein Fb15, putative, expressed
+RNA polymerase I specific transcription initiation factor RRN3 family protein, putative, expressed
+hus1-like protein, expressed
+aspartate carbamoyltransferase, putative, expressed
+ER lumen protein retaining receptor, putative, expressed
+SSA2 - 2S albumin seed storage family protein precursor, putative, expressed
+E2F family transcription factor protein, putative, expressed
+elongator complex protein 3, putative, expressed
+OsFBX77 - F-box domain containing protein, expressed
+tRNA 2-phosphotransferase 1, putative, expressed
+ATFUC1, putative, expressed
+cyclase/dehydrase family protein, expressed
+formyl transferase, putative, expressed
+retrotransposon protein, putative, SINE subclass, expressed
+radical SAM enzyme, putative, expressed
+exosome complex exonuclease RRP40, putative, expressed
+TPD1, putative, expressed
+retrotransposon, putative, centromere-specific, expressed
+pex14, putative, expressed
+biotin--protein ligase, putative, expressed
+oxidoreductase domain protein, putative, expressed
+disease resistance protein RPM1, putative, expressed
+glucosyltransferase-11, putative
+GA16396-PA, putative, expressed
+glucan endo-1,3-beta-glucosidase precursor, putative, expressed
+60S ribosomal protein, putative, expressed
+OsMADS16 - MADS-box family gene with MIKCc type-box, expressed
+PSF2 - Putative GINS complex subunit, expressed
+trafficking protein particle complex subunit, putative, expressed
+tubulin-specific chaperone A, putative, expressed
+MCM2 - Putative minichromosome maintenance MCM complex subunit 2, expressed
+cyclin-dependent kinase F-1, putative, expressed
+OsFBX154 - F-box domain containing protein, expressed
+single myb histone, putative, expressed
+conserved hypothetical protein
+OsNucAP1 - Putative Nucleoporin Autopeptidase homologue, expressed
+AP2-associated protein kinase 1, putative, expressed
+protein of unknown function, DUF618 domain containing protein, expressed
+polyprenyl synthetase, putative, expressed
+ZOS9-20 - C2H2 zinc finger protein, expressed
+CGMC_MAPKCMGC_2_SLT2y_ERK.1 - CGMC includes CDA, MAPK, GSK3, and CLKC kinases, expressed
+OsLonP3 - Putative Lon protease homologue, expressed
+aspartokinase, chloroplast precursor, putative, expressed
+leucine-rich repeat receptor protein kinase EXS precursor, putative, expressed
+SFT2, putative, expressed
+vesicle tethering family protein, putative, expressed
+molybdenum cofactor synthesis protein 2 large subunit, putative, expressed
+semialdehyde dehydrogenase, NAD binding domain containing protein, putative, expressed
+SCC3, putative, expressed
+dual specificity protein phosphatase, putative, expressed
+CDK5RAP3, putative, expressed
+transcription initiation factor IIA gamma chain, putative, expressed
+lung seven transmembrane domain containing protein, putative, expressed
+ZOS6-08 - C2H2 zinc finger protein, expressed
+SSE1, putative, expressed
+sex determination protein tasselseed-2, putative, expressed
+pleiotropic drug resistance protein, putative, expressed
+OsMADS14 - MADS-box family gene with MIKCc type-box, expressed
+Ser/Thr protein kinase, putative
+nuclear-pore anchor, putative, expressed
+phosphomethylpyrimidine kinase/thiamin-phosphate pyrophosphorylase, putative, expressed
+TCP family transcription factor, putative, expressed
+UDP-glucuronate 4-epimerase, putative, expressed
+serine palmitoyltransferase 2, putative, expressed
+phenazine biosynthesis protein, putative, expressed
+EMB1688, putative, expressed
+26S protease regulatory subunit 4, putative, expressed
+eukaryotic peptide chain release factor subunit 1-1, putative, expressed
+L-ascorbate oxidase precursor, putative, expressed
+uncharacterized protein ycf53, putative, expressed
+MA3 domain containing protein, expressed
+nucleoside transporter, putative, expressed
+DNA mismatch repair protein MSH6-2, putative, expressed
+OsPDIL1-1  protein disulfide isomerase PDIL1-1, expressed
+L-allo-threonine aldolase, putative, expressed
+3-ketoacyl-CoA synthase, putative, expressed
+STIP1 homology and U box-containing protein 1, putative, expressed
+beta-galactosidase 8 precursor, putative, expressed
+serine/threonine protein phosphatase 5, putative, expressed
+serine threonine kinase, putative, expressed
+syntaxin-related protein, putative, expressed
+serine/threonine protein phosphatase 2A 55 kDa regulatory subunit B, putative, expressed
+hydroxymethylglutaryl-CoA synthase, putative, expressed
+rab5-interacting protein like, putative, expressed
+bifunctional purine biosynthesis protein purH, putative, expressed
+OsClp11 - Putative Clp protease homologue, expressed
+DNA polymerase I, putative, expressed
+double-stranded RNA binding motif containing protein, expressed
+signal recognition particle 14 kDa protein, putative, expressed
+imidazoleglycerol-phosphate dehydratase, putative, expressed
+serine/threonine-protein kinase HT1, putative, expressed
+NADH dehydrogenase 1 alpha subcomplex subunit 13, putative, expressed
+vacuolar protein sorting-associated protein 52, putative, expressed
+tRNA synthetase, putative, expressed
+U2 small nuclear ribonucleoprotein A, putative, expressed
+stage II sporulation protein E, putative
+OsMADS76 - MADS-box family gene with M-alpha type-box, expressed
+HD domain containing protein 2, putative, expressed
+bacterial transferase hexapeptide domain containing protein, expressed
+ZOS5-03 - C2H2 zinc finger protein, expressed
+proteasome-related, putative, expressed
+activator of 90 kDa heat shock protein ATPase homolog, putative, expressed
+pumilio-family RNA binding protein, putative, expressed
+RPA3 - Putative single-stranded DNA binding complex subunit 3, expressed
+MTD1, putative, expressed
+eukaryotic translation initiation factor 3 subunit H, putative, expressed
+tetratricopeptide repeat protein 1, putative, expressed
+protein transporter, putative, expressed
+serine/threonine-protein phosphatase 2A regulatory subunit B subunitbeta, putative, expressed
+outer membrane protein, OMP85 family protein, expressed
+OsFBK22 - F-box domain and kelch repeat containing protein, expressed
+WIP3 - Wound-induced protein precursor, expressed
+MBTB14 - Bric-a-Brac, Tramtrack, Broad Complex BTB domain with Meprin and TRAF Homology MATH domain, expressed
+pleckstrin homology domain-containing protein, putative, expressed
+ras-related protein, putative, expressed
+ATP phosphoribosyltransferase, putative, expressed
+nucleotide pyrophosphatase/phosphodiesterase, putative, expressed
+phosphoacetylglucosamine mutase, putative, expressed
+26S proteasome non-ATPase regulatory subunit 3, putative, expressed
+ankyrin repeat-containing protein, putative, expressed
+phosphofructokinase, putative, expressed
+vesicle transport v-SNARE protein, putative, expressed
+seven in absentia protein family domain containing protein, expressed
+NADPH-dependent FMN reductase domain containing protein, expressed
+histidinol dehydrogenase, chloroplast precursor, putative, expressed
+tyrosyl-tRNA synthetase, putative, expressed
+2-dehydro-3-deoxyphosphooctonate aldolase, putative, expressed
+ubiquinone oxidoreductase, putative, expressed
+FHA domain containing protein, putative, expressed
+S-adenosylmethionine synthetase, putative, expressed
+SWIB/MDM2 domain containing protein, expressed
+60S ribosomal protein L19-3, putative, expressed
+OsIAA31 - Auxin-responsive Aux/IAA gene family member, expressed
+CCR4-NOT transcription factor, putative, expressed
+farnesyltransferase subunit beta, putative, expressed
+CDT1B - Putative DNA replication initiation protein, expressed
+UBA and UBX domain-containing protein, putative, expressed
+tyrosine phosphatase family protein, putative, expressed
+casein kinase II subunit alpha-2, putative, expressed
+OsFBO1 - F-box and other domain containing protein, expressed
+serine racemase, putative, expressed
+nodulin, putative, expressed
+SWIRM domain containing protein, expressed
+toc64, putative, expressed
+oryzain gamma chain precursor, putative, expressed
+las1-like family protein, putative, expressed
+WD repeat-containing protein 12, putative, expressed
+26S protease regulatory subunit, putative, expressed
+ketol-acid reductoisomerase, chloroplast precursor, putative, expressed
+anthranilate synthase component I-1, chloroplast precursor, putative, expressed
+PSF1 - Putative GINS complex subunit, expressed
+AMP-binding enzyme, putative, expressed
+FAD dependent oxidoreductase domain containing protein, expressed
+40S ribosomal protein S15, putative, expressed
+beige/BEACH domain containing protein, expressed
+hydrolase, HAD superfamily, Cof family, putative, expressed
+C3-BTB1 - Bric-a-Brac, Tramtrack, Broad Complex BTB domain with C3 subfamily conserved sequence, expressed
+mutS family domain IV containing protein
+peptidyl-prolyl cis-trans isomerase, putative, expressed
+ankyrin repeat domain containing protein, putative, expressed
+STE_MEK_ste7_MAP2K.5 - STE kinases include homologs to sterile 7, sterile 11 and sterile 20 from yeast, expressed
+cyclin-dependent kinase B2-1, putative, expressed
+RNA 3-terminal phosphate cyclase, putative, expressed
+SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A, putative
+succinyl-CoA ligase subunit alpha-2, mitochondrial precursor, putative, expressed
+sin-like protein conserved region containing protein, expressed
+ATCHX20, putative, expressed
+chlorophyll A-B binding protein, putative, expressed
+erythronate-4-phosphate dehydrogenase, putative, expressed
+OsFBK17 - F-box domain and kelch repeat containing protein, expressed
+SNF7 domain containing protein, putative, expressed
+initiator tRNA phosphoribosyl transferase family protein, putative, expressed
+phosphatidylinositolglycan class N family protein, expressed
+amine oxidase-related, putative, expressed
+GLTP domain containing protein, putative, expressed
+ferrochelatase-2, chloroplast precursor, putative, expressed
+CRAL/TRIO domain containing protein, expressed
+plastid division regulator MinE, putative, expressed
+OsWAK80 - OsWAK receptor-like protein kinase, expressed
+CGMC_GSK.4 - CGMC includes CDA, MAPK, GSK3, and CLKC kinases, expressed
+palmitoyltransferase TIP1, putative, expressed
+1-phosphatidylinositol-4-phosphate 5-kinase/ zinc ion binding protein, putative, expressed
+ZOS4-12 - C2H2 zinc finger protein, expressed
+histone-lysine N-methyltransferase, putative, expressed
+3-deoxy-D-manno-octulosonic-acid transferase, putative, expressed
+ORC5 - Putative origin recognition complex subunit 5, expressed
+two-component response regulator, putative, expressed
+SHR, putative, expressed
+ornithine carbamoyltransferase, putative, expressed
+OsIAA4 - Auxin-responsive Aux/IAA gene family member, expressed
+9-cis-epoxycarotenoid dioxygenase 1, chloroplast precursor, putative, expressed
+Zinc finger, C3HC4 type domain containing protein, expressed
+OsDegp5 - Putative Deg protease homologue, expressed
+tumor necrosis factor superfamily, member 5-induced protein 1, putative, expressed
+protein phosphatase 1 regulatory subunit SDS22, putative, expressed
+glycosyl hydrolases family 16, putative, expressed
+NAD binding domain of 6-phosphogluconate dehydrogenase containing protein, expressed
+DEFL9 - Defensin and Defensin-like DEFL family, expressed
+leucine-rich repeat family protein, putative, expressed
+tyrosine-specific transport protein, putative, expressed
+cyanate hydratase, putative, expressed
+BCAS2 protein, putative, expressed
+peptidyl-prolyl cis-trans isomerase-like 4, putative, expressed
+chaperonin, putative, expressed
+cyclin G-associated kinase, putative, expressed
+oxidoreductase, aldo/keto reductase family protein, putative, expressed
+NPL4, putative, expressed
+L11 domain containing ribosomal protein, putative, expressed
+immature colon carcinoma transcript 1 protein precursor, putative, expressed
+40S ribosomal protein S25, putative, expressed
+heat shock protein binding protein, putative, expressed
+ATP-dependent RNA helicase DHX36, putative, expressed
+elongation factor 1-gamma, putative, expressed
+OsFBO23 - F-box and other domain containing protein
+DNA-directed RNA polymerase II subunit RPB7, putative, expressed
+CWC15 homolog A, putative, expressed
+adenylyl-sulfate kinase, putative, expressed
+ATP-dependent Clp protease ATP-binding subunit clpA homolog CD4B,chloroplast precursor, putative, expressed
+DUF292 domain containing protein, expressed
+tRNA uridine 5-carboxymethylaminomethyl modification enzyme gidA, putative, expressed
+HOTHEAD precursor, putative, expressed
+EF hand family protein, putative
+Kinesin motor domain domain containing protein, expressed
+uncharacterized protein CPn_0526/CP_0226/CPj0526/CpB0547, putative, expressed
+CAMK_KIN1/SNF1/Nim1_like_AMPKh.3 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+Mur ligase family protein, putative, expressed
+pollen-specific protein SF21, putative, expressed
+acyl-CoA dehydrogenase family member 10, putative, expressed
+40S ribosomal protein S27, putative
+paxneb-related protein, putative, expressed
+mitochondrial carrier protein, putative
+zinc finger CCCH-type with G patch domain-containing protein, putative, expressed
+60S ribosomal protein L18a, putative, expressed
+tropinone reductase, putative
+sucrose transporter BoSUT1, putative, expressed
+CCR4-Not complex component, Not1domain containing protein, expressed
+ZOS1-10 - C2H2 zinc finger protein, expressed
+conserved oligomeric complex COG6 family protein, expressed
+carboxyvinyl-carboxyphosphonate phosphorylmutase, putative, expressed
+gamma response I protein, putative, expressed
+asparagine synthase family protein, expressed
+hydrolase/ zinc ion binding protein, putative, expressed
+DNA topoisomerase 3 protein, putative, expressed
+endonuclease/exonuclease/phosphatase family protein, putative, expressed
+ATP10 protein, expressed
+STE_PAK_Ste20_Slob_Wnk.3 - STE kinases include homologs to sterile 7, sterile 11 and sterile 20 from yeast, expressed
+SEC14 cytosolic factor family protein, putative, expressed
+unc-50, putative, expressed
+fumarate hydratase, mitochondrial precursor, putative, expressed
+anaphase-promoting complex subunit 11, putative, expressed
+eukaryotic translation initiation factor 3 subunit K, putative, expressed
+S-locus-like receptor protein kinase, putative, expressed
+ZOS8-12 - C2H2 zinc finger protein, expressed
+mRNA-capping enzyme, putative, expressed
+prefoldin subunit, putative, expressed
+translation initiation factor SUI1, putative, expressed
+hhH-GPD superfamily base excision DNA repair protein, putative
+SURF1, putative, expressed
+GDP-mannose 4,6 dehydratase 2, putative, expressed
+Alpha amylase, catalytic domain containing protein, expressed
+dihydroorotate dihydrogenase protein, putative, expressed
+ZOS7-13 - C2H2 zinc finger protein, expressed
+utp14 protein, putative, expressed
+nucleic acid binding protein, putative, expressed
+OsFBO9 - F-box and other domain containing protein, expressed
+dolichyl-diphosphooligosaccharide--protein glycosyltransferase 48 kDasubunit precursor, putative, expressed
+ATROPGEF7/ROPGEF7, putative, expressed
+methylcrotonoyl-CoA carboxylase subunit alpha, mitochondrial precursor, putative, expressed
+glycosyl hydrolases, putative, expressed
+ABC transporter, ATP-binding protein, putative
+DEAD/DEAH box helicase domain containing protein, expressed
+glycerophosphoryl diester phosphodiesterase family protein, putative, expressed
+P21-Rho-binding domain containing protein, putative, expressed
+dihydroflavonol-4-reductase, putative, expressed
+HEN1, putative, expressed
+ribosomal protein L6, putative, expressed
+nonsense-mediated mRNA decay protein 3, putative, expressed
+mitochondrial NADH-ubiquinone oxidoreductase, putative, expressed
+tRNA synthetases class II domain containing protein, expressed
+CK1_CaseinKinase_1.3 - CK1 includes the casein kinase 1 kinases, expressed
+ATPOT1, putative, expressed
+ZOS2-02 - C2H2 zinc finger protein, expressed
+GRF-interacting factor 1, putative, expressed
+zinc finger protein-related, putative, expressed
+hydrolase, NUDIX family, domain containing protein, expressed
+translation initiation factor IF-3, putative, expressed
+fructose-bisphospate aldolase isozyme, putative, expressed
+oxidoreductase, 2OG-Fe oxygenase family protein, putative, expressed
+mediator of RNA polymerase II transcription subunit 7, putative, expressed
+DCL3, putative, expressed
+GA18326-PA, putative, expressed
+basic helix-loop-helix, putative, expressed
+ubiquitin conjugating enzyme protein, putative, expressed
+OsSCP23 - Putative Serine Carboxypeptidase homologue, expressed
+erwinia induced protein 2, putative, expressed
+OsDegp8 - Putative Deg protease homologue, expressed
+ribonucleoside-diphosphate reductase large subunit, putative, expressed
+rRNA-processing protein EBP2, putative, expressed
+queuine tRNA-ribosyltransferase, putative, expressed
+START domain containing protein, expressed
+SLD5 - Putative GINS complex subunit, expressed
+DNA topoisomerase 2, putative, expressed
+DEAD-box ATP-dependent RNA helicase 40, putative, expressed
+glutathione S-transferase, putative, expressed
+ASC1, putative, expressed
+OsSigP3 - Putative Type I Signal Peptidase homologue; employs a putative Ser/Lys catalytic dyad, expressed
+DNA repair protein Rad51, putative, expressed
+alveolar soft part sarcoma chromosome region, candidate 1, putative, expressed
+1-aminocyclopropane-1-carboxylate deaminase, putative, expressed
+cornichon protein, putative, expressed
+ORC1 - Putative origin recognition complex subunit 1, expressed
+phycoerythrobilin ferredoxin oxidoreductase, putative, expressed
+tRNA-binding arm, putative, expressed
+choline/ethanolamine kinase, putative, expressed
+ribosomal protein L7/L12 C-terminal domain containing protein, expressed
+prenyltransferase, putative, expressed
+GPI-anchored wall transfer protein 1, putative, expressed
+DSHCT domain containing protein, expressed
+retrotransposon protein, putative, Ty3-gypsy subclass, expressed
+splicing factor 3B subunit 1, putative, expressed
+adenylosuccinate synthetase, chloroplast precursor, putative, expressed
+acetyl-CoA carboxylase, putative, expressed
+Dicer, putative, expressed
+AGC_PVPK_like_kin82y.19 - ACG kinases include homologs to PKA, PKG and PKC, expressed
+homeobox protein knotted-1-like 6, putative, expressed
+ZOS9-04 - C2H2 zinc finger protein
+protein-S-isoprenylcysteine O-methyltransferase. tax, putative, expressed
+argonaute, putative, expressed
+glutaminyl-tRNA synthetase, putative, expressed
+pre-mRNA-processing factor 6, putative, expressed
+RNA polymerase II-associated protein 3, putative, expressed
+vacuolar protein sorting-associated protein 35, putative, expressed
+NAD dependent epimerase/dehydratase family protein, putative, expressed
+rab geranylgeranyl transferase like protein, putative, expressed
+GTP-binding protein, putative, expressed
+RNA-binding protein-like, putative, expressed
+eukaryotic translation initiation factor 3 subunit C, putative, expressed
+trafficking protein particle complex subunit 4, putative, expressed
+ORM1, putative, expressed
+cyclophilin, putative, expressed
+katanin p80 WD40 repeat-containing subunit B1 homolog 1, putative, expressed
+kinase, pfkB family, putative, expressed
+leucine rich repeat containing protein, expressed
+WD repeat-containing protein, putative, expressed
+ethylene-responsive element-binding protein, putative, expressed
+sufB/sufD domain containing protein, putative, expressed
+CAMK_CAMK_like_ULKh_APGy.2 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+cytochrome b-c1 complex subunit Rieske, mitochondrial precursor, putative, expressed
+KH domain-containing protein, putative, expressed
+pheophorbide a oxygenase, chloroplast precursor, putative, expressed
+5-formyltetrahydrofolate cyclo-ligase, putative, expressed
+RPA2A - Putative single-stranded DNA binding complex subunit 2, expressed
+PINHEAD, putative, expressed
+CAMK_KIN1/SNF1/Nim1_like_AMPKh.4 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+fimbrin-like protein 2, putative, expressed
+transposon protein, putative, unclassified, expressed
+ATP/GTP/Ca++ binding protein, putative, expressed
+deoxyuridine 5-triphosphate nucleotidohydrolase, putative, expressed
+puromycin-sensitive aminopeptidase, putative, expressed
+protoporphyrinogen oxidase, chloroplast precursor, putative, expressed
+MATE efflux family protein, putative, expressed
+Ser/Thr protein phosphatase family protein, expressed
+NFKB, putative, expressed
+division protein, putative, expressed
+osFTL1  FT-Like1 homologous to Flowering Locus T  gene; contains Pfam profile PF01161: Phosphatidylethanolamine-binding protein, expressed
+STE_MEKK_ste11_MAP3K.9 - STE kinases include homologs to sterile 7, sterile 11 and sterile 20 from yeast, expressed
+choline transporter-related, putative, expressed
+response regulator receiver domain containing protein, expressed
+SEC6, putative, expressed
+cupin superfamily protein, putative, expressed
+allantoin permease, putative, expressed
+Cyclopropane-fatty-acyl-phospholipid synthase, putative, expressed
+ATGRIP/GRIP, putative, expressed
+POLA2 - Putative DNA polymerase alpha complex subunit, expressed
+CGMC_MAPKCMGC_2_ERK.13 - CGMC includes CDA, MAPK, GSK3, and CLKC kinases, expressed
+POLA4 - Putative DNA polymerase alpha complex subunit, expressed
+retinoblastoma-binding protein-like, putative, expressed
+eukaryotic translation initiation factor 3 subunit B, putative, expressed
+serine/threonine-protein kinase PRP4, putative, expressed
+cyclin-dependent kinase A-1, putative, expressed
+multidrug resistance protein, putative, expressed
+vacuolar ATP synthase subunit C, putative, expressed
+prephenate dehydratase domain containing protein, expressed
+UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase SPINDLY, putative, expressed
+chloride channel protein, putative, expressed
+BTBA2 - Bric-a-Brac,Tramtrack, Broad Complex BTB domain with Ankyrin repeat region, expressed
+OsMADS6 - MADS-box family gene with MIKCc type-box, expressed
+ORC2 - Putative origin recognition complex subunit 2, expressed
+YL1 nuclear protein C-terminal domain containing protein, expressed
+transcription initiation factor IID, putative, expressed
+actin-related protein 2/3 complex subunit 4, putative, expressed
+KH domain containing protein, putative, expressed
+ATMAK10, putative, expressed
+CGMC_GSK.2 - CGMC includes CDA, MAPK, GSK3, and CLKC kinases, expressed
+cwfJ-like family protein, putative, expressed
+AGC_PVPK_like_kin82y.16 - ACG kinases include homologs to PKA, PKG and PKC, expressed
+myb-like DNA-binding domain containing protein, putative, expressed
+DNA repair protein RAD51 homolog 4, putative, expressed
+transcriptional corepressor LEUNIG, putative, expressed
+C-Myc-binding protein, putative, expressed
+AGAP009532-PA, putative, expressed
+N-acetylglucosaminyl-phosphatidylinositol de-N-acetylase, putative, expressed
+HIT zinc finger domain containing protein, expressed
+40S ribosomal protein S6, putative, expressed
+ribonuclease protein, putative, expressed
+FACT complex subunit SPT16, putative, expressed
+ubiquitin fusion degradation protein, putative, expressed
+no apical meristem protein, putative, expressed
+aldehyde dehydrogenase, putative, expressed
+proline oxidase, mitochondrial precursor, putative, expressed
+exocyst complex component 6, putative, expressed
+coatomer subunit epsilon, putative, expressed
+transcription factor-related, putative, expressed
+uncharacterized protein PA4923, putative, expressed
+signal peptide peptidase domain containing protein, expressed
+T-complex protein, putative, expressed
+starch binding domain containing protein, putative, expressed
+ATG1, putative, expressed
+serine hydroxymethyltransferase, mitochondrial precursor, putative, expressed
+OsGrx_C3 - glutaredoxin subgroup I, expressed
+6-phosphogluconolactonase, putative, expressed
+OsFBO16 - F-box and other domain containing protein, expressed
+rab GDP dissociation inhibitor alpha, putative, expressed
+OsPOP5 - Putative Prolyl Oligopeptidase homologue, expressed
+YDG/SRA domain containing protein, expressed
+drought induced 19 protein, putative, expressed
+seed maturation protein PM27, putative, expressed
+catalase isozyme B, putative, expressed
+OsMADS27 - MADS-box family gene with MIKCc type-box, expressed
+O-methyltransferase, putative, expressed
+ubiquitin family domain containing protein, expressed
+cysteine synthase, putative, expressed
+CAMK_KIN1/SNF1/Nim1_like.15 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+ubiquitin-activating enzyme, putative, expressed
+anti-silencing protein, ASF1-like domain containing protein, expressed
+transcription initiation factor TFIID subunit 11, putative, expressed
+tRNAHis guanylyltransferase family protein, expressed
+stromal membrane-associated protein, putative, expressed
+3-5 exoribonuclease CSL4, putative, expressed
+serine/threonine-protein kinase receptor precursor, putative, expressed
+exosome complex exonuclease, putative, expressed
+guanine nucleotide exchange factor, putative, expressed
+PPR repeat domain containing protein, putative, expressed
+BTBN2 - Bric-a-Brac, Tramtrack, Broad Complex BTB domain with non-phototropic hypocotyl 3 NPH3 and coiled-coil domains, expressed
+COP9 signalosome complex subunit 6a, putative, expressed
+OsFBK15 - F-box domain and kelch repeat containing protein, expressed
+DTW domain containing protein, putative, expressed
+CPuORF39 - conserved peptide uORF-containing transcript, expressed
+spermatogenesis-associated protein 20 precursor, putative, expressed
+poly synthetase 2-A, putative, expressed
+60S ribosomal protein L44, putative, expressed
+DIE2/ALG10 family, putative, expressed
+dehydrogenase, putative
+BCCIP, putative, expressed
+universal stress protein domain containing protein, putative, expressed
+exportin-7-A, putative, expressed
+40S ribosomal protein S21, putative, expressed
+SR repressor protein, putative, expressed
+26S proteasome non-ATPase regulatory subunit 8, putative, expressed
+3-hydroxybutyryl-CoA dehydrogenase, putative, expressed
+glycosyl hydrolases family 17, putative, expressed
+SUMO protease, putative, expressed
+ribosomal protein L13, putative, expressed
+pob, putative, expressed
+apoptosis-inducing factor 2, putative, expressed
+anthocyanidin 3-O-glucosyltransferase, putative, expressed
+Mak16 protein domain containing protein, expressed
+cysteine desulfurase 1, mitochondrial precursor, putative, expressed
+helix-loop-helix DNA-binding protein, putative
+timeless protein, expressed
+vacuolar ATP synthase subunit D 1, putative, expressed
+glutathione S-transferase, N-terminal domain containing protein, expressed
+acyl CoA binding protein, putative
+eukaryotic translation initiation factor 2A, putative, expressed
+sarcoma antigen NY-SAR-91, putative, expressed
+WD-40 repeat family protein, putative, expressed
+N-terminal asparagine amidohydrolase, putative, expressed
+metallo-beta-lactamase family protein, putative, expressed
+nascent polypeptide-associated complex subunit alpha-like protein 3, putative, expressed
+copper chaperone for superoxide dismutase, putative, expressed
+HECT-domain domain containing protein, expressed
+transporter family protein, putative, expressed
+CAMK_CAMK_like.36 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+Skp1 family, dimerisation domain containing protein, expressed
+CESA5 - cellulose synthase, expressed
+GA18008-PA, putative, expressed
+KIP1, putative, expressed
+bromodomain containing protein, expressed
+DEAD-box ATP-dependent RNA helicase 30, putative, expressed
+malonyl-CoA decarboxylase, mitochondrial precursor, putative, expressed
+josephin, putative, expressed
+postsynaptic protein CRIPT, putative, expressed
+porphobilinogen deaminase, chloroplast precursor, putative, expressed
+12-oxophytodienoate reductase, putative, expressed
+GAMM1 protein-like, putative, expressed
+isoflavone reductase, putative, expressed
+serine/threonine-protein kinase TOUSLED, putative, expressed
+sec20 domain containing protein, expressed
+phenylalanine ammonia-lyase, putative, expressed
+triacylglycerol lipase 1 precursor, putative, expressed
+nicalin, putative, expressed
+dihydroxy-acid dehydratase, putative, expressed
+diphthamide biosynthesis protein 3, putative, expressed
+ribosome biogenesis regulatory protein, putative, expressed
+BTBZ2 - Bric-a-Brac, Tramtrack, and Broad Complex BTB domain with TAZ zinc finger and Calmodulin-binding domains, expressed
+STE_MEKK_ste11_MAP3K.12 - STE kinases include homologs to sterile 7, sterile 11 and sterile 20 from yeast, expressed
+SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily B member 1, putative, expressed
+staphylococcal nuclease homologue, putative, expressed
+cytochrome P450 72A1, putative
+60S ribosomal protein L28-1, putative, expressed
+lipid phosphatase protein, putative, expressed
+BUD13, putative, expressed
+GATA zinc finger domain containing protein
+cullin, putative, expressed
+S-formylglutathione hydrolase, putative, expressed
+glucose-6-phosphate 1-dehydrogenase, cytoplasmic isoform, putative, expressed
+MSP domain containing protein, putative, expressed
+CPuORF5 - conserved peptide uORF-containing transcript, expressed
+CAMK_CAMK_like.46 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+LYR motif containing protein, putative
+mitochondrial-processing peptidase subunit, mitochondrial precursor, putative, expressed
+RNA polymerase Rpc34 subunit family protein, expressed
+Methyltransferase small domain containing protein, expressed
+SAP domain-containing protein, putative, expressed
+P-protein, putative, expressed
+protein phosphatase inhibitor 2 containing protein, expressed
+pectinacetylesterase domain containing protein, expressed
+phytochrome A-associated F-box protein, putative, expressed
+histone-lysine N-methyltransferase ASHR2, putative, expressed
+MCM5 - Putative minichromosome maintenance MCM complex subunit 5, expressed
+ATCPSF30/CPSF30, putative, expressed
+UDP-glucose 6-dehydrogenase, putative, expressed
+OsFBX202 - F-box domain containing protein
+DDT domain containing protein, putative, expressed
+DNA-directed RNA polymerase subunit, putative, expressed
+chaperone protein dnaJ 10, putative, expressed
+rho GDP-dissociation inhibitor 1, putative, expressed
+wibg, putative, expressed
+adaptin ear-binding coat-associated protein 2, putative, expressed
+ATP synthase delta chain, mitochondrial precursor, putative, expressed
+ctr copper transporter family protein, putative, expressed
+CAMK_CAMK_like.21 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+histone-like transcription factor and archaeal histone, putative, expressed
+potasium efflux antiporter protein, putative, expressed
+DUF1771 domain containing protein, putative, expressed
+OsClp7 - Putative Clp protease homologue, expressed
+TATA binding protein-associated factor, putative, expressed
+OsRR4  type-A response regulator, expressed
+tubulin-specific chaperone E, putative, expressed
+COBW domain containing protein, putative, expressed
+auxin response factor 75, putative, expressed
+zinc-finger protein, putative, expressed
+protein phosphatase 2C, putative, expressed
+cyclin-T1-4, putative, expressed
+homeobox domain containing protein, expressed
+mitotic spindle checkpoint protein MAD2, putative, expressed
+mov34/MPN/PAD-1 family protein, expressed
+polypyrimidine tract-binding protein, putative, expressed
+OsFBX133 - F-box domain containing protein, expressed
+IscA-like iron-sulfur assembly protein, mitochondrial precursor, putative, expressed
+farnesyltransferase/geranylgeranyltransferase type-1 subunitalpha, putative, expressed
+ATP-citrate synthase subunit 1, putative, expressed
+RNA-binding motif protein, putative, expressed
+L-asparaginase precursor protein, putative, expressed
+malonyl CoA-acyl carrier protein transacylase, mitochondrial precursor, putative, expressed
+rabGAP/TBC domain-containing protein, putative, expressed
+CYPRO4, putative, expressed
+ORC4 - Putative origin recognition complex subunit 4, expressed
+dehydrogenase, putative, expressed
+miro, putative, expressed
+OsFBX388 - F-box domain containing protein
+60S ribosomal protein L8, putative, expressed
+TMS membrane protein/tumour differentially expressed protein, putative, expressed
+stromal cell-derived factor 2-like protein precursor, putative, expressed
+chromatin modification-related protein EAF3, putative, expressed
+mediator of RNA polymerase II transcription subunit 6, putative, expressed
+ubiquitin interaction motif-containing protein, putative, expressed
+small G protein family protein, putative, expressed
+GTPase of unknown function domain containing protein, putative, expressed
+40S ribosomal protein S5, putative, expressed
+transcription initiation factor IID, 18kD subunit family protein, expressed
+signal peptidase complex subunit 2, putative, expressed
+heavy metal-associated domain containing protein, expressed
+bolA, putative, expressed
+pyruvate kinase, putative, expressed
+dymeclin, putative, expressed
+DEAD-box ATP-dependent RNA helicase 52B, putative, expressed
+cytochrome P450, putative, expressed
+PHD-finger domain containing protein, putative, expressed
+wee1-like protein kinase, putative, expressed
+receptor-like protein kinase precursor, putative, expressed
+vacuolar ATP synthase, putative, expressed
+MBTB12 - Bric-a-Brac, Tramtrack, Broad Complex BTB domain with Meprin and TRAF Homology MATH domain, expressed
+vacuolar sorting protein, putative, expressed
+CCT/B-box zinc finger protein, putative, expressed
+vacuolar ATP synthase subunit F, putative, expressed
+glutamate decarboxylase, putative, expressed
+40S ribosomal protein S27a, putative, expressed
+SSXT protein, putative, expressed
+26S proteasome non-ATPase regulatory subunit 14, putative, expressed
+RNase L inhibitor protein-related, putative, expressed
+stage II sporulation protein E, putative, expressed
+FabA-like domain containing protein, expressed
+RFC4 - Putative clamp loader of PCNA, replication factor C subunit 4, expressed
+pinin/SDK/memA protein, putative, expressed
+transcription termination factor nusG family protein, expressed
+Os1bglu4 - beta-glucosidase-like protein without signal sequence, expressed
+uroporphyrinogen decarboxylase, putative, expressed
+ZOS9-03 - C2H2 zinc finger protein, expressed
+nucleolar protein family 6, putative, expressed
+1-deoxy-D-xylulose 5-phosphate reductoisomerase, chloroplast precursor, putative, expressed
+F-actin-capping protein subunit alpha, putative, expressed
+eukaryotic translation initiation factor 3 subunit D, putative, expressed
+chromatin-remodeling complex ATPase chain, putative, expressed
+heparanase-like protein precursor, putative, expressed
+plus-3 domain containing protein, expressed
+ferritin-1, chloroplast precursor, putative, expressed
+transcription factor, putative, expressed
+flavin-containing monooxygenase family protein, putative, expressed
+ubiquitin fusion protein, putative, expressed
+UBX domain-containing protein, putative, expressed
+surp module family protein, putative, expressed
+h/ACA ribonucleoprotein complex subunit 4, putative, expressed
+immunoglobulin/major histocompatibility complex, putative, expressed
+phosphoribosylaminoimidazole-succinocarboxamide synthase, chloroplast precursor, putative, expressed
+endoplasmic oxidoreductin-1 precursor, putative, expressed
+SUMO-activating enzyme subunit 2, putative, expressed
+mitochondrial-processing peptidase subunit alpha, mitochondrial precursor, putative, expressed
+prenylated rab acceptor, putative, expressed
+preprotein translocase subunit secA, chloroplast precursor, putative, expressed
+coproporphyrinogen III oxidase, chloroplast precursor, putative, expressed
+G-patch domain containing protein, expressed
+kinetochore protein, putative, expressed
+vacuolar ATP synthase 98 kDa subunit, putative, expressed
+NADP-dependent malic enzyme, putative, expressed
+alpha-soluble NSF attachment protein, putative, expressed
+trehalase precursor, putative, expressed
+phosphoribosylamine--glycine ligase, putative, expressed
+CAMK_KIN1/SNF1/Nim1_like.14 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+heat shock factor-binding protein 1, putative, expressed
+mitochondrial prohibitin complex protein 2, putative, expressed
+mitochondrial import inner membrane translocase subunit Tim17, putative, expressed
+SGS domain containing protein, expressed
+secretory carrier-associated membrane protein, putative, expressed
+molybdenum cofactor biosynthesis protein 1, putative, expressed
+mediator of RNA polymerase II transcription subunit 22, putative, expressed
+exocyst complex component 5, putative, expressed
+peroxiredoxin, putative, expressed
+CWF19-like 2, cell cycle control, putative, expressed
+CDC45B - Putative DNA replication initiation protein, expressed
+ankyrin, putative
+armadillo/beta-catenin-like repeat containing protein, expressed
+asparate aminotransferase, putative, expressed
+WD domain containing protein, putative, expressed
+AGC_PVPK_like_kin82y.10 - ACG kinases include homologs to PKA, PKG and PKC, expressed
+FAD-binding and arabino-lactone oxidase domains containing protein, putative, expressed
+DNA-directed RNA polymerase III subunit RPC8, putative, expressed
+40S ribosomal protein S26, putative, expressed
+bZIP transcription factor, putative, expressed
+purine permease, putative, expressed
+SNARE associated Golgi protein, putative, expressed
+SNF1-related protein kinase regulatory subunit beta-2, putative, expressed
+ABB1 - Ankyrin repeat region with 2 Bric-a-Brac, Tramtrack, Broad Complex BTB domains, expressed
+golgi transport complex protein-related, putative, expressed
+WD40-like domain containing protein, putative, expressed
+CDK5RAP1, putative, expressed
+lipase, putative, expressed
+arginyl-tRNA synthetase, putative, expressed
+glutamine synthetase, catalytic domain containing protein, expressed
+ELF3 protein, putative, expressed
+isocitrate lyase, putative, expressed
+Twin LOV 1, putative, expressed
+DNA-directed RNA polymerase 1B, mitochondrial precursor, putative, expressed
+rRNA 2-O-methyltransferase fibrillarin 2, putative, expressed
+40S ribosomal protein S10, putative, expressed
+hhH-GPD superfamily base excision DNA repair protein, putative, expressed
+recA protein, putative, expressed
+phospholipase C, putative, expressed
+transporter, monovalent cation:proton antiporter-2 family, putative, expressed
+ZOS9-19 - C2H2 zinc finger protein, expressed
+signal recognition particle receptor subunit beta, putative, expressed
+ribosomal protein L11 methyltransferase-related, putative, expressed
+CAMK_CAMK_like.9 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+FAD binding domain of DNA photolyase domain containing protein, expressed
+OsCam1-2 - Calmodulin, expressed
+AGC_PVPK_like_kin82y.2 - ACG kinases include homologs to PKA, PKG and PKC, expressed
+ankyrin repeat domain-containing protein 28, putative, expressed
+DEK C terminal domain containing protein, expressed
+OsWRKY71 - Superfamily of TFs having WRKY and zinc finger domains, expressed
+peptide deformylase, putative, expressed
+BTBT1 - Bric-a-Brac, Tramtrack, Broad Complex BTB domain with tetratricopeptide repeats, expressed
+DEAD-box ATP-dependent RNA helicase 7, putative, expressed
+trpH, putative, expressed
+OsMADS2 - MADS-box family gene with MIKCc type-box, expressed
+bifunctional thioredoxin reductase/thioredoxin, putative, expressed
+ferredoxin-dependent glutamate synthase, chloroplast precursor, putative, expressed
+CAMK_KIN1/SNF1/Nim1_like.26 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+aminotransferase, putative, expressed
+BSD domain-containing protein, putative, expressed
+iron-sulfur cluster assembly enzyme ISCU, mitochondrial precursor, putative, expressed
+CAX-interacting protein 4, putative, expressed
+xaa-Pro aminopeptidase, putative, expressed
+triosephosphate isomerase, chloroplast precursor, putative, expressed
+ankyrin repeat domain-containing protein 44, putative, expressed
+chalcone synthase, putative, expressed
+protein-L-isoaspartate O-methyltransferase, putative, expressed
+vacuolar-processing enzyme precursor, putative
+mitochondrial carrier protein, putative, expressed
+CorA-like magnesium transporter protein, putative, expressed
+cytochrome P450 51, putative, expressed
+DNA-directed polymerase, putative, expressed
+ATSIZ1/SIZ1, putative, expressed
+diacylglycerol O-acyltransferase, putative, expressed
+4Fe-4S binding domain containing protein, expressed
+nuclear ribonuclease Z, putative, expressed
+coiled-coil domain-containing protein 25, putative, expressed
+NADH dehydrogenase 1 alpha subcomplex subunit 5, putative, expressed
+ribosomal protein L24, putative, expressed
+ribosomal protein L37, putative
+3-isopropylmalate dehydratase large subunit 2, putative, expressed
+cyclin-A1, putative, expressed
+methionine adenosyltransferase regulatory beta subunit-related, putative, expressed
+retrotransposon protein, putative, Ty1-copia subclass, expressed
+ribulose-1,5 bisphosphate carboxylase/oxygenase large subunit N-methyltransferase, chloroplast precursor, putative, expressed
+protein kinase APK1B, chloroplast precursor, putative, expressed
+60S ribosomal protein L37a, putative, expressed
+growth-regulating factor, putative, expressed
+elongation factor, putative, expressed
+calcium-binding mitochondrial carrier CBG00135, putative, expressed
+novel plant SNARE 11, putative, expressed
+proteasome/cyclosome repeat containing protein, expressed
+serine hydrolase domain containing protein, expressed
+AGC_PVPK_like_kin82y.12 - ACG kinases include homologs to PKA, PKG and PKC, expressed
+ubiquinol-cytochrome C chaperone family protein, putative, expressed
+thioredoxin, putative, expressed
+oxysterol-binding protein, putative, expressed
+histidine acid phosphatase, putative, expressed
+vacuolar-processing enzyme precursor, putative, expressed
+RNA methyltransferase protein, putative, expressed
+3-5 exonuclease domain-containing protein, putative, expressed
+CCAAT/enhancer-binding protein, putative, expressed
+vacuolar ATP synthase subunit H, putative, expressed
+ranBP1 domain containing protein, expressed
+F-box/LRR domain containing protein, putative, expressed
+oryzain beta chain precursor, putative, expressed
+TIP41, putative, expressed
+autophagy-related protein 10, putative, expressed
+peflin, putative, expressed
+succinate dehydrogenase and fumarate reductase iron-sulfur protein
+pelota, putative, expressed
+peptidyl-tRNA hydrolase, mitochondrial precursor protein, putative, expressed
+ribosome recycling factor, putative, expressed
+transmembrane protein 49, putative, expressed
+OsLIM - LIM domain protein, putative actin-binding protein and transcription factor, expressed
+anthranilate phosphoribosyltransferase, chloroplast precursor, putative, expressed
+RNA recognition motif, putative, expressed
+homeobox associated leucine zipper, putative, expressed
+DEAD-box ATP-dependent RNA helicase 35A, putative, expressed
+S-adenosyl-l-methionine decarboxylase leader peptide, putative, expressed
+vacuolar protein sorting-associated protein 18, putative, expressed
+NADH-cytochrome b5 reductase, putative, expressed
+serine/threonine-protein kinase AFC2, putative, expressed
+glucose-1-phosphate adenylyltransferase large subunit, chloroplast precursor, putative, expressed
+ribosomal protein S15 containing protein
+AGAP010609-PA, putative, expressed
+U3 small nucleolar RNA-associated protein 11, putative, expressed
+preprotein translocase subunit secY, putative, expressed
+STE_PAK_Ste20_KHSh_GCKh_HPKh.1 - STE kinases include homologs to sterile 7, sterile 11 and sterile 20 from yeast, expressed
+microtubule associated protein, putative, expressed
+pyruvate Pi dikinase regulatory protein, putative, expressed
+disease resistance protein, putative, expressed
+cytochrome c oxidase subunit, putative, expressed
+OsProCP4 - Putative Lysosomal Pro-x Carboxypeptidase homologue, expressed
+DCN1-like protein 2, putative, expressed
+serine/threonine protein phosphatase, putative, expressed
+nucleobase-ascorbate transporter, putative, expressed
+slowmo homolog, putative, expressed
+telomerase reverse transcriptase, putative, expressed
+ML domain protein, putative, expressed
+FGGY family of carbohydrate kinases, putative, expressed
+YT521-B, putative, expressed
+zinc finger Ran-binding domain-containing protein 2, putative, expressed
+leucine carboxyl methyltransferase 1, putative, expressed
+short chain dehydrogenase/reductase protein, putative, expressed
+OsGrx_C9 - glutaredoxin subgroup III
+OsFBT9 - F-box and tubby domain containing protein, expressed
+MEE34, putative, expressed
+1,3-beta-glucan synthase component domain containing protein, expressed
+NAP domain containing protein, putative, expressed
+IPP transferase, putative, expressed
+60S acidic ribosomal protein P0, putative, expressed
+coiled-coil domain-containing protein 90A, mitochondrial precursor, putative, expressed
+protein kri1, putative, expressed
+ATP-dependent DNA helicase 2 subunit 1, putative, expressed
+NADH-ubiquinone oxidoreductase, mitochondrial precursor, putative, expressed
+uridine 5-monophosphate synthase, putative, expressed
+M16 domain containing zinc peptidase, putative, expressed
+phytanoyl-CoA dioxygenase, putative, expressed
+lactate/malate dehydrogenase, putative, expressed
+containing DUF163, putative, expressed
+glucosidase II beta subunit-like domain containing protein, expressed
+DNA polymerase V, putative, expressed
+relA-SpoT like protein RSH1, putative, expressed
+MBTB3 - Bric-a-Brac, Tramtrack, Broad Complex BTB domain with Meprin and TRAF Homology MATH domain, expressed
+STE_MEKK_ste11_MAP3K.20 - STE kinases include homologs to sterile 7, sterile 11 and sterile 20 from yeast, expressed
+NADPH quinone oxidoreductase, putative, expressed
+Regulator of chromosome condensation domain containing protein, expressed
+ribosomal protein S17, putative, expressed
+uracil-DNA glycosylase, putative, expressed
+coatomer alpha subunit, putative, expressed
+histone acetyltransferase GCN5, putative, expressed
+homeobox and START domains containing protein, putative, expressed
+phosphoribosylaminoimidazole carboxylase, chloroplast precursor, putative, expressed
+tyrosine protein kinase domain containing protein, putative, expressed
+bifunctional protein folD, putative, expressed
+N-dimethylguanosine tRNA methyltransferase, putative, expressed
+defender against cell death 1, putative, expressed
+sorting nexin 1, putative, expressed
+flowering time control protein FCA, putative, expressed
+HVT1, putative, expressed
+NUP155, putative, expressed
+inorganic phosphate transporter 2-1, chloroplast precursor, putative, expressed
+armadillo, putative, expressed
+light-mediated development protein DET1, putative, expressed
+importin-8, putative
+bifunctional 3-phosphoadenosine 5-phosphosulfate synthetase, putative, expressed
+ABIL2, putative, expressed
+diphthine synthase, putative, expressed
+exonuclease, putative, expressed
+splicing factor 3 subunit 1, putative, expressed
+OsNucAP2 - Putative Nucleoporin Autopeptidase homologue, expressed
+oligopeptide transporter, putative, expressed
+chaperonin Cpn60/TCP-1, putative, expressed
+calreticulin precursor protein, putative, expressed
+peroxisome assembly protein 12, putative, expressed
+chlorophyllide a oxygenase, chloroplast precursor, putative, expressed
+anthocyanin regulatory Lc protein, putative, expressed
+osMFT1  MFT-Like1 homologous to Mother of FT and TFL1  gene; contains Pfam profile PF01161: Phosphatidylethanolamine-binding protein, expressed
+TUDOR protein with multiple SNc domains, putative, expressed
+CAMK_KIN1/SNF1/Nim1_like.28 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+TKL_IRAK_DUF26-lc.20 - DUF26 kinases have homology to DUF26 containing loci, expressed
+MORN repeat domain containing protein, expressed
+copine, putative, expressed
+aminotransferase, classes I and II, domain containing protein
+gamma-soluble NSF attachment protein, putative, expressed
+bifunctional aspartokinase/homoserine dehydrogenase, chloroplast precursor, putative, expressed
+mitochondrial chaperone BCS1, putative, expressed
+actin, putative, expressed
+transcription initiation factor IIE subunit beta, putative, expressed
+transportin-2, putative, expressed
+sucrose transporter, putativ, expressed
+scramblase, putative, expressed
+6,7-dimethyl-8-ribityllumazine synthase, chloroplast precursor, putative, expressed
+cycloartenol-C-24-methyltransferase 1, putative, expressed
+amino acid transporter, putative, expressed
+suppressor of phythchrome A, putative, expressed
+white-brown complex homolog protein, putative
+transcription elongation factor 1, putative, expressed
+ubiquitin carboxyl-terminal hydrolase family protein, expressed
+photosystem I reaction center subunit XI, chloroplast precursor, putative, expressed
+cytochrome c1-1, heme protein, mitochondrial precursor, putative, expressed
+fanconi anemia L, putative, expressed
+potassium channel AKT1, putative, expressed
+ROOT HAIRLESS 1, putative, expressed
+RNA cap guanine-N2 methyltransferase domain containing protein, expressed
+serine/threonine-protein kinase receptor precursor, putative
+SKP1-like protein 1B, putative, expressed
+PP2A regulatory subunit TAP46, putative, expressed
+superoxide dismutase, chloroplast, putative, expressed
+OsMKK1 - putative MAPKK based on amino acid sequence homology, expressed
+polynucleotide phosphorylase, putative, expressed
+OsFBX29 - F-box domain containing protein, expressed
+rhodanese-like domain containing protein, putative, expressed
+LSM domain containing protein, expressed
+glucosyltransferase, putative, expressed
+CHCH domain containing protein, expressed
+NAD kinase, putative, expressed
+appr-1-p processing enzyme family protein, putative, expressed
+nucleolar matrix protein-related, putative, expressed
+upstream activation factor subunit spp27, putative, expressed
+cyclin-dependent kinase, putative, expressed
+hexokinase, putative, expressed
+cyclin-dependent kinase A-2, putative, expressed
+nonsense-mediated decay UPF3, putative, expressed
+canopy homolog 2 precursor, putative, expressed
+CAMK_KIN1/SNF1/Nim1_like.5 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+nucampholin, putative, expressed
+WRKY45 transcription factor, putative, expressed
+jmjC domain containing protein, expressed
+nuclear transport factor 2, putative, expressed
+OsProtIV1 - Putative Protease IV homologue; Domain 2 is a SPH, expressed
+FKBP12-interacting protein of 37 kDa, putative, expressed
+phosphatidic acid phosphatase-related, putative, expressed
+ankyrin repeat domain containing protein, expressed
+DNA-directed RNA polymerase I subunit RPA12, putative, expressed
+ZOS1-04 - C2H2 zinc finger protein, expressed
+skp1 family, tetramerisation domain containing protein, expressed
+receptor-like protein kinase, putative, expressed
+peroxisomal biogenesis factor 11, putative, expressed
+IQ calmodulin-binding motif family protein, putative, expressed
+protein of unknown function domain containing protein, expressed
+DOMON domain containing protein, expressed
+vacuolar protein sorting-associated protein 26, putative, expressed
+DNA-directed RNA polymerase II subunit RPB4, putative, expressed
+FAD-linked sulfhydryl oxidase ALR, putative, expressed
+MCM4 - Putative minichromosome maintenance MCM complex subunit 4, expressed
+OsFBX146 - F-box domain containing protein, expressed
+prenylated rab acceptor, putative
+aspartyl aminopeptidase, putative, expressed
+haloacid dehalogenase-like hydrolase family protein, putative, expressed
+green ripe-like, putative, expressed
+EMB1745, putative, expressed
+frataxin, putative, expressed
+coiled-coil domain-containing protein, putative, expressed
+aspartic proteinase oryzasin-1 precursor, putative, expressed
+metal transporter Nramp6, putative, expressed
+CR084 protein, putative, expressed
+cat eye syndrome critical region protein 5 precursor, putative, expressed
+hydroxyproline-rich glycoprotein family protein, putative, expressed
+CDC45A - Putative DNA replication initiation protein, expressed
+ZOS1-11 - C2H2 zinc finger protein, expressed
+cytochrome c oxidase subunit 5B, mitochondrial precursor, putative, expressed
+helix-loop-helix DNA-binding domain containing protein, expressed
+OsFBX32 - F-box domain containing protein, expressed
+NF-X1-type zinc finger protein, putative, expressed
+RMD5 homolog A, putative, expressed
+OsAPx3 - Peroxisomal Ascorbate Peroxidase encoding gene 5,8, expressed
+CESA8 - cellulose synthase, expressed
+ubiquitin-protein ligase 1, putative, expressed
+cytosolic Fe-S cluster assembling factor NBP35, putative, expressed
+translation initiation factor eIF-2B subunit epsilon, putative, expressed
+transketolase, chloroplast precursor, putative, expressed
+UDP-glucoronosyl and UDP-glucosyl transferase domain containing protein, expressed
+galactose-1-phosphate uridyl transferase, putative, expressed
+UDP-N-acetylglucosamine transferase subunit ALG13, putative, expressed
+ubiquinone biosynthesis protein COQ4, putative, expressed
+signal peptidase complex subunit 1, putative
+copper-transporting ATPase, putative, expressed
+G-protein alpha subunit, putative, expressed
+NUC189 domain containing protein, expressed
+60S ribosomal protein L29-2, putative, expressed
+ATP synthase gamma chain, putative, expressed
+Rad21 / Rec8 like protein, putative, expressed
+YT521-B-like family domain containing protein, expressed
+fasciated ear2, putative, expressed
+peptidase, putative, expressed
+vacuolar protein sorting-associated protein 16, putative, expressed
+auxin-binding protein 4 precursor, putative, expressed
+2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase, chloroplast precursor, putative, expressed
+glycosyl hydrolase family 10 protein, putative, expressed
+CAMK_CAMK_like.13 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+mago nashi, putative, expressed
+metal cation transporter, putative, expressed
+AGAP003819-PA, putative, expressed
+thioredoxin domain-containing protein 9, putative, expressed
+OsMADS3 - MADS-box family gene with MIKCc type-box, expressed
+uvrD/REP helicase family protein, putative, expressed
+suppressor of stem-loop protein 1, putative, expressed
+ADP-ribosylation factor, putative, expressed
+OsMADS63 - MADS-box family gene with MIKC* type-box, expressed
+EDA16, putative, expressed
+shikimate/quinate 5-dehydrogenase, putative, expressed
+mannose-6-phosphate isomerase, putative, expressed
+MEMO1, putative, expressed
+caffeoyl-CoA O-methyltransferase, putative, expressed
+POLA1 - Putative DNA polymerase alpha catalytic subunit, expressed
+eukaryotic translation initiation factor 5A, putative, expressed
+AGAP005770-PA, putative, expressed
+eukaryotic translation initiation factor 4G, putative, expressed
+CAMK_CAMK_like.25 - CAMK includes calcium/calmodulin depedent protein kinases, expressed
+zinc finger, RING-type, putative, expressed
+SET, putative, expressed
+Protein-tyrosine phosphatase domain containing protein, expressed
+Rer1 protein, putative, expressed
+sphingolipid delta desaturase, putative, expressed
+phosphoribosyl transferase, putative

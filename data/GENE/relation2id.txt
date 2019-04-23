@@ -1,0 +1,13 @@
+12
+Protein	1
+GO	2
+Keyword_Uniprot	3
+Description	4
+Location	5
+Position	6
+CGSNL Gene Name	7
+Trait Class	8
+TO	9
+PO	10
+Keyword_Pyrice	11
+Name	12
