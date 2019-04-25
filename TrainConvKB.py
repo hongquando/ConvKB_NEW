@@ -21,7 +21,7 @@ args = Namespace(
     relation_path='./data/GENE/relation2id.txt',
 
     triplets_path='./data/GENE/triplet2id.txt',
-    embedding_size=100,
+    embedding_size=128,
     batch_size=128,
 
     seed=0,
@@ -31,12 +31,12 @@ args = Namespace(
     trans_e_margin=1,
     trans_e_weight_decay=0.001,
     trans_e_learning_rate=5e-4,
-    trans_e_n_epochs=1,
+    trans_e_n_epochs=100,
     trans_e_save_path='./data/GENE/TransE.pkl',
 
     conv_kb_weight_decay=0.001,
     conv_kb_learning_rate=1e-4,
-    conv_kb_n_epochs=1,
+    conv_kb_n_epochs=125,
     conv_kb_momentum=0.9,
     new_conv_kb_save_path='./data/GENE/TempConvKB.pkl',
     conv_kb_save_path='./data/GENE/ConvKB.pkl'
@@ -104,6 +104,7 @@ class TrainConvKB():
         return None
 
     def train_TransE(self,entity_total,relation_total,triplets,n_epochs=None):
+        save_loss = []
         net = TransE(entity_total,relation_total,args.embedding_size)
         if self.net is not None:
             embedding_entities = np.random.normal(0, 0.01, (entity_total, args.embedding_size))
@@ -189,6 +190,12 @@ class TrainConvKB():
             if epoch % args.display_step == 0 or epoch == 1:
                 print('\r\033[K\r[{:3d}] loss: {:.5f} - learning rate: {}'
                       .format(epoch, acc_loss, _get_learning_rate(optimizer)[0]))
+                save_loss.append(acc_loss)
+
+            with open('./data/GENE/loss_transe.txt', 'w') as f:
+                for item in save_loss:
+                    f.write("%s\n" % item)
+                f.close()
 
             if min_loss is None or acc_loss < min_loss:
                 min_loss = acc_loss
@@ -205,6 +212,7 @@ class TrainConvKB():
         return net
 
     def train_ConvKB(self, ent_embeddings, rel_embeddings, triplets, n_epochs=None):
+        acc_loss = []
         # 1. Initial net, criterion, optimizer and scheduler (if needed) #
         entity_total = ent_embeddings.shape[0]
         relation_total = rel_embeddings.shape[0]
@@ -308,6 +316,12 @@ class TrainConvKB():
             if epoch % args.display_step == 0 or epoch == 1:
                 print('\r\033[K\r[{:3d}] loss: {:.5f} - learning rate: {}'
                       .format(epoch, acc_loss, _get_learning_rate(optimizer)[0]))
+                save_loss.append(acc_loss)
+
+            with open('./data/GENE/loss_convkb.txt', 'w') as f:
+                for item in save_loss:
+                    f.write("%s\n" % item)
+                f.close()
 
             if min_loss is None or acc_loss < min_loss:
                 min_loss = acc_loss
