@@ -186,11 +186,11 @@ class TrainConvKB():
                     sys.stdout.flush()
 
             acc_loss /= n_batches
+            save_loss.append(acc_loss)
             # print statistics
             if epoch % args.display_step == 0 or epoch == 1:
                 print('\r\033[K\r[{:3d}] loss: {:.5f} - learning rate: {}'
                       .format(epoch, acc_loss, _get_learning_rate(optimizer)[0]))
-                save_loss.append(acc_loss)
 
             if min_loss is None or acc_loss < min_loss:
                 min_loss = acc_loss
@@ -210,7 +210,7 @@ class TrainConvKB():
         return net
 
     def train_ConvKB(self, ent_embeddings, rel_embeddings, triplets, n_epochs=None):
-        acc_loss = []
+        save_loss = []
         # 1. Initial net, criterion, optimizer and scheduler (if needed) #
         entity_total = ent_embeddings.shape[0]
         relation_total = rel_embeddings.shape[0]
@@ -310,11 +310,11 @@ class TrainConvKB():
                     sys.stdout.flush()
 
             acc_loss /= n_batches
+            save_loss.append(acc_loss)
             # print statistics
             if epoch % args.display_step == 0 or epoch == 1:
                 print('\r\033[K\r[{:3d}] loss: {:.5f} - learning rate: {}'
                       .format(epoch, acc_loss, _get_learning_rate(optimizer)[0]))
-                save_loss.append(acc_loss)
 
             if min_loss is None or acc_loss < min_loss:
                 min_loss = acc_loss
