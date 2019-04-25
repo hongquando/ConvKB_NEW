@@ -192,17 +192,15 @@ class TrainConvKB():
                       .format(epoch, acc_loss, _get_learning_rate(optimizer)[0]))
                 save_loss.append(acc_loss)
 
-            with open('./data/GENE/loss_transe.txt', 'w') as f:
-                for item in save_loss:
-                    f.write("%s\n" % item)
-                f.close()
-
             if min_loss is None or acc_loss < min_loss:
                 min_loss = acc_loss
                 with open(args.trans_e_save_path, 'wb') as f:
                     torch.save(net.state_dict(), f)
             scheduler.step(acc_loss, epoch)
-
+        with open('./data/GENE/loss_transe.txt', 'w') as f:
+            for item in save_loss:
+                f.write("%s\n" % item)
+            f.close()
         print('\nFinished Training\n')
 
         if torch.cuda.is_available():
@@ -318,16 +316,16 @@ class TrainConvKB():
                       .format(epoch, acc_loss, _get_learning_rate(optimizer)[0]))
                 save_loss.append(acc_loss)
 
-            with open('./data/GENE/loss_convkb.txt', 'w') as f:
-                for item in save_loss:
-                    f.write("%s\n" % item)
-                f.close()
-
             if min_loss is None or acc_loss < min_loss:
                 min_loss = acc_loss
                 with open(args.conv_kb_save_path, 'wb') as f:
                     torch.save(net.state_dict(), f)
             scheduler.step(acc_loss, epoch)
+
+        with open('./data/GENE/loss_convkb.txt', 'w') as f:
+            for item in save_loss:
+                f.write("%s\n" % item)
+            f.close()
         print('\nFinished Training\n')
 
         if torch.cuda.is_available():
