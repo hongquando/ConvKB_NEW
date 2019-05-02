@@ -24,6 +24,26 @@ def load_data(file_path, is_triplet=False, ignore_first=False):
             result[parts[0]] = int(parts[1])
     return result
 
+def load_data_valid(file_path, is_triplet=False, ignore_first=False):
+    i = 0
+    triple_list =[]
+    with open(file_path, 'r') as f:
+        for line in f:
+            if ignore_first and i == 0:
+                i += 1
+                continue
+            line = line.strip()
+            if line == '':
+                continue
+            parts = line.split("\t")
+            if is_triplet:
+                head = int(parts[0])
+                tail = int(parts[1])
+                rel = int(parts[2])
+                triple_list.append(Triplet(head,tail,rel))
+                continue
+    return triple_list
+
 def load_triplet_2(triplets):
     bernoulli_dict = dict()
     triple_list = []
@@ -100,6 +120,13 @@ def get_batch_filter_all(triple_list, entity_total, triple_dict, tail_per_head, 
     nh, nt, nr = get_three_elements(new_triple_list)
     return ph, pt, pr, nh, nt, nr
 
+def get_batch_filter_random_v2(triple_list, batch_size, entity_total, triple_dict, tail_per_head, head_per_tail):
+    oldTripleList = random.sample(triple_list, batch_size)
+    newTripleList = [corrupt_filter_two_v2(triple, entity_total, triple_dict, tail_per_head, head_per_tail)
+        for triple in oldTripleList]
+    ph, pt ,pr = get_three_elements(oldTripleList)
+    nh, nt, nr = get_three_elements(newTripleList)
+    return ph, pt, pr, nh, nt, nr
 
 def get_three_elements(triple_list):
     head_list = [triple.h for triple in triple_list]
