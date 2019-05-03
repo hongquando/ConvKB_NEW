@@ -12,7 +12,7 @@ import torch.optim as optim
 from numpy import linalg as LA
 import numpy as np
 from math import log10,floor
-from tensorboardX import SummaryWriter
+#from tensorboardX import SummaryWriter
 import pickle
 import numpy as np
 import csv
@@ -446,28 +446,28 @@ if __name__ == '__main__':
         trans_e_margin=1,
         trans_e_weight_decay=0.001,
         trans_e_learning_rate=5e-4,
-        trans_e_n_epochs=200,
+        trans_e_n_epochs=100,
         trans_e_save_path='TransE.pkl',
 
         conv_kb_weight_decay=0.001,
         conv_kb_learning_rate=1e-4,
-        conv_kb_n_epochs=100,
+        conv_kb_n_epochs=120,
         conv_kb_momentum=0.9,
         num_filters = 50,
         # new_conv_kb_save_path='/TempConvKB.pkl',
         conv_kb_save_path='ConvKB.pkl'
     )
     embedding_size = [100,150];
-    trans_e_learning_rate = [1e-4,5e-4];
-    trans_e_margin =[1,3,5]
-    conv_kb_learning_rate = [5e-6,1e-4];
+    trans_e_learning_rate = [5e-4,1e-3];
+    trans_e_margin =[1,3]
+    conv_kb_learning_rate = [1e-4,1e-3];
     num_filters = [50,100,150]
     # embedding_size = [100]
     # trans_e_learning_rate = [1e-4]
     # trans_e_margin =[1]
     # conv_kb_learning_rate = [5e-6]
     # num_filters = [50]
-    # count_param = 1;
+    count_param = 1;
     result = [['params','embedding_size','trans_e_learning_rate','trans_e_margin','conv_kb_learning_rate','num_filters',
                'trans_e_train_loss','trans_e_valid_loss','conv_kb_train_loss','conv_kb_valid_loss']]
     min_total_loss = 10
