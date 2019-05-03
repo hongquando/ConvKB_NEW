@@ -519,7 +519,7 @@ if __name__ == '__main__':
                         trans_e_min_train_loss = 10
                         with open(args.trans_e_loss_path, 'r') as f:
                             for item in f.readlines():
-                                train_loss = float(item[len(item)-1])
+                                train_loss = float(item[0:len(item)-1])
                                 if train_loss < trans_e_min_train_loss:
                                     trans_e_min_train_loss = train_loss
                         f.close()
@@ -538,7 +538,7 @@ if __name__ == '__main__':
                         conv_kb_min_train_loss = 10
                         with open(args.conv_kb_loss_path, 'r') as f:
                             for item in f.readlines():
-                                train_loss = float(item[len(item)-1])
+                                train_loss = float(item[0:len(item)-1])
                                 if train_loss < conv_kb_min_train_loss:
                                     conv_kb_min_train_loss = train_loss
                         f.close()
