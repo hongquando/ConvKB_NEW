@@ -10,9 +10,7 @@ import sys
 from torch.autograd import Variable
 import torch.optim as optim
 from numpy import linalg as LA
-import numpy as np
 from math import log10,floor
-#from tensorboardX import SummaryWriter
 import pickle
 import numpy as np
 import csv
@@ -34,14 +32,14 @@ class TrainConvKB():
         if os.path.exists(self.args.relation_path):
             self.relation_2_id = load_data(self.args.relation_path, ignore_first=True)
 
-        # if os.path.exists(self.args.triplets_path):
-        #     self.triplets = load_data(self.args.triplets_path, is_triplet=True, ignore_first=True)
+        if os.path.exists(self.args.triplets_path):
+            self.triplets = load_data(self.args.triplets_path, is_triplet=True, ignore_first=True)
 
-        if os.path.exists(self.args.train_path):
-            self.triplets = load_data(self.args.train_path, is_triplet=True, ignore_first=True)
+        # if os.path.exists(self.args.train_path):
+        #     self.triplets = load_data(self.args.train_path, is_triplet=True, ignore_first=True)
 
-        if os.path.exists(self.args.valid_path):
-            self.valids = load_data_valid(self.args.valid_path, is_triplet=True, ignore_first=True)
+        # if os.path.exists(self.args.valid_path):
+        #     self.valids = load_data_valid(self.args.valid_path, is_triplet=True, ignore_first=True)
 
         if os.path.exists(self.args.conv_kb_save_path) and os.path.exists(self.args.entity_path) and os.path.exists(
                 self.args.relation_path):
@@ -69,7 +67,6 @@ class TrainConvKB():
             f.write('{}\n'.format(len(self.relation_2_id)))
             for relation, idx in sorted(list(self.relation_2_id.items()), key=lambda kv: int(kv[1])):
                 f.write('{}\t{}\n'.format(relation, idx))
-
         print('Saved model to file')
 
     def get_item_embedding(self, item_id):
@@ -103,8 +100,8 @@ class TrainConvKB():
         #net.to(device)
         print("Using CUDA: {}".format(next(net.parameters()).is_cuda))
         net.train()
-        #optimizer = optim.Adam(net.parameters(), lr=self.args.trans_e_learning_rate)
-        optimizer = optim.SGD(net.parameters(), lr=self.args.trans_e_learning_rate)
+        optimizer = optim.Adam(net.parameters(), lr=self.args.trans_e_learning_rate)
+        #optimizer = optim.SGD(net.parameters(), lr=self.args.trans_e_learning_rate)
         scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.3, patience=5, min_lr=1e-5,
                                                          verbose=True)
         criterion = CustomTripletMarginLoss(margin=self.args.trans_e_margin)
@@ -173,45 +170,51 @@ class TrainConvKB():
             train_loss /= n_batches
 
             #Valid loss
-            pos_h_batch, pos_t_batch, pos_r_batch, neg_h_batch, neg_t_batch, neg_r_batch = get_batch_filter_random_v2(self.valids,
-                self.args.batch_size, entity_total, triple_dict, tails_per_head, heads_per_tail)
-
-            pos_h_batch, neg_h_batch = torch.LongTensor(pos_h_batch), torch.LongTensor(neg_h_batch)
-            pos_t_batch, neg_t_batch = torch.LongTensor(pos_t_batch), torch.LongTensor(neg_t_batch)
-            pos_r_batch, neg_r_batch = torch.LongTensor(pos_r_batch), torch.LongTensor(neg_r_batch)
-
-            pos_h_batch, neg_h_batch = pos_h_batch.to(device), neg_h_batch.to(device)
-            pos_t_batch, neg_t_batch = pos_t_batch.to(device), neg_t_batch.to(device)
-            pos_r_batch, neg_r_batch = pos_r_batch.to(device), neg_r_batch.to(device)
-
-            pos_h_batch, neg_h_batch = Variable(pos_h_batch), Variable(neg_h_batch)
-            pos_t_batch, neg_t_batch = Variable(pos_t_batch), Variable(neg_t_batch)
-            pos_r_batch, neg_r_batch = Variable(pos_r_batch), Variable(neg_r_batch)
-
-            pos, neg, pos_h_e, pos_t_e, neg_h_e, neg_t_e = net(pos_h_batch, pos_t_batch, pos_r_batch,
-                                                               neg_h_batch, neg_t_batch, neg_r_batch)
-
-            ent_embeddings = net.ent_embeddings(torch.cat([pos_h_batch, pos_t_batch, neg_h_batch, neg_t_batch]))
-            rel_embeddings = net.rel_embeddings(torch.cat([pos_r_batch, neg_r_batch]))
-
-            loss_triplet = criterion(pos, neg)
-            norm_loss = ent_embeddings.norm(2) + rel_embeddings.norm(2)
-            norm_loss += pos_h_e.norm(2) + pos_t_e.norm(2) + neg_h_e.norm(2) + neg_t_e.norm(2)
-
-            loss = loss_triplet + self.args.trans_e_weight_decay * norm_loss
-            valid_loss = loss.item()
-            trans_e_loss.append(str(train_loss)+" - "+str(valid_loss))
+            # pos_h_batch, pos_t_batch, pos_r_batch, neg_h_batch, neg_t_batch, neg_r_batch = get_batch_filter_random_v2(self.valids,
+            #     self.args.batch_size, entity_total, triple_dict, tails_per_head, heads_per_tail)
+            #
+            # pos_h_batch, neg_h_batch = torch.LongTensor(pos_h_batch), torch.LongTensor(neg_h_batch)
+            # pos_t_batch, neg_t_batch = torch.LongTensor(pos_t_batch), torch.LongTensor(neg_t_batch)
+            # pos_r_batch, neg_r_batch = torch.LongTensor(pos_r_batch), torch.LongTensor(neg_r_batch)
+            #
+            # pos_h_batch, neg_h_batch = pos_h_batch.to(device), neg_h_batch.to(device)
+            # pos_t_batch, neg_t_batch = pos_t_batch.to(device), neg_t_batch.to(device)
+            # pos_r_batch, neg_r_batch = pos_r_batch.to(device), neg_r_batch.to(device)
+            #
+            # pos_h_batch, neg_h_batch = Variable(pos_h_batch), Variable(neg_h_batch)
+            # pos_t_batch, neg_t_batch = Variable(pos_t_batch), Variable(neg_t_batch)
+            # pos_r_batch, neg_r_batch = Variable(pos_r_batch), Variable(neg_r_batch)
+            #
+            # pos, neg, pos_h_e, pos_t_e, neg_h_e, neg_t_e = net(pos_h_batch, pos_t_batch, pos_r_batch,
+            #                                                    neg_h_batch, neg_t_batch, neg_r_batch)
+            #
+            # ent_embeddings = net.ent_embeddings(torch.cat([pos_h_batch, pos_t_batch, neg_h_batch, neg_t_batch]))
+            # rel_embeddings = net.rel_embeddings(torch.cat([pos_r_batch, neg_r_batch]))
+            #
+            # loss_triplet = criterion(pos, neg)
+            # norm_loss = ent_embeddings.norm(2) + rel_embeddings.norm(2)
+            # norm_loss += pos_h_e.norm(2) + pos_t_e.norm(2) + neg_h_e.norm(2) + neg_t_e.norm(2)
+            #
+            # loss = loss_triplet + self.args.trans_e_weight_decay * norm_loss
+            # valid_loss = loss.item()
+            # trans_e_loss.append(str(train_loss)+" - "+str(valid_loss))
+            trans_e_loss.append(train_loss)
 
             # print statistics
-            if epoch % self.args.display_step == 0 or epoch == 1:
-                print('\r\033[K\r[{:3d}] train_loss: {:.5f} - valid_loss: {:.5f} - learning rate: {}'
-                      .format(epoch, train_loss,valid_loss, _get_learning_rate(optimizer)[0]))
+            # if epoch % self.args.display_step == 0 or epoch == 1:
+            #     print('\r\033[K\r[{:3d}] train_loss: {:.5f} - valid_loss: {:.5f} - learning rate: {}'
+            #           .format(epoch, train_loss,valid_loss, _get_learning_rate(optimizer)[0]))
 
-            if min_loss is None or valid_loss < min_loss:
-                min_loss = valid_loss
+            if epoch % self.args.display_step == 0 or epoch == 1:
+                print('\r\033[K\r[{:3d}] train_loss: {:.5f} - learning rate: {}'
+                      .format(epoch, train_loss, _get_learning_rate(optimizer)[0]))
+
+
+            if min_loss is None or train_loss < min_loss:
+                min_loss = train_loss
                 with open(self.args.trans_e_save_path, 'wb') as f:
                     torch.save(net.state_dict(), f)
-            scheduler.step(valid_loss, epoch)
+            scheduler.step(train_loss, epoch)
 
         print('\nFinished Training TransE\n')
         with open(self.args.trans_e_loss_path, 'w') as f:
@@ -328,51 +331,57 @@ class TrainConvKB():
             train_loss /= n_batches
 
             #Valid loss
-            pos_h_batch, pos_t_batch, pos_r_batch, neg_h_batch, neg_t_batch, neg_r_batch = get_batch_filter_random_v2(self.valids,
-                self.args.batch_size, entity_total, triple_dict, tails_per_head, heads_per_tail)
+            # pos_h_batch, pos_t_batch, pos_r_batch, neg_h_batch, neg_t_batch, neg_r_batch = get_batch_filter_random_v2(self.valids,
+            #     self.args.batch_size, entity_total, triple_dict, tails_per_head, heads_per_tail)
+            #
+            # h_batch, t_batch, r_batch, targets = [], [], [], []
+            # for h, t, r in zip(pos_h_batch, pos_t_batch, pos_r_batch):
+            #     h_batch.append(h)
+            #     t_batch.append(t)
+            #     r_batch.append(r)
+            #     targets.append([-1.])
+            #
+            # for h, t, r in zip(neg_h_batch, neg_t_batch, neg_r_batch):
+            #     h_batch.append(h)
+            #     t_batch.append(t)
+            #     r_batch.append(r)
+            #     targets.append([1.])
+            #
+            # h_batch, t_batch = torch.LongTensor(h_batch), torch.LongTensor(t_batch)
+            # r_batch, targets = torch.LongTensor(r_batch), torch.FloatTensor(targets)
+            #
+            # h_batch, t_batch = h_batch.to(device), t_batch.to(device)
+            # r_batch, targets = r_batch.to(device), targets.to(device)
+            #
+            # outputs, h_e, t_e, r_e = net(h_batch, t_batch, r_batch)
+            #
+            # # ent_embeddings = net.ent_embeddings(torch.cat([pos_h_batch, pos_t_batch, neg_h_batch, neg_t_batch]))
+            # # rel_embeddings = net.rel_embeddings(torch.cat([pos_r_batch, neg_r_batch]))
+            #
+            # loss_triplet = criterion(outputs, targets)
+            # norm_loss = h_e.norm(2) + t_e.norm(2) + r_e.norm(2)
+            #
+            # loss = loss_triplet + self.args.conv_kb_weight_decay * norm_loss
+            #
+            # valid_loss = loss.item()
+            # conv_kb_loss.append(str(train_loss)+" - "+str(valid_loss))
 
-            h_batch, t_batch, r_batch, targets = [], [], [], []
-            for h, t, r in zip(pos_h_batch, pos_t_batch, pos_r_batch):
-                h_batch.append(h)
-                t_batch.append(t)
-                r_batch.append(r)
-                targets.append([-1.])
-
-            for h, t, r in zip(neg_h_batch, neg_t_batch, neg_r_batch):
-                h_batch.append(h)
-                t_batch.append(t)
-                r_batch.append(r)
-                targets.append([1.])
-
-            h_batch, t_batch = torch.LongTensor(h_batch), torch.LongTensor(t_batch)
-            r_batch, targets = torch.LongTensor(r_batch), torch.FloatTensor(targets)
-
-            h_batch, t_batch = h_batch.to(device), t_batch.to(device)
-            r_batch, targets = r_batch.to(device), targets.to(device)
-
-            outputs, h_e, t_e, r_e = net(h_batch, t_batch, r_batch)
-
-            # ent_embeddings = net.ent_embeddings(torch.cat([pos_h_batch, pos_t_batch, neg_h_batch, neg_t_batch]))
-            # rel_embeddings = net.rel_embeddings(torch.cat([pos_r_batch, neg_r_batch]))
-
-            loss_triplet = criterion(outputs, targets)
-            norm_loss = h_e.norm(2) + t_e.norm(2) + r_e.norm(2)
-
-            loss = loss_triplet + self.args.conv_kb_weight_decay * norm_loss
-
-            valid_loss = loss.item()
-            conv_kb_loss.append(str(train_loss)+" - "+str(valid_loss))
+            conv_kb_loss.append(train_loss)
 
             # print statistics
-            if epoch % self.args.display_step == 0 or epoch == 1:
-                print('\r\033[K\r[{:3d}] train_loss: {:.5f} - valid_loss: {:.5f} - learning rate: {}'
-                      .format(epoch, train_loss,valid_loss, _get_learning_rate(optimizer)[0]))
+            # if epoch % self.args.display_step == 0 or epoch == 1:
+            #     print('\r\033[K\r[{:3d}] train_loss: {:.5f} - valid_loss: {:.5f} - learning rate: {}'
+            #           .format(epoch, train_loss,valid_loss, _get_learning_rate(optimizer)[0]))
 
-            if min_loss is None or valid_loss < min_loss:
-                min_loss = valid_loss
+            if epoch % self.args.display_step == 0 or epoch == 1:
+                print('\r\033[K\r[{:3d}] train_loss: {:.5f} - learning rate: {}'
+                      .format(epoch, train_loss, _get_learning_rate(optimizer)[0]))
+
+            if min_loss is None or train_loss < min_loss:
+                min_loss = train_loss
                 with open(self.args.conv_kb_save_path, 'wb') as f:
                     torch.save(net.state_dict(), f)
-            scheduler.step(valid_loss,epoch)
+            scheduler.step(train_loss,epoch)
 
         with open(self.args.conv_kb_loss_path, 'w') as f:
             for item in conv_kb_loss:
@@ -446,30 +455,32 @@ if __name__ == '__main__':
         trans_e_margin=1,
         trans_e_weight_decay=0.001,
         trans_e_learning_rate=5e-4,
-        trans_e_n_epochs=100,
+        trans_e_n_epochs=120,
         trans_e_save_path='TransE.pkl',
 
         conv_kb_weight_decay=0.001,
         conv_kb_learning_rate=1e-4,
-        conv_kb_n_epochs=120,
+        conv_kb_n_epochs=100,
         conv_kb_momentum=0.9,
         num_filters = 50,
         # new_conv_kb_save_path='/TempConvKB.pkl',
         conv_kb_save_path='ConvKB.pkl'
     )
+    # embedding_size = [100,150];
+    # trans_e_learning_rate = [1e-4,5e-4];
+    # trans_e_margin =[1,3,5]
+    # conv_kb_learning_rate = [5e-6,1e-4];
+    # num_filters = [50,100,150]
     embedding_size = [100,150];
     trans_e_learning_rate = [5e-4,1e-3];
     trans_e_margin =[1,3]
     conv_kb_learning_rate = [1e-4,1e-3];
     num_filters = [50,100,150]
-    # embedding_size = [100]
-    # trans_e_learning_rate = [1e-4]
-    # trans_e_margin =[1]
-    # conv_kb_learning_rate = [5e-6]
-    # num_filters = [50]
     count_param = 1;
+    # result = [['params','embedding_size','trans_e_learning_rate','trans_e_margin','conv_kb_learning_rate','num_filters',
+    #            'trans_e_train_loss','trans_e_valid_loss','conv_kb_train_loss','conv_kb_valid_loss']]
     result = [['params','embedding_size','trans_e_learning_rate','trans_e_margin','conv_kb_learning_rate','num_filters',
-               'trans_e_train_loss','trans_e_valid_loss','conv_kb_train_loss','conv_kb_valid_loss']]
+               'trans_e_train_loss','conv_kb_train_loss']]
     min_total_loss = 10
     for embedding in embedding_size:
         for learning_rate_1 in trans_e_learning_rate:
@@ -492,41 +503,59 @@ if __name__ == '__main__':
                         args.trans_e_save_path = os.path.join(folder,"TransE.pkl")
                         args.conv_kb_save_path = os.path.join(folder,"ConvKB.pkl")
                         TrainConvKB(args).train()
-
                         #append to result file
-                        trans_e_min_train_loss = 10
-                        trans_e_min_valid_loss = 10
+                        # trans_e_min_train_loss = 10
+                        # trans_e_min_valid_loss = 10
+                        # with open(args.trans_e_loss_path, 'r') as f:
+                        #     for item in f.readlines():
+                        #         tmp = item.split("-")
+                        #         train_loss = float(tmp[0])
+                        #         valid_loss = float(tmp[1][0:len(tmp[1]) - 1])
+                        #         if valid_loss < trans_e_min_valid_loss:
+                        #             trans_e_min_valid_loss = valid_loss
+                        #             trans_e_min_train_loss = train_loss
+                        # f.close()
 
+                        trans_e_min_train_loss = 10
                         with open(args.trans_e_loss_path, 'r') as f:
                             for item in f.readlines():
-                                tmp = item.split("-")
-                                train_loss = float(tmp[0])
-                                valid_loss = float(tmp[1][0:len(tmp[1]) - 1])
-                                if valid_loss < trans_e_min_valid_loss:
-                                    trans_e_min_valid_loss = valid_loss
+                                train_loss = float(item[len(item)-1])
+                                if train_loss < trans_e_min_train_loss:
                                     trans_e_min_train_loss = train_loss
                         f.close()
 
+                        # conv_kb_min_train_loss = 10
+                        # conv_kb_min_valid_loss = 10
+                        # with open(args.conv_kb_loss_path, 'r') as f:
+                        #     for item in f.readlines():
+                        #         tmp = item.split("-")
+                        #         train_loss = float(tmp[0])
+                        #         valid_loss = float(tmp[1][0:len(tmp[1]) - 1])
+                        #         if valid_loss < conv_kb_min_valid_loss:
+                        #             conv_kb_min_valid_loss = valid_loss
+                        #             conv_kb_min_train_loss = train_loss
+                        #f.close()
                         conv_kb_min_train_loss = 10
-                        conv_kb_min_valid_loss = 10
                         with open(args.conv_kb_loss_path, 'r') as f:
                             for item in f.readlines():
-                                tmp = item.split("-")
-                                train_loss = float(tmp[0])
-                                valid_loss = float(tmp[1][0:len(tmp[1]) - 1])
-                                if valid_loss < conv_kb_min_valid_loss:
-                                    conv_kb_min_valid_loss = valid_loss
+                                train_loss = float(item[len(item)-1])
+                                if train_loss < conv_kb_min_train_loss:
                                     conv_kb_min_train_loss = train_loss
                         f.close()
+                        # result.append([count_param,embedding,learning_rate_1,margin,learning_rate_2,filters,
+                        #                trans_e_min_train_loss,trans_e_min_valid_loss,conv_kb_min_train_loss,conv_kb_min_valid_loss])
                         result.append([count_param,embedding,learning_rate_1,margin,learning_rate_2,filters,
-                                       trans_e_min_train_loss,trans_e_min_valid_loss,conv_kb_min_train_loss,conv_kb_min_valid_loss])
-                        #result.append([count_param,embedding,learning_rate_1,margin,learning_rate_2,filters,0,0,0,0])
-                        if conv_kb_min_valid_loss < min_total_loss:
-                            min_total_loss = conv_kb_min_valid_loss
+                                       trans_e_min_train_loss,conv_kb_min_train_loss])
+
+                        if conv_kb_min_train_loss < min_total_loss:
+                            min_total_loss = conv_kb_min_train_loss
+                            # best_param = ["best_param " + str(count_param), embedding, learning_rate_1, margin,
+                            #               learning_rate_2, filters,
+                            #               trans_e_min_train_loss, trans_e_min_valid_loss, conv_kb_min_train_loss,
+                            #               conv_kb_min_valid_loss]
                             best_param = ["best_param " + str(count_param), embedding, learning_rate_1, margin,
                                           learning_rate_2, filters,
-                                          trans_e_min_train_loss, trans_e_min_valid_loss, conv_kb_min_train_loss,
-                                          conv_kb_min_valid_loss]
+                                          trans_e_min_train_loss, conv_kb_min_train_loss]
                         count_param += 1
     result.append(best_param)
     csv.register_dialect('myDialect',
