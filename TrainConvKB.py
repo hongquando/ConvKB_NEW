@@ -434,7 +434,7 @@ if __name__ == '__main__':
     args = Namespace(
         entity_path='./data/GENE/entity2id.txt',
         relation_path='./data/GENE/relation2id.txt',
-        triplets_path='./data/GENE/triple2id.txt',
+        triplets_path='./data/GENE/triplet2id.txt',
         train_path='./data/GENE/train2id.txt',
         valid_path='./data/GENE/valid2id.txt',
 
