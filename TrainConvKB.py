@@ -2,6 +2,7 @@ from sklearn.neighbors import NearestNeighbors
 from model.TransE import *
 from model.ConvKB import ConvKB
 from model.utils import *
+from model.evaluation import *
 from model.CustomTripletMarginLoss import CustomTripletMarginLoss
 from argparse import Namespace
 import torch
@@ -15,6 +16,8 @@ import pickle
 import numpy as np
 import csv
 import errno
+import multiprocessing
+
 
 class TrainConvKB():
     net = None
@@ -29,17 +32,22 @@ class TrainConvKB():
         if os.path.exists(self.args.entity_path):
             self.processed_entity_2_id = load_data(self.args.entity_path, ignore_first=True)
 
+        with open("./support/id_dict_2018", "rb") as f:
+            self.id_dict_2018 = pickle.load(f)
+            f.close()
         if os.path.exists(self.args.relation_path):
             self.relation_2_id = load_data(self.args.relation_path, ignore_first=True)
 
-        if os.path.exists(self.args.triplets_path):
-            self.triplets = load_data(self.args.triplets_path, is_triplet=True, ignore_first=True)
+        # if os.path.exists(self.args.triplets_path):
+        #     self.triplets = load_data(self.args.triplets_path, is_triplet=True, ignore_first=True)
 
-        # if os.path.exists(self.args.train_path):
-        #     self.triplets = load_data(self.args.train_path, is_triplet=True, ignore_first=True)
+        if os.path.exists(self.args.train_path):
+            self.triplets = load_data(self.args.train_path, is_triplet=True, ignore_first=True)
 
-        # if os.path.exists(self.args.valid_path):
-        #     self.valids = load_data_valid(self.args.valid_path, is_triplet=True, ignore_first=True)
+        self.triple_dict = load_data_valid(self.args.triplets_path, is_triplet=True, ignore_first=True)
+
+        if os.path.exists(self.args.valid_path):
+            self.valids = load_data_valid(self.args.valid_path, is_triplet=True, ignore_first=True)
 
         if os.path.exists(self.args.conv_kb_save_path) and os.path.exists(self.args.entity_path) and os.path.exists(
                 self.args.relation_path):
@@ -97,7 +105,7 @@ class TrainConvKB():
             net.rel_embeddings.weight.data.copy_(torch.from_numpy(embedding_relations))
 
         device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-        #net.to(device)
+        net.to(device)
         print("Using CUDA: {}".format(next(net.parameters()).is_cuda))
         net.train()
         optimizer = optim.Adam(net.parameters(), lr=self.args.trans_e_learning_rate)
@@ -230,6 +238,7 @@ class TrainConvKB():
 
     def train_ConvKB(self, ent_embeddings, rel_embeddings, triplets, n_epochs=None):
         conv_kb_loss = []
+        conv_kb_eval = []
         # 1. Initial net, criterion, optimizer and scheduler (if needed) #
         entity_total = ent_embeddings.shape[0]
         relation_total = rel_embeddings.shape[0]
@@ -388,13 +397,26 @@ class TrainConvKB():
                 f.write("%s\n" % item)
         f.close()
 
-
         print('\nFinished Training ConvKB\n')
-
         if torch.cuda.is_available():
             net.load_state_dict(torch.load(self.args.conv_kb_save_path))
         else:
             net.load_state_dict(torch.load(self.args.conv_kb_save_path, map_location=lambda storage, loc: storage))
+
+        print('\nEvaluate ConvKB\n')
+        candidates = []
+        for att in self.processed_entity_2_id.keys():
+            if att not in self.id_dict_2018.keys():
+                candidates.append(self.processed_entity_2_id[att])
+        print(len(self.valids),self.triplets,self.triple_dict)
+        hit10, best_meanrank,mrr = evaluation_ConvKB(self.valids, net, self.triple_dict,candidates, self.args.batch_size, num_processes=multiprocessing.cpu_count()*2)
+        conv_kb_eval = [hit10, best_meanrank,mrr]
+        with open(self.args.conv_kb_eval_path, 'w') as f:
+            for e in conv_kb_eval:
+                f.write("%s\n" % e)
+        f.close()
+        # pos_h_batch, pos_t_batch, pos_r_batch, neg_h_batch, neg_t_batch, neg_r_batch = get_batch_filter_random_v2(self.valids,
+        #     self.args.batch_size, entity_total, triple_dict, tails_per_head, heads_per_tail)
         return net
 
     def get_item_embedding(self, item_id):
@@ -427,10 +449,6 @@ def _get_learning_rate(o):
     return lr
 
 if __name__ == '__main__':
-    # if not os.path.exists(args.conv_kb_save_path) and not os.path.exists(args.trans_e_save_path):
-    # args.trans_e_n_epochs = 2
-    # args.conv_kb_n_epochs = 2
-   # if not os.path.exists(args.conv_kb_save_path) and not os.path.exists(args.trans_e_save_path):
     args = Namespace(
         entity_path='./data/GENE/entity2id.txt',
         relation_path='./data/GENE/relation2id.txt',
@@ -445,6 +463,8 @@ if __name__ == '__main__':
 
         trans_e_loss_path='loss_transe.txt',
         conv_kb_loss_path='loss_convkb.txt',
+        conv_kb_eval_path='evaluation.txt',
+
         embedding_size=100,
         batch_size=128,
 
@@ -466,21 +486,22 @@ if __name__ == '__main__':
         # new_conv_kb_save_path='/TempConvKB.pkl',
         conv_kb_save_path='ConvKB.pkl'
     )
+    embedding_size = [150];
+    trans_e_learning_rate = [1e-3];
+    trans_e_margin =[3]
+    conv_kb_learning_rate = [1e-3];
+    num_filters = [150]
+
     # embedding_size = [100,150];
-    # trans_e_learning_rate = [1e-4,5e-4];
-    # trans_e_margin =[1,3,5]
-    # conv_kb_learning_rate = [5e-6,1e-4];
+    # trans_e_learning_rate = [5e-4,1e-3];
+    # trans_e_margin =[1,3]
+    # conv_kb_learning_rate = [1e-4,1e-3];
     # num_filters = [50,100,150]
-    embedding_size = [100,150];
-    trans_e_learning_rate = [5e-4,1e-3];
-    trans_e_margin =[1,3]
-    conv_kb_learning_rate = [1e-4,1e-3];
-    num_filters = [50,100,150]
     count_param = 1;
     # result = [['params','embedding_size','trans_e_learning_rate','trans_e_margin','conv_kb_learning_rate','num_filters',
     #            'trans_e_train_loss','trans_e_valid_loss','conv_kb_train_loss','conv_kb_valid_loss']]
     result = [['params','embedding_size','trans_e_learning_rate','trans_e_margin','conv_kb_learning_rate','num_filters',
-               'trans_e_train_loss','conv_kb_train_loss']]
+               'trans_e_train_loss','conv_kb_train_loss','hit_10', 'mean_rank','mean_reciprocal_rank']]
     min_total_loss = 10
     for embedding in embedding_size:
         for learning_rate_1 in trans_e_learning_rate:
@@ -500,6 +521,7 @@ if __name__ == '__main__':
                                 raise
                         args.trans_e_loss_path = os.path.join(folder,"loss_transe.txt")
                         args.conv_kb_loss_path = os.path.join(folder,"loss_convkb.txt")
+                        args.conv_kb_eval_path = os.path.join(folder, "evaluation.txt")
                         args.trans_e_save_path = os.path.join(folder,"TransE.pkl")
                         args.conv_kb_save_path = os.path.join(folder,"ConvKB.pkl")
                         TrainConvKB(args).train()
@@ -542,10 +564,17 @@ if __name__ == '__main__':
                                 if train_loss < conv_kb_min_train_loss:
                                     conv_kb_min_train_loss = train_loss
                         f.close()
+
+                        with open(args.conv_kb_eval_path, 'r') as f:
+                            eval = []
+                            for item in f.readlines():
+                                eval.append(item[0:len(item)-1])
+                        f.close()
+
                         # result.append([count_param,embedding,learning_rate_1,margin,learning_rate_2,filters,
                         #                trans_e_min_train_loss,trans_e_min_valid_loss,conv_kb_min_train_loss,conv_kb_min_valid_loss])
                         result.append([count_param,embedding,learning_rate_1,margin,learning_rate_2,filters,
-                                       trans_e_min_train_loss,conv_kb_min_train_loss])
+                                       trans_e_min_train_loss,conv_kb_min_train_loss,eval[0],eval[1],eval[2]])
 
                         if conv_kb_min_train_loss < min_total_loss:
                             min_total_loss = conv_kb_min_train_loss
@@ -555,7 +584,7 @@ if __name__ == '__main__':
                             #               conv_kb_min_valid_loss]
                             best_param = ["best_param " + str(count_param), embedding, learning_rate_1, margin,
                                           learning_rate_2, filters,
-                                          trans_e_min_train_loss, conv_kb_min_train_loss]
+                                          trans_e_min_train_loss, conv_kb_min_train_loss,eval[0],eval[1],eval[2]]
                         count_param += 1
     result.append(best_param)
     csv.register_dialect('myDialect',
