@@ -34,11 +34,12 @@ class MyProcessConvKB(multiprocessing.Process):
 
 def evaluation_ConvKB_helper(testList,net, tripleDict,candidates):
     # Evaluate the prediction of only tail entities
-    print("Evaluate the prediction of only tail entities")
+    #print("Evaluate the prediction of only tail entities")
     hits10 = 0.0
     mr = 0.0
     mrr = 0.0
     new_candidates = set(random.choices(candidates, k=128))
+    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     for triple in testList:
         new_candidates.add(triple.t)
     for triple in testList:
@@ -48,7 +49,7 @@ def evaluation_ConvKB_helper(testList,net, tripleDict,candidates):
         h_batch.append(triple.h)
         t_batch.append(triple.t)
         r_batch.append(triple.r)
-        print("1",triple.h,triple.t,triple.r)
+        #print("1",triple.h,triple.t,triple.r)
         for att in new_candidates:
             if (triple.h, att, triple.r) in tripleDict:
                 continue
@@ -56,9 +57,8 @@ def evaluation_ConvKB_helper(testList,net, tripleDict,candidates):
             t_batch.append(att)
             r_batch.append(triple.r)
             # print("2",triple.h, triple.t, triple.r)
-        h_batch, t_batch, r_batch = torch.LongTensor(h_batch), torch.LongTensor(t_batch), torch.LongTensor(r_batch)
         if torch.cuda.is_available():
-            h_batch, t_batch, r_batch = h_batch.cuda(), t_batch.cuda(), r_batch.cuda()
+            h_batch, t_batch, r_batch = h_batch.to(device), t_batch.to(device), r_batch.to(device)
         h_batch, t_batch, r_batch = Variable(h_batch), Variable(t_batch), Variable(r_batch)
         outputs, _, _, _ = net(h_batch, t_batch, r_batch)
         outputs = 1 - outputs.view(-1) / torch.max(torch.abs(outputs))

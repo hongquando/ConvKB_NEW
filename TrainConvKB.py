@@ -408,7 +408,7 @@ class TrainConvKB():
         for att in self.processed_entity_2_id.keys():
             if att not in self.id_dict_2018.keys():
                 candidates.append(self.processed_entity_2_id[att])
-        print(len(self.valids),self.triplets,self.triple_dict)
+        #print(len(self.valids),self.triplets,self.triple_dict)
         hit10, best_meanrank,mrr = evaluation_ConvKB(self.valids, net, self.triple_dict,candidates, self.args.batch_size, num_processes=multiprocessing.cpu_count()*2)
         conv_kb_eval = [hit10, best_meanrank,mrr]
         with open(self.args.conv_kb_eval_path, 'w') as f:
