@@ -57,9 +57,11 @@ def evaluation_ConvKB_helper(testList,net, tripleDict,candidates):
             t_batch.append(att)
             r_batch.append(triple.r)
             # print("2",triple.h, triple.t, triple.r)
-        h_batch, t_batch, r_batch = torch.LongTensor(h_batch), torch.LongTensor(t_batch), torch.LongTensor(r_batch)
         if torch.cuda.is_available():
-            h_batch, t_batch, r_batch = h_batch.to(device), t_batch.to(device), r_batch.to(device)
+            h_batch, t_batch, r_batch = torch.cuda.LongTensor(h_batch), torch.cuda.LongTensor(t_batch), torch.cuda.LongTensor(r_batch)
+            h_batch, t_batch, r_batch = h_batch.cuda(), t_batch.cuda(), r_batch.cuda()
+        else:
+            h_batch, t_batch, r_batch = torch.LongTensor(h_batch), torch.LongTensor(t_batch), torch.LongTensor(r_batch)
         h_batch, t_batch, r_batch = Variable(h_batch), Variable(t_batch), Variable(r_batch)
         outputs, _, _, _ = net(h_batch, t_batch, r_batch)
         outputs = 1 - outputs.view(-1) / torch.max(torch.abs(outputs))
