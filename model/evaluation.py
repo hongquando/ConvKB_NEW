@@ -7,6 +7,16 @@ from scipy.stats import rankdata
 import random
 import math
 
+USE_CUDA = torch.cuda.is_available()
+
+if USE_CUDA:
+    longTensor = torch.cuda.LongTensor
+    floatTensor = torch.cuda.FloatTensor
+
+else:
+    longTensor = torch.LongTensor
+    floatTensor = torch.FloatTensor
+
 class MyProcessConvKB(multiprocessing.Process):
     def __init__(self, L, net, tripleDict,candidates, queue=None):
         super(MyProcessConvKB, self).__init__()
@@ -57,11 +67,12 @@ def evaluation_ConvKB_helper(testList,net, tripleDict,candidates):
             t_batch.append(att)
             r_batch.append(triple.r)
             # print("2",triple.h, triple.t, triple.r)
-        if torch.cuda.is_available():
-            h_batch, t_batch, r_batch = torch.cuda.LongTensor(h_batch), torch.cuda.LongTensor(t_batch), torch.cuda.LongTensor(r_batch)
-            h_batch, t_batch, r_batch = h_batch.cuda(), t_batch.cuda(), r_batch.cuda()
-        else:
-            h_batch, t_batch, r_batch = torch.LongTensor(h_batch), torch.LongTensor(t_batch), torch.LongTensor(r_batch)
+        # if torch.cuda.is_available():
+        #     h_batch, t_batch, r_batch = torch.cuda.LongTensor(h_batch), torch.cuda.LongTensor(t_batch), torch.cuda.LongTensor(r_batch)
+        #     h_batch, t_batch, r_batch = h_batch.cuda(), t_batch.cuda(), r_batch.cuda()
+        # else:
+        #     h_batch, t_batch, r_batch = torch.LongTensor(h_batch), torch.LongTensor(t_batch), torch.LongTensor(r_batch)
+        h_batch, t_batch, r_batch = longTensor(h_batch), longTensor(t_batch), longTensor(r_batch)
         h_batch, t_batch, r_batch = Variable(h_batch), Variable(t_batch), Variable(r_batch)
         outputs, _, _, _ = net(h_batch, t_batch, r_batch)
         outputs = 1 - outputs.view(-1) / torch.max(torch.abs(outputs))
