@@ -409,14 +409,60 @@ class TrainConvKB():
             if att not in self.id_dict_2018.keys():
                 candidates.append(self.processed_entity_2_id[att])
         #print(len(self.valids),self.triplets,self.triple_dict)
-        hit10, best_meanrank,mrr = evaluation_ConvKB(self.valids, net, self.triple_dict,candidates, self.args.batch_size, num_processes=multiprocessing.cpu_count()*2)
-        conv_kb_eval = [hit10, best_meanrank,mrr]
+        #hit10, best_meanrank,mrr = evaluation_ConvKB(self.valids, net, self.triple_dict,candidates, self.args.batch_size, num_processes=multiprocessing.cpu_count()*2)
+        #conv_kb_eval = [hit10, best_meanrank,mrr]
+
+        mix_ids = np.random.permutation(len(self.valids))
+        n_batches = int(np.ceil(len(self.valids) / float(args.batch_size)))
+        hits10 = 0.0
+        mr = 0.0
+        mrr = 0.0
+        for ib in range(n_batches):
+            rand_index = mix_ids[args.batch_size * ib:min(args.batch_size * (ib + 1), len(self.valids))]
+            new_candidates = set(random.choices(candidates, k=128))
+            valid_list = []
+            for index in rand_index:
+                triple = self.valids[index]
+                new_candidates.add(triple.t)
+                valid_list.append(triple)
+            for triple in valid_list:
+                h_batch = []
+                t_batch = []
+                r_batch = []
+                h_batch.append(triple.h)
+                t_batch.append(triple.t)
+                r_batch.append(triple.r)
+                for att in new_candidates:
+                    if (triple.h, att, triple.r) in self.triple_dict:
+                        continue
+                    h_batch.append(triple.h)
+                    t_batch.append(att)
+                    r_batch.append(triple.r)
+                # print("2",triple.h, triple.t, triple.r)
+                h_batch, t_batch, r_batch = torch.LongTensor(h_batch), torch.LongTensor(t_batch), torch.LongTensor(r_batch)
+                if torch.cuda.is_available():
+                    h_batch, t_batch, r_batch = h_batch.cuda(), t_batch.cuda(), r_batch.cuda()
+                h_batch, t_batch, r_batch = Variable(h_batch), Variable(t_batch), Variable(r_batch)
+                outputs, _, _, _ = net(h_batch, t_batch, r_batch)
+                outputs = 1 - outputs.view(-1) / torch.max(torch.abs(outputs))
+                outputs = outputs.data.tolist()
+                results_with_id = rankdata(outputs, method='ordinal')
+                _filter = results_with_id[0]
+                mr += _filter
+                mrr += 1.0 / _filter
+                if _filter <= 10:
+                    hits10 += 1
+            print("Evalute epoch {}/{}: Hit@10: {} - MR: {} - MRR: {} ".format(ib + 1, n_batches,hits10,mr,mrr))
+        mrr = mrr/len(self.valids)
+        hits10 = hits10/len(self.valids)
+        conv_kb_eval = [hits10, mr, mrr]
+        print('Hit@10: %.6f' % hits10)
+        print('Meanrank: %.6f' % mr)
+        print('MRR: %.6f' % mrr)
         with open(self.args.conv_kb_eval_path, 'w') as f:
             for e in conv_kb_eval:
                 f.write("%s\n" % e)
         f.close()
-        # pos_h_batch, pos_t_batch, pos_r_batch, neg_h_batch, neg_t_batch, neg_r_batch = get_batch_filter_random_v2(self.valids,
-        #     self.args.batch_size, entity_total, triple_dict, tails_per_head, heads_per_tail)
         return net
 
     def get_item_embedding(self, item_id):
