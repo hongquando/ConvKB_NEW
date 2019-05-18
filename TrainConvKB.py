@@ -496,11 +496,11 @@ def _get_learning_rate(o):
 
 if __name__ == '__main__':
     args = Namespace(
-        entity_path='./data/GENE/entity2id.txt',
-        relation_path='./data/GENE/relation2id.txt',
-        triplets_path='./data/GENE/triplet2id.txt',
-        train_path='./data/GENE/train2id.txt',
-        valid_path='./data/GENE/valid2id.txt',
+        entity_path='./data/WN11/entity2id.txt',
+        relation_path='./data/WN11/relation2id.txt',
+        triplets_path='./data/WN11/triple2id.txt',
+        train_path='./data/WN11/train2id.txt',
+        valid_path='./data/WN11/valid2id.txt',
 
         # trans_e_loss_train_path='/loss_train_transe.txt',
         # trans_e_loss_valid_path='/loss_valid_transe.txt',
@@ -567,7 +567,7 @@ if __name__ == '__main__':
                                 raise
                         args.trans_e_loss_path = os.path.join(folder,"loss_transe.txt")
                         args.conv_kb_loss_path = os.path.join(folder,"loss_convkb.txt")
-                        args.conv_kb_eval_path = os.path.join(folder, "evaluation.txt")
+                        args.conv_kb_eval_path = os.path.join(folder,"evaluation.txt")
                         args.trans_e_save_path = os.path.join(folder,"TransE.pkl")
                         args.conv_kb_save_path = os.path.join(folder,"ConvKB.pkl")
                         TrainConvKB(args).train()
