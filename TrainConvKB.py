@@ -49,14 +49,14 @@ class TrainConvKB():
         if os.path.exists(self.args.valid_path):
             self.valids = load_data_valid(self.args.valid_path, is_triplet=True, ignore_first=True)
 
-        if os.path.exists(self.args.conv_kb_save_path) and os.path.exists(self.args.entity_path) and os.path.exists(
-                self.args.relation_path):
-            self.net = ConvKB(self.entity_total, self.relation_total, self.args.embedding_size)
-            if torch.cuda.is_available():
-                self.net = self.net.cuda()
-                self.net.load_state_dict(torch.load(self.args.conv_kb_save_path))
-            else:
-                self.net.load_state_dict(torch.load(self.args.conv_kb_save_path, map_location=lambda storage, loc: storage))
+        # if os.path.exists(self.args.conv_kb_save_path) and os.path.exists(self.args.entity_path) and os.path.exists(
+        #         self.args.relation_path):
+        #     self.net = ConvKB(self.entity_total, self.relation_total, self.args.embedding_size)
+        #     if torch.cuda.is_available():
+        #         self.net = self.net.cuda()
+        #         self.net.load_state_dict(torch.load(self.args.conv_kb_save_path))
+        #     else:
+        #         self.net.load_state_dict(torch.load(self.args.conv_kb_save_path, map_location=lambda storage, loc: storage))
         #    self.train()
         #self.net.eval()
 
@@ -402,15 +402,46 @@ class TrainConvKB():
             net.load_state_dict(torch.load(self.args.conv_kb_save_path))
         else:
             net.load_state_dict(torch.load(self.args.conv_kb_save_path, map_location=lambda storage, loc: storage))
+        return net
 
+    def get_item_embedding(self, item_id):
+        key = "_item:" + str(item_id)
+        if key in self.processed_entity_2_id:
+            idx = self.processed_entity_2_id[key]
+            idx = torch.LongTensor([idx])
+            if torch.cuda.is_available():
+                idx = idx.cuda()
+            idx = Variable(idx)
+            embedding = self.net.ent_embeddings(idx).data[0].cpu().numpy()
+            norm = LA.norm(embedding)
+            if norm == 0:
+                return embedding
+            return embedding / LA.norm(embedding)
+        return None
+
+    def train(self,trans_e_n_epochs=None, conv_kb_n_epochs=None):
+        if os.path.exists(self.args.conv_kb_save_path) and os.path.exists(self.args.entity_path) and os.path.exists(
+                self.args.relation_path):
+            self.net = ConvKB(self.entity_total, self.relation_total, self.args.embedding_size)
+            if torch.cuda.is_available():
+                self.net = self.net.cuda()
+                self.net.load_state_dict(torch.load(self.args.conv_kb_save_path))
+            else:
+                self.net.load_state_dict(torch.load(self.args.conv_kb_save_path, map_location=lambda storage, loc: storage))
+        else:
+            net = self.train_TransE(self.entity_total, self.relation_total, self.triplets, n_epochs=self.args.trans_e_n_epochs)
+            ent_embeddings = net.ent_embeddings.weight.data.cpu().numpy()
+            rel_embeddings = net.rel_embeddings.weight.data.cpu().numpy()
+            net = self.train_ConvKB(ent_embeddings, rel_embeddings, self.triplets, n_epochs=self.args.conv_kb_n_epochs)
+            self.net = net
         print('\nEvaluate ConvKB\n')
         candidates = []
         for att in self.processed_entity_2_id.keys():
             if att not in self.id_dict_2018.keys():
                 candidates.append(self.processed_entity_2_id[att])
-        #print(len(self.valids),self.triplets,self.triple_dict)
-        #hit10, best_meanrank,mrr = evaluation_ConvKB(self.valids, net, self.triple_dict,candidates, self.args.batch_size, num_processes=multiprocessing.cpu_count()*2)
-        #conv_kb_eval = [hit10, best_meanrank,mrr]
+        # print(len(self.valids),self.triplets,self.triple_dict)
+        # hit10, best_meanrank,mrr = evaluation_ConvKB(self.valids, net, self.triple_dict,candidates, self.args.batch_size, num_processes=multiprocessing.cpu_count()*2)
+        # conv_kb_eval = [hit10, best_meanrank,mrr]
 
         mix_ids = np.random.permutation(len(self.valids))
         n_batches = int(np.ceil(len(self.valids) / float(args.batch_size)))
@@ -438,23 +469,24 @@ class TrainConvKB():
                     h_batch.append(triple.h)
                     t_batch.append(att)
                     r_batch.append(triple.r)
-                # print("2",triple.h, triple.t, triple.r)
-                h_batch, t_batch, r_batch = torch.LongTensor(h_batch), torch.LongTensor(t_batch), torch.LongTensor(r_batch)
+                h_batch, t_batch, r_batch = torch.LongTensor(h_batch), torch.LongTensor(t_batch), torch.LongTensor(
+                    r_batch)
                 if torch.cuda.is_available():
                     h_batch, t_batch, r_batch = h_batch.cuda(), t_batch.cuda(), r_batch.cuda()
                 h_batch, t_batch, r_batch = Variable(h_batch), Variable(t_batch), Variable(r_batch)
-                outputs, _, _, _ = net(h_batch, t_batch, r_batch)
-                outputs = 1 - outputs.view(-1) / torch.max(torch.abs(outputs))
+                outputs, _, _, _ = self.net(h_batch, t_batch, r_batch)
+                #outputs = 1 - outputs.view(-1) / torch.max(torch.abs(outputs))
                 outputs = outputs.data.tolist()
                 results_with_id = rankdata(outputs, method='ordinal')
                 _filter = results_with_id[0]
+                print(_filter)
                 mr += _filter
                 mrr += 1.0 / _filter
                 if _filter <= 10:
                     hits10 += 1
-            print("Evalute epoch {}/{}: Hit@10: {} - MR: {} - MRR: {} ".format(ib + 1, n_batches,hits10,mr,mrr))
-        mrr = mrr/len(self.valids)
-        hits10 = hits10/len(self.valids)
+            print("Evalute epoch {}/{}: Hit@10: {} - MR: {} - MRR: {} ".format(ib + 1, n_batches, hits10, mr, mrr))
+        mrr = mrr / len(self.valids)
+        hits10 = hits10 / len(self.valids)
         conv_kb_eval = [hits10, mr, mrr]
         print('Hit@10: %.6f' % hits10)
         print('Meanrank: %.6f' % mr)
@@ -463,30 +495,6 @@ class TrainConvKB():
             for e in conv_kb_eval:
                 f.write("%s\n" % e)
         f.close()
-        return net
-
-    def get_item_embedding(self, item_id):
-        key = "_item:" + str(item_id)
-        if key in self.processed_entity_2_id:
-            idx = self.processed_entity_2_id[key]
-            idx = torch.LongTensor([idx])
-            if torch.cuda.is_available():
-                idx = idx.cuda()
-            idx = Variable(idx)
-            embedding = self.net.ent_embeddings(idx).data[0].cpu().numpy()
-            norm = LA.norm(embedding)
-            if norm == 0:
-                return embedding
-            return embedding / LA.norm(embedding)
-        return None
-
-    def train(self,trans_e_n_epochs=None, conv_kb_n_epochs=None):
-        net = self.train_TransE(self.entity_total, self.relation_total, self.triplets, n_epochs=self.args.trans_e_n_epochs)
-        ent_embeddings = net.ent_embeddings.weight.data.cpu().numpy()
-        rel_embeddings = net.rel_embeddings.weight.data.cpu().numpy()
-        net = self.train_ConvKB(ent_embeddings, rel_embeddings, self.triplets, n_epochs=self.args.conv_kb_n_epochs)
-        self.net = net
-        self.net.eval()
 
 def _get_learning_rate(o):
     lr = []
@@ -496,11 +504,11 @@ def _get_learning_rate(o):
 
 if __name__ == '__main__':
     args = Namespace(
-        entity_path='./data/WN11/entity2id.txt',
-        relation_path='./data/WN11/relation2id.txt',
-        triplets_path='./data/WN11/triple2id.txt',
-        train_path='./data/WN11/train2id.txt',
-        valid_path='./data/WN11/valid2id.txt',
+        entity_path='./data/GENE/entity2id.txt',
+        relation_path='./data/GENE/relation2id.txt',
+        triplets_path='./data/GENE/triple2id.txt',
+        train_path='./data/GENE/train2id.txt',
+        valid_path='./data/GENE/valid2id.txt',
 
         # trans_e_loss_train_path='/loss_train_transe.txt',
         # trans_e_loss_valid_path='/loss_valid_transe.txt',
@@ -521,12 +529,12 @@ if __name__ == '__main__':
         trans_e_margin=1,
         trans_e_weight_decay=0.001,
         trans_e_learning_rate=5e-4,
-        trans_e_n_epochs=1,
+        trans_e_n_epochs=100,
         trans_e_save_path='TransE.pkl',
 
         conv_kb_weight_decay=0.001,
         conv_kb_learning_rate=1e-4,
-        conv_kb_n_epochs=1,
+        conv_kb_n_epochs=125,
         conv_kb_momentum=0.9,
         num_filters = 50,
         # new_conv_kb_save_path='/TempConvKB.pkl',
