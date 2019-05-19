@@ -422,7 +422,7 @@ class TrainConvKB():
     def train(self,trans_e_n_epochs=None, conv_kb_n_epochs=None):
         if os.path.exists(self.args.conv_kb_save_path) and os.path.exists(self.args.entity_path) and os.path.exists(
                 self.args.relation_path):
-            self.net = ConvKB(self.entity_total, self.relation_total, self.args.embedding_size)
+            self.net = ConvKB(self.entity_total, self.relation_total, self.args.embedding_size,num_filters=args.num_filters)
             if torch.cuda.is_available():
                 self.net = self.net.cuda()
                 self.net.load_state_dict(torch.load(self.args.conv_kb_save_path))
@@ -475,7 +475,7 @@ class TrainConvKB():
                     h_batch, t_batch, r_batch = h_batch.cuda(), t_batch.cuda(), r_batch.cuda()
                 h_batch, t_batch, r_batch = Variable(h_batch), Variable(t_batch), Variable(r_batch)
                 outputs, _, _, _ = self.net(h_batch, t_batch, r_batch)
-                #outputs = 1 - outputs.view(-1) / torch.max(torch.abs(outputs))
+                outputs = torch.sigmoid(outputs)
                 outputs = outputs.data.tolist()
                 results_with_id = rankdata(outputs, method='ordinal')
                 _filter = results_with_id[0]
@@ -540,18 +540,18 @@ if __name__ == '__main__':
         # new_conv_kb_save_path='/TempConvKB.pkl',
         conv_kb_save_path='ConvKB.pkl'
     )
-    embedding_size = [150];
-    trans_e_learning_rate = [1e-3];
-    trans_e_margin =[3]
-    conv_kb_learning_rate = [1e-3];
-    num_filters = [150]
+    # embedding_size = [150];
+    # trans_e_learning_rate = [1e-3];
+    # trans_e_margin =[3]
+    # conv_kb_learning_rate = [1e-3];
+    # num_filters = [150]
 
-    # embedding_size = [100,150];
-    # trans_e_learning_rate = [5e-4,1e-3];
-    # trans_e_margin =[1,3]
-    # conv_kb_learning_rate = [1e-4,1e-3];
-    # num_filters = [50,100,150]
-    count_param = 1;
+    embedding_size = [100,150]
+    trans_e_learning_rate = [1e-3]
+    trans_e_margin =[1,3]
+    conv_kb_learning_rate = [1e-4,1e-3]
+    num_filters = [100,150]
+    count_param = 1
     # result = [['params','embedding_size','trans_e_learning_rate','trans_e_margin','conv_kb_learning_rate','num_filters',
     #            'trans_e_train_loss','trans_e_valid_loss','conv_kb_train_loss','conv_kb_valid_loss']]
     result = [['params','embedding_size','trans_e_learning_rate','trans_e_margin','conv_kb_learning_rate','num_filters',
